@@ -20,6 +20,7 @@
 			</footer>
 		</div>
 		<?php // all js scripts are loaded in library/bones.php ?>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<?php wp_footer(); ?>
 	</body>
 </html> <!-- end of site. what a ride! -->
