@@ -17,7 +17,7 @@ GENERAL STYLES
 
 body {
     font-family: $lato;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     color: $text-color;
     background-color: $white;
@@ -191,14 +191,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     line-height: 1.333em;
+    font-family: $header;
 }
 
 h2, .h2 {
     font-size: 1.75em;
     line-height: 1.4em;
     margin-bottom: 0.375em;
+    font-family: $header;
 }
 
 h3, .h3 {
