@@ -421,6 +421,15 @@ mobile. Make sure to double check these!
 }
 
 /* end .footer-links */
+/*********************
+CUSTOM STYLES
+*********************/
+/* line 293, ../scss/breakpoints/_768up.scss */
+#home-classes-section .class-box {
+  width: 48%;
+  margin-bottom: 2em;
+}
+
 /******************************************************************
 Site Name:
 Author:

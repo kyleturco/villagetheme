@@ -315,10 +315,6 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 
-#content {
-    margin-top: 1.5em;
-}
-
 .hentry {
     background-color: $white;
     border-radius: 3px;
@@ -968,3 +964,76 @@ view.
 /* end .footer-links */
 
 .copyright {}
+
+/*********************
+CUSTOM STYLES
+*********************/
+
+// global //
+.text-white {
+  color: $white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// buttons //
+.btn-primary {
+  background-color: $green;
+  font-size: 1.2em;
+  padding: 0.4em 0.8em;
+  font-family: $header;
+  border: none;
+  border-radius: 7px;
+  &:hover {
+    background-color: darken($green, 10%);
+  }
+}
+
+/**************
+Homepage styles
+***************/
+
+#home-hero-section {
+  background: url('http://localhost:8888/villagenursery/wp-content/uploads/2016/02/home-hero-demo1.jpg') no-repeat;
+  background-size: cover;
+  padding: 3em 0;
+}
+#hero-cta-btn {
+  margin: 0 auto;
+  display: block;
+}
+#home-overview-section {
+  padding: 2.5em 0;
+}
+#home-classes-section {
+  padding: 1em 0;
+  background: #dedede;
+  .class-box {
+    background: $white;
+    border: 1px solid #cdcdcd;
+    padding: 2em 3em;
+    margin-top: 0.5em;
+    width: 100%;
+    border-top: 6px solid #cdcdcd;
+    h2 {
+      margin-top: 0em;
+    }
+    .class-box-text {
+      width: 60%;
+    }
+    .class-box-image {
+      width: 40%;
+    }
+    &:hover {
+      transition: 0.5s;
+    }
+  }
+}
+
+#enroll-section {
+  background: #3d97d2;
+  padding: 3em 0;
+}
+
