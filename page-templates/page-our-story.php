@@ -9,8 +9,10 @@ Template Name: Our Story
 <div id="content">
   <div id="story-text-section">
     <div class="container">
-      <div class="col-md-7 no-left-pad">
+      <div class="our-story-header">
         <h1>Our Story</h1>
+      </div>
+      <div class="col-md-7 no-left-pad">
         <p>
           The Village Nursery School was established at First United Methodist Church, West Lafayette, Ind.,
           in 1972 with the philosophy and educational understanding that young children learn best in an
@@ -46,10 +48,22 @@ Template Name: Our Story
       <div class="clearfix"></div>
     </div>
   </div>
+  <div id="story-photo-bar" height="200px">
+    <div class="photo-third" style="width: 33%; display: block; float: left">
+      <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-1.jpg" alt="">
+    </div>
+    <div class="photo-third" style="width: 33%; display: block; float: left">
+      <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-2.jpg" alt="">
+    </div>
+    <div class="photo-third" style="width: 33%; display: block; float: left">
+      <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-3.jpg" alt="">
+    </div>
+  </div>
+  <div class="clearfix"></div>
   <div id="story-director-section">
     <div class="container">
       <div class="letter-text">
-        <h2>A Note from our Director</h2>
+        <h2>A Note from Our Director</h2>
         <p>
           I have been one of the "Village" people for the last 6 years. Here at VNS I have played many roles
           including parent, teacher, and substitute. I'm fortunate to say VNS has been my family's "home away

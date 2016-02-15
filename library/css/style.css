@@ -2262,6 +2262,35 @@ Our Story styles
   padding: 3em 0;
 }
 
+/**************
+Programs & Rates Styles
+***************/
+/* line 1070, ../scss/breakpoints/_base.scss */
+.class-info {
+  border: 1px solid #eaedf2;
+}
+/* line 1072, ../scss/breakpoints/_base.scss */
+.class-info h3 {
+  margin: 0;
+}
+/* line 1075, ../scss/breakpoints/_base.scss */
+.class-info .tuition-header,
+.class-info .schedule-header {
+  background: #eaedf2;
+  padding: 0.7em 1em;
+}
+/* line 1080, ../scss/breakpoints/_base.scss */
+.class-info .tuition-item,
+.class-info .schedule-item {
+  padding: 0.3em 1em;
+  border-bottom: 1px solid #eaedf2;
+}
+/* line 1085, ../scss/breakpoints/_base.scss */
+.class-info .class-1,
+.class-info .class-2 {
+  padding: 2em;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2572,6 +2601,11 @@ you can add resource intensive styles.
   /* line 24, ../scss/breakpoints/_1030up.scss */
   .letter-text {
     width: 66%;
+  }
+
+  /* line 28, ../scss/breakpoints/_1030up.scss */
+  .class-info {
+    width: 60%;
   }
 }
 /*********************

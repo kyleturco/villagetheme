@@ -1062,3 +1062,28 @@ Our Story styles
   padding: 3em 0;
 }
 
+
+/**************
+Programs & Rates Styles
+***************/
+
+.class-info {
+  border: 1px solid $gray;
+  h3 {
+    margin: 0;
+  }
+  .tuition-header,
+  .schedule-header {
+    background: $gray;
+    padding: 0.7em 1em;
+  }
+  .tuition-item,
+  .schedule-item {
+    padding: 0.3em 1em;
+    border-bottom: 1px solid $gray;
+  }
+  .class-1,
+  .class-2 {
+    padding: 2em;
+  }
+}

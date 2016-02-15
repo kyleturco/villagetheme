@@ -453,6 +453,11 @@ Our Story styles
   width: 66%;
 }
 
+/* line 28, ../scss/breakpoints/_1030up.scss */
+.class-info {
+  width: 60%;
+}
+
 /*
 you can call the larger styles if you want, but there's really no need
 */
