@@ -224,14 +224,21 @@ HEADER STYLES
 *********************/
 
 .header {
-    background-color: $black;
+  background-color: $white;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.28);
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.28);
+  .container {
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+  }
 }
 
 #logo {
     margin: 0.75em 0;
 
     a {
-        color: $white;
+        color: $green;
     }
 }
 
@@ -254,7 +261,7 @@ and more scalable.
     li {
         a {
             display: block;
-            color: $white;
+            color: $text-color;
             text-decoration: none;
             padding: 0.75em;
 
@@ -978,6 +985,10 @@ CUSTOM STYLES
   text-align: center;
 }
 
+.no-left-pad {
+  padding-left: 0px;
+}
+
 // buttons //
 .btn-primary {
   background-color: $green;
@@ -1034,6 +1045,20 @@ Homepage styles
 
 #enroll-section {
   background: #3d97d2;
+  padding: 3em 0;
+}
+
+
+/**************
+Our Story styles
+***************/
+
+#story-text-section {
+  padding: 3em 0;
+}
+
+#story-director-section {
+  background: #dedede;
   padding: 3em 0;
 }
 
