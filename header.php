@@ -46,29 +46,29 @@
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
-		<div id="container">
-			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-				<div id="inner-header" class="container cf">
-					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<div class="col-md-4">
-            <p id="logo" class="h3" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-          </div>
-          <div class="col-md-8">
-  					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-  						<?php wp_nav_menu(array(
-      					         'container' => false,                           // remove nav container
-      					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
-      					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-      					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
-      					         'theme_location' => 'main-nav',                 // where it's located in the theme
-      					         'before' => '',                                 // before the menu
-          			               'after' => '',                                  // after the menu
-          			               'link_before' => '',                            // before each link
-          			               'link_after' => '',                             // after each link
-          			               'depth' => 0,                                   // limit the depth of the nav
-      					         'fallback_cb' => ''                             // fallback function (if there is one)
-  						)); ?>
-  					</nav>
-          </div>
-				</div>
-			</header>
+		<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+			<div id="inner-header">
+				<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
+				<div id="header-left" class="pull-left">
+          <p id="logo" class="h3" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+        </div>
+        <div id="header-right" class="pull-right">
+					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+						<?php wp_nav_menu(array(
+    					         'container' => false,                           // remove nav container
+    					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+    					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
+    					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
+    					         'theme_location' => 'main-nav',                 // where it's located in the theme
+    					         'before' => '',                                 // before the menu
+        			               'after' => '',                                  // after the menu
+        			               'link_before' => '',                            // before each link
+        			               'link_after' => '',                             // after each link
+        			               'depth' => 0,                                   // limit the depth of the nav
+    					         'fallback_cb' => ''                             // fallback function (if there is one)
+						)); ?>
+					</nav>
+        </div>
+        <div class="clearfix"></div>
+			</div>
+		</header>
