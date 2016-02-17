@@ -21,6 +21,39 @@ Our Story styles
 
 }
 
+#overview-content-left {
+  .about-text {
+    width: 80%;
+  }
+  h4 {
+    line-height: 1.4em;
+  }
+}
+
+#overview-photos-right {
+  .photo-left {
+    width: 66%;
+    margin-top: 0;
+  }
+  .photos-right {
+    width: 30%;
+    margin-left: 1em;
+    display: block;
+    float: left;
+    .photo-1 {
+      background: url('http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg') no-repeat;
+      background-size: cover;
+      height: 160px;
+      margin-bottom: 1em;
+    }
+    .photo-2 {
+      background: url('http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg') no-repeat;
+      background-size: cover;
+      height: 160px;
+    }
+  }
+}
+
 #programs-subnav {
   display: block;
 }
