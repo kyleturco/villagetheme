@@ -1070,14 +1070,28 @@ Programs & Rates Styles
 #programs-page-header {
   background: url('http://localhost:8888/villagenursery/wp-content/uploads/2016/02/programs-header.jpg') no-repeat;
   background-size: cover;
-  padding: 4em 0;
+  padding: 5em 0;
   #program-header {
     margin: 0;
   }
   #program-subheader {
-    margin-top: 0;
+    margin: 0;
     font-size: 1.6em;
+    display: none;
   }
+}
+
+#programs-subnav {
+  display: none;
+  border-bottom: 1px solid $gray;
+  padding: 0.5em 0;
+  a {
+    padding: 1em 1.2em;
+  }
+}
+
+#programs-program-content {
+  background: $light-gray;
 }
 
 .class-info {
@@ -1099,6 +1113,19 @@ Programs & Rates Styles
   .class-info-item {
     padding: 0.7em 1em;
     border-bottom: 1px solid $gray;
+    background: $white;
+  }
+}
+
+.class-download {
+  display: none;
+  background: $white;
+  border: 1px solid $gray;
+  padding: 1.5em;
+  text-align: center;
+  h2 {
+    font-size: 1.55em;
+    margin-top: 0;
   }
 }
 

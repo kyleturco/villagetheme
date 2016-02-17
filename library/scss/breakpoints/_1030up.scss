@@ -21,6 +21,10 @@ Our Story styles
 
 }
 
+#programs-subnav {
+  display: block;
+}
+
 .letter-text {
   width: 66%;
 }
@@ -28,3 +32,16 @@ Our Story styles
 .class-info {
   width: 60%;
 }
+
+.class-download {
+  display: block;
+  width: 35%;
+}
+
+// Programs styles
+#programs-page-header {
+  #program-subheader {
+    display: block;
+  }
+}
+

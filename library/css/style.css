@@ -2270,7 +2270,7 @@ Programs & Rates Styles
 #programs-page-header {
   background: url("http://localhost:8888/villagenursery/wp-content/uploads/2016/02/programs-header.jpg") no-repeat;
   background-size: cover;
-  padding: 4em 0;
+  padding: 5em 0;
 }
 /* line 1074, ../scss/breakpoints/_base.scss */
 #programs-page-header #program-header {
@@ -2278,39 +2278,71 @@ Programs & Rates Styles
 }
 /* line 1077, ../scss/breakpoints/_base.scss */
 #programs-page-header #program-subheader {
-  margin-top: 0;
+  margin: 0;
   font-size: 1.6em;
+  display: none;
 }
 
-/* line 1083, ../scss/breakpoints/_base.scss */
+/* line 1084, ../scss/breakpoints/_base.scss */
+#programs-subnav {
+  display: none;
+  border-bottom: 1px solid #eaedf2;
+  padding: 0.5em 0;
+}
+/* line 1088, ../scss/breakpoints/_base.scss */
+#programs-subnav a {
+  padding: 1em 1.2em;
+}
+
+/* line 1093, ../scss/breakpoints/_base.scss */
+#programs-program-content {
+  background: #f8f9fa;
+}
+
+/* line 1097, ../scss/breakpoints/_base.scss */
 .class-info {
   border: 1px solid #eaedf2;
   margin: 1em 0;
 }
-/* line 1086, ../scss/breakpoints/_base.scss */
+/* line 1100, ../scss/breakpoints/_base.scss */
 .class-info i {
   margin-right: 0.3em;
 }
-/* line 1089, ../scss/breakpoints/_base.scss */
+/* line 1103, ../scss/breakpoints/_base.scss */
 .class-info p {
   margin: 0;
 }
-/* line 1092, ../scss/breakpoints/_base.scss */
+/* line 1106, ../scss/breakpoints/_base.scss */
 .class-info h3 {
   margin: 0;
 }
-/* line 1095, ../scss/breakpoints/_base.scss */
+/* line 1109, ../scss/breakpoints/_base.scss */
 .class-info .class-info-header {
   background: #eaedf2;
   padding: 0.7em 1em;
 }
-/* line 1099, ../scss/breakpoints/_base.scss */
+/* line 1113, ../scss/breakpoints/_base.scss */
 .class-info .class-info-item {
   padding: 0.7em 1em;
   border-bottom: 1px solid #eaedf2;
+  background: #fff;
 }
 
-/* line 1105, ../scss/breakpoints/_base.scss */
+/* line 1120, ../scss/breakpoints/_base.scss */
+.class-download {
+  display: none;
+  background: #fff;
+  border: 1px solid #eaedf2;
+  padding: 1.5em;
+  text-align: center;
+}
+/* line 1126, ../scss/breakpoints/_base.scss */
+.class-download h2 {
+  font-size: 1.55em;
+  margin-top: 0;
+}
+
+/* line 1132, ../scss/breakpoints/_base.scss */
 .class-section {
   margin: 2em 0;
   padding: 0.5em 0 2em 0;
@@ -2625,13 +2657,29 @@ you can add resource intensive styles.
   Our Story styles
   ***************/
   /* line 24, ../scss/breakpoints/_1030up.scss */
+  #programs-subnav {
+    display: block;
+  }
+
+  /* line 28, ../scss/breakpoints/_1030up.scss */
   .letter-text {
     width: 66%;
   }
 
-  /* line 28, ../scss/breakpoints/_1030up.scss */
+  /* line 32, ../scss/breakpoints/_1030up.scss */
   .class-info {
     width: 60%;
+  }
+
+  /* line 36, ../scss/breakpoints/_1030up.scss */
+  .class-download {
+    display: block;
+    width: 35%;
+  }
+
+  /* line 43, ../scss/breakpoints/_1030up.scss */
+  #programs-page-header #program-subheader {
+    display: block;
   }
 }
 /*********************

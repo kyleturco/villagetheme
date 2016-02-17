@@ -449,13 +449,29 @@ be seen on the Desktop.
 Our Story styles
 ***************/
 /* line 24, ../scss/breakpoints/_1030up.scss */
+#programs-subnav {
+  display: block;
+}
+
+/* line 28, ../scss/breakpoints/_1030up.scss */
 .letter-text {
   width: 66%;
 }
 
-/* line 28, ../scss/breakpoints/_1030up.scss */
+/* line 32, ../scss/breakpoints/_1030up.scss */
 .class-info {
   width: 60%;
+}
+
+/* line 36, ../scss/breakpoints/_1030up.scss */
+.class-download {
+  display: block;
+  width: 35%;
+}
+
+/* line 43, ../scss/breakpoints/_1030up.scss */
+#programs-page-header #program-subheader {
+  display: block;
 }
 
 /*
