@@ -10,7 +10,7 @@ Template Name: Programs & Rates
   <div id="programs-page-header">
     <div class="container">
       <h1 id="program-header" class="text-center text-white">Programs & Rates</h1>
-      <p id="program-subheader" class="text-center text-white">Information on our classes and offerings</p>
+      <p id="program-subheader" class="text-center text-white">We offer classes for four main age groups</p>
     </div>
   </div>
   <div id="programs-subnav">
@@ -24,8 +24,8 @@ Template Name: Programs & Rates
     </div>
   </div>
   <div id="programs-program-content">
-    <div class="container">
-      <div id="class-1" class="class-section">
+    <div id="class-1" class="class-section">
+      <div class="container">
         <div class="class-1-header text-center">
           <h1>Preschool 2</h1>
         </div>
@@ -76,7 +76,9 @@ Template Name: Programs & Rates
           </p>
         </div>
       </div>
-      <div id="class-2" class="class-section">
+    </div>
+    <div id="class-2" class="class-section">
+      <div class="container">
         <div class="class-1-header text-center">
           <h1>Preschool 3</h1>
         </div>
@@ -127,7 +129,9 @@ Template Name: Programs & Rates
           </p>
         </div>
       </div>
-      <div id="class-3" class="class-section">
+    </div>
+    <div id="class-3" class="class-section">
+      <div class="container">
         <div class="class-1-header text-center">
           <h1>Pre-Kindergarten</h1>
         </div>
@@ -178,7 +182,9 @@ Template Name: Programs & Rates
           </p>
         </div>
       </div>
-      <div id="class-4" class="class-section">
+    </div>
+    <div id="class-4" class="class-section">
+      <div class="container">
         <div class="class-1-header text-center">
           <h1>Parent-Infant-Toddler</h1>
         </div>
@@ -229,7 +235,6 @@ Template Name: Programs & Rates
           </p>
         </div>
       </div>
-
     </div>
   </div>
 </div>

@@ -556,6 +556,7 @@ COLORS
 Need help w/ choosing your colors? Try this site out:
 http://0to255.com/
 *********************/
+/* basic primary colors */
 /*
 Here's a great tutorial on how to
 use color variables properly:
@@ -1135,15 +1136,15 @@ and it will create a button dependant on those variables.
 */
 /* line 62, ../scss/modules/_buttons.scss */
 .blue-btn, .comment-reply-link, #submit {
-  background-color: #2980b9;
+  background-color: #4285f4;
 }
 /* line 66, ../scss/modules/_buttons.scss */
 .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
-  background-color: #2574a8;
+  background-color: #2f79f3;
 }
 /* line 71, ../scss/modules/_buttons.scss */
 .blue-btn:active, .comment-reply-link:active, #submit:active {
-  background-color: #2472a4;
+  background-color: #2a75f3;
 }
 
 /******************************************************************
@@ -1788,7 +1789,7 @@ POSTS & CONTENT STYLES
 .entry-content blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
-  border-left: 3px solid #2980b9;
+  border-left: 3px solid #4285f4;
   font-style: italic;
   color: #9fa6b4;
 }
@@ -1896,11 +1897,11 @@ PAGE NAVI STYLES
   padding: 0.75em;
   min-width: 1em;
   display: block;
-  color: #2980b9;
+  color: #4285f4;
 }
 /* line 611, ../scss/breakpoints/_base.scss */
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
-  background-color: #2980b9;
+  background-color: #4285f4;
   color: #fff;
 }
 /* line 617, ../scss/breakpoints/_base.scss */
@@ -2284,51 +2285,53 @@ Programs & Rates Styles
 }
 
 /* line 1084, ../scss/breakpoints/_base.scss */
+#programs-program-content {
+  background: #f8f9fa;
+}
+
+/* line 1088, ../scss/breakpoints/_base.scss */
 #programs-subnav {
   display: none;
   border-bottom: 1px solid #eaedf2;
   padding: 0.5em 0;
 }
-/* line 1088, ../scss/breakpoints/_base.scss */
+/* line 1092, ../scss/breakpoints/_base.scss */
 #programs-subnav a {
+  color: #7dd667;
   padding: 1em 1.2em;
 }
 
-/* line 1093, ../scss/breakpoints/_base.scss */
-#programs-program-content {
-  background: #f8f9fa;
-}
-
-/* line 1097, ../scss/breakpoints/_base.scss */
+/* line 1098, ../scss/breakpoints/_base.scss */
 .class-info {
   border: 1px solid #eaedf2;
   margin: 1em 0;
 }
-/* line 1100, ../scss/breakpoints/_base.scss */
+/* line 1101, ../scss/breakpoints/_base.scss */
 .class-info i {
   margin-right: 0.3em;
 }
-/* line 1103, ../scss/breakpoints/_base.scss */
+/* line 1104, ../scss/breakpoints/_base.scss */
 .class-info p {
   margin: 0;
 }
-/* line 1106, ../scss/breakpoints/_base.scss */
+/* line 1107, ../scss/breakpoints/_base.scss */
 .class-info h3 {
   margin: 0;
 }
-/* line 1109, ../scss/breakpoints/_base.scss */
+/* line 1110, ../scss/breakpoints/_base.scss */
 .class-info .class-info-header {
   background: #eaedf2;
   padding: 0.7em 1em;
+  color: #4285f4;
 }
-/* line 1113, ../scss/breakpoints/_base.scss */
+/* line 1115, ../scss/breakpoints/_base.scss */
 .class-info .class-info-item {
   padding: 0.7em 1em;
   border-bottom: 1px solid #eaedf2;
   background: #fff;
 }
 
-/* line 1120, ../scss/breakpoints/_base.scss */
+/* line 1122, ../scss/breakpoints/_base.scss */
 .class-download {
   display: none;
   background: #fff;
@@ -2336,17 +2339,27 @@ Programs & Rates Styles
   padding: 1.5em;
   text-align: center;
 }
-/* line 1126, ../scss/breakpoints/_base.scss */
+/* line 1128, ../scss/breakpoints/_base.scss */
 .class-download h2 {
   font-size: 1.55em;
   margin-top: 0;
 }
 
-/* line 1132, ../scss/breakpoints/_base.scss */
+/* line 1134, ../scss/breakpoints/_base.scss */
 .class-section {
-  margin: 2em 0;
-  padding: 0.5em 0 2em 0;
-  border-bottom: 1px solid #eaedf2;
+  padding: 1.5em 0 2em 0;
+}
+
+/* line 1138, ../scss/breakpoints/_base.scss */
+#class-1,
+#class-3 {
+  background: #f8f9fa;
+}
+
+/* line 1143, ../scss/breakpoints/_base.scss */
+#class-2,
+#class-4 {
+  background: #fff;
 }
 
 /*********************
