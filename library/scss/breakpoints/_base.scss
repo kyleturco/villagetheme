@@ -194,6 +194,7 @@ h1, .h1 {
     font-size: 2.7em;
     line-height: 1.333em;
     font-family: $header;
+    color: $blue;
 }
 
 h2, .h2 {
@@ -201,6 +202,7 @@ h2, .h2 {
     line-height: 1.4em;
     margin-bottom: 0.375em;
     font-family: $header;
+    color: $blue;
 }
 
 h3, .h3 {
@@ -988,6 +990,7 @@ CUSTOM STYLES
 
 // buttons //
 .btn-primary {
+  color: $white;
   background-color: $green;
   font-size: 1.2em;
   padding: 0.4em 0.8em;
@@ -996,6 +999,13 @@ CUSTOM STYLES
   border-radius: 7px;
   &:hover {
     background-color: darken($green, 10%);
+  }
+}
+
+a.btn-primary {
+  color: $white;
+  &:hover {
+    color: $white;
   }
 }
 
@@ -1017,7 +1027,7 @@ Homepage styles
 }
 #home-classes-section {
   padding: 1em 0;
-  background: #dedede;
+  background: $light-gray;
   .class-box {
     background: $white;
     border: 1px solid #cdcdcd;
@@ -1043,6 +1053,12 @@ Homepage styles
 #enroll-section {
   background: #3d97d2;
   padding: 3em 0;
+}
+
+.class-box-text {
+  h2 {
+    color: $orange;
+  }
 }
 
 
@@ -1110,7 +1126,7 @@ Programs & Rates Styles
   .class-info-header {
     background: $gray;
     padding: 0.7em 1em;
-    color: $blue;
+    color: $text-color;
   }
   .class-info-item {
     padding: 0.7em 1em;

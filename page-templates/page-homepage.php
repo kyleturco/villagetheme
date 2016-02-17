@@ -55,11 +55,11 @@ Template Name: Home Page
         <div class="class-box-text pull-left">
           <h2>Preschool 2</h2>
           <p>
-            Ages: 2-3 who are age 2 by August 1 of the school year
+            <b>Ages:</b> 2-3
             <br>
-            Class size: 10
+            <b>Class size:</b> 10
           </p>
-          <button class="btn btn-primary">Enroll Now</button>
+          <a href="<?php echo home_url(); ?>/programs-rates/#class-1" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="class-box-image pull-right">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-1.jpg" width="130px">
@@ -67,13 +67,13 @@ Template Name: Home Page
       </div>
       <div class="class-box pull-right">
         <div class="class-box-text pull-left">
-          <h2>Preschool 2</h2>
+          <h2>Preschool 3</h2>
           <p>
-            Ages: 2-3 who are age 2 by August 1 of the school year
+            <b>Ages:</b> 3-4
             <br>
-            Class size: 10
+            <b>Class size:</b> 15
           </p>
-          <button class="btn btn-primary">Enroll Now</button>
+          <a href="<?php echo home_url(); ?>/programs-rates/#class-2" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="class-box-image pull-right">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-1.jpg" width="130px">
@@ -81,13 +81,13 @@ Template Name: Home Page
       </div>
       <div class="class-box pull-left">
         <div class="class-box-text pull-left">
-          <h2>Preschool 2</h2>
+          <h2>Pre-Kindergarten</h2>
           <p>
-            Ages: 2-3 who are age 2 by August 1 of the school year
+            <b>Ages:</b> 4-5
             <br>
-            Class size: 10
+            <b>Class size:</b> 15
           </p>
-          <button class="btn btn-primary">Enroll Now</button>
+          <a href="<?php echo home_url(); ?>/programs-rates/#class-3" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="class-box-image pull-right">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-1.jpg" width="130px">
@@ -95,13 +95,13 @@ Template Name: Home Page
       </div>
       <div class="class-box pull-right">
         <div class="class-box-text pull-left">
-          <h2>Preschool 2</h2>
+          <h2>P.I.T.</h2>
           <p>
-            Ages: 2-3 who are age 2 by August 1 of the school year
+            <b>Ages:</b> Under 2
             <br>
-            Class size: 10
+            <b>Class size:</b> Varies
           </p>
-          <button class="btn btn-primary">Enroll Now</button>
+          <a href="<?php echo home_url(); ?>/programs-rates/#class-4" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="class-box-image pull-right">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-1.jpg" width="130px">
@@ -111,8 +111,8 @@ Template Name: Home Page
   </div>
   <div id="enroll-section">
     <div class="container">
-      <div class="col-md-9 text-white">
-        <h2>Enroll your child today!</h2>
+      <div class="col-md-9">
+        <h2 class="text-white">Enroll your child today!</h2>
       </div>
       <div class="col-md-3">
         <button class="btn btn-primary">Learn More</button>
