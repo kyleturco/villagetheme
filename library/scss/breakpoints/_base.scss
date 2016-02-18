@@ -1067,7 +1067,7 @@ Homepage styles
   }
 }
 .icon-3 {
-  background: $green;
+  background: $yellow;
   .fa {
     font-size: 3.7em;
     margin-top: 0.5em;
@@ -1158,6 +1158,9 @@ Homepage styles
 #enroll-section {
   background: $white;
   padding: 3em 0;
+  .btn-primary {
+    margin-top: 1em;
+  }
 }
 
 /**************

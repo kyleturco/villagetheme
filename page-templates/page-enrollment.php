@@ -202,17 +202,17 @@ Template Name: Enrollment
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
             <div class="class-info-item info-1">
-              <p>4-5 years old (must be 4 by August 1 of the school year)</p>
+              <p>Classes for toddlers 10-24 months</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
             <div class="class-info-item info-1">
-              <p>$125/month for 1 class/week</p>
+              <p>$25 registration fee</p>
             </div>
             <div class="class-info-item info-2">
-              <p>$200/month for 2 classes/week</p>
+              <p>$100 per semester ($200 per year)</p>
             </div>
           </div>
           <div class="class-info-header">
@@ -220,24 +220,18 @@ Template Name: Enrollment
           </div>
           <div class="schedule-info">
             <div class="class-info-item info-1">
-              <p>Monday/Wednesday/Friday 9:00-11:30 AM</p>
+              <p>Tuesday: Older Infants (10-17 mo.)</p>
             </div>
             <div class="class-info-item info-2">
-              <p>Monday-Friday 9:00-11:30 AM</p>
+              <p>Wednesday: Young Toddlers (15-22 mo.)</p>
             </div>
             <div class="class-info-item info-3">
-              <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM</p>
+              <p>Thursday: Toddlers (20-28 mo.)</p>
             </div>
             <div class="class-info-item info-4">
-              <p>**Tuesday-Wednesday-Thursday 12:30-2:50 PM</p>
+              <p>Friday: Older Toddlers (24+ mo.)</p>
             </div>
           </div>
-        </div>
-        <div class="class-info-notes">
-          <p>
-            *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 2 for individuals who'd benefit
-             from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
-          </p>
         </div>
       </div>
     </div>
