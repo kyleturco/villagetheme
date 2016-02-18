@@ -92,17 +92,17 @@ Template Name: Programs & Rates
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
             <div class="class-info-item info-1">
-              <p>2-3 years old (must be 2 by August 1 of the school year)</p>
+              <p>3-4 years old (By August 1 of the school year)</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
             <div class="class-info-item info-1">
-              <p>$50/month for 1 class/week</p>
+              <p>$90/month for 1 class/week</p>
             </div>
             <div class="class-info-item info-2">
-              <p>$90/month for 2 classes/week</p>
+              <p>$125/month for 2 classes/week</p>
             </div>
           </div>
           <div class="class-info-header">
@@ -110,22 +110,20 @@ Template Name: Programs & Rates
           </div>
           <div class="schedule-info">
             <div class="class-info-item info-1">
-              <p>Monday/Wednesday 9:00-11:20 AM</p>
+              <p>Monday/Wednesday/Friday 9:00-11:25 AM</p>
             </div>
             <div class="class-info-item info-2">
-              <p>Tuesday/Thursday 9:00-11:20 AM</p>
+              <p>Tuesday/Thursday 9:00-11:25 AM</p>
             </div>
             <div class="class-info-item info-3">
-              <p>Tuesday/Thursday 12:30-2:50 PM</p>
-            </div>
-            <div class="class-info-item info-4">
-              <p>Friday 9:00-11:20 AM</p>
+              <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM*</p>
             </div>
           </div>
         </div>
         <div class="class-info-notes">
           <p>
-            *There is a maximum of 10 children with 2 teachers per class.
+            *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 2 for individuals who'd benefit
+            from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
           </p>
         </div>
       </div>
@@ -145,17 +143,17 @@ Template Name: Programs & Rates
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
             <div class="class-info-item info-1">
-              <p>2-3 years old (must be 2 by August 1 of the school year)</p>
+              <p>4-5 years old (must be 4 by August 1 of the school year)</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
             <div class="class-info-item info-1">
-              <p>$50/month for 1 class/week</p>
+              <p>$125/month for 1 class/week</p>
             </div>
             <div class="class-info-item info-2">
-              <p>$90/month for 2 classes/week</p>
+              <p>$200/month for 2 classes/week</p>
             </div>
           </div>
           <div class="class-info-header">
@@ -163,75 +161,27 @@ Template Name: Programs & Rates
           </div>
           <div class="schedule-info">
             <div class="class-info-item info-1">
-              <p>Monday/Wednesday 9:00-11:20 AM</p>
+              <p>Monday/Wednesday/Friday 9:00-11:30 AM</p>
             </div>
             <div class="class-info-item info-2">
-              <p>Tuesday/Thursday 9:00-11:20 AM</p>
+              <p>Monday-Friday 9:00-11:30 AM</p>
             </div>
             <div class="class-info-item info-3">
-              <p>Tuesday/Thursday 12:30-2:50 PM</p>
+              <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM</p>
             </div>
             <div class="class-info-item info-4">
-              <p>Friday 9:00-11:20 AM</p>
+              <p>**Tuesday-Wednesday-Thursday 12:30-2:50 PM</p>
             </div>
           </div>
         </div>
         <div class="class-info-notes">
           <p>
-            *There is a maximum of 10 children with 2 teachers per class.
+            *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 2 for individuals who'd benefit
+             from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
           </p>
-        </div>
-      </div>
-    </div>
-    <div id="class-4" class="class-section">
-      <div class="container">
-        <div class="class-1-header text-center">
-          <h1>Parent-Infant-Toddler</h1>
-        </div>
-        <div class="class-download pull-right">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
-          <div class="btn btn-primary">Get My Form</div>
-        </div>
-        <div class="class-info">
-          <div class="class-info-header">
-            <h3><i class="fa fa-child"></i> Ages</h3>
-          </div>
-            <div class="class-info-item info-1">
-              <p>2-3 years old (must be 2 by August 1 of the school year)</p>
-            </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-usd"></i> Tuition</h3>
-          </div>
-          <div class="tuition-info">
-            <div class="class-info-item info-1">
-              <p>$50/month for 1 class/week</p>
-            </div>
-            <div class="class-info-item info-2">
-              <p>$90/month for 2 classes/week</p>
-            </div>
-          </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
-          </div>
-          <div class="schedule-info">
-            <div class="class-info-item info-1">
-              <p>Monday/Wednesday 9:00-11:20 AM</p>
-            </div>
-            <div class="class-info-item info-2">
-              <p>Tuesday/Thursday 9:00-11:20 AM</p>
-            </div>
-            <div class="class-info-item info-3">
-              <p>Tuesday/Thursday 12:30-2:50 PM</p>
-            </div>
-            <div class="class-info-item info-4">
-              <p>Friday 9:00-11:20 AM</p>
-            </div>
-          </div>
-        </div>
-        <div class="class-info-notes">
           <p>
-            *There is a maximum of 10 children with 2 teachers per class.
+            **This class is for 3-5yr olds with a PreK curriculum modified to Preschool 2 for individuals who'd benefit
+            from it.
           </p>
         </div>
       </div>

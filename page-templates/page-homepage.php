@@ -9,15 +9,13 @@ Template Name: Home Page
 <div id="content">
   <div id="home-hero-section">
     <div class="container">
-      <h1 class="text-white text-center">Make Your Child Awesome</h1>
-      <p class="text-white text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehender
-      </p>
-      <div class="button-cta">
-        <h3 class="text-center text-white">Sign Up Now</h3>
-        <button id="hero-cta-btn"class="btn btn-primary">Learn More</button>
+      <div id="inner-content">
+        <h3 class="text-white text-center">Welcome to</h3>
+        <h1 class="text-white text-center">Village Nursery School</h1>
+        <p class="text-white text-center">
+          <i>A safe and secure enviornment dedicated to helping children grow and flourish</i>
+        </p>
+        <a id="home-hero-btn" href="<?php echo home_url(); ?>/programs-rates/" class="btn btn-primary">See Our Programs <i class="fa fa-angle-double-right"></i></a>
       </div>
     </div>
   </div>

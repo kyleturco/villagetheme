@@ -387,68 +387,87 @@ be seen on the Desktop.
   width: 1040px;
 }
 
+/* line 17, ../scss/breakpoints/_1030up.scss */
+#home-hero-section #inner-content {
+  margin: 0 auto;
+}
+/* line 19, ../scss/breakpoints/_1030up.scss */
+#home-hero-section #inner-content h1 {
+  font-size: 3em;
+}
+/* line 22, ../scss/breakpoints/_1030up.scss */
+#home-hero-section #inner-content p {
+  max-width: 560px;
+  margin: 1.5em auto;
+}
+
 /**************
 Our Story styles
 ***************/
-/* line 25, ../scss/breakpoints/_1030up.scss */
+/* line 38, ../scss/breakpoints/_1030up.scss */
 #overview-content-left .about-text {
   width: 80%;
 }
-/* line 28, ../scss/breakpoints/_1030up.scss */
+/* line 41, ../scss/breakpoints/_1030up.scss */
 #overview-content-left h4 {
   line-height: 1.4em;
 }
 
-/* line 34, ../scss/breakpoints/_1030up.scss */
+/* line 47, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photo-left {
   width: 66%;
   margin-top: 0;
 }
-/* line 38, ../scss/breakpoints/_1030up.scss */
+/* line 51, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photos-right {
   width: 30%;
   margin-left: 1em;
   display: block;
   float: left;
 }
-/* line 43, ../scss/breakpoints/_1030up.scss */
+/* line 56, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photos-right .photo-1 {
   background: url("http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg") no-repeat;
   background-size: cover;
   height: 160px;
   margin-bottom: 1em;
 }
-/* line 49, ../scss/breakpoints/_1030up.scss */
+/* line 62, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photos-right .photo-2 {
   background: url("http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg") no-repeat;
   background-size: cover;
   height: 160px;
 }
 
-/* line 57, ../scss/breakpoints/_1030up.scss */
+/* line 70, ../scss/breakpoints/_1030up.scss */
 #programs-subnav {
   display: block;
 }
 
-/* line 61, ../scss/breakpoints/_1030up.scss */
+/* line 74, ../scss/breakpoints/_1030up.scss */
 .letter-text {
   width: 66%;
 }
 
-/* line 65, ../scss/breakpoints/_1030up.scss */
+/* line 78, ../scss/breakpoints/_1030up.scss */
 .class-info {
   width: 60%;
 }
 
-/* line 69, ../scss/breakpoints/_1030up.scss */
+/* line 82, ../scss/breakpoints/_1030up.scss */
 .class-download {
   display: block;
   width: 35%;
 }
 
-/* line 76, ../scss/breakpoints/_1030up.scss */
+/* line 89, ../scss/breakpoints/_1030up.scss */
 #programs-page-header #program-subheader {
   display: block;
+}
+
+/* line 94, ../scss/breakpoints/_1030up.scss */
+.class-info-notes {
+  width: 60%;
 }
 
 /*
