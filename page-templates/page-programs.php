@@ -25,7 +25,7 @@ Template Name: Programs
   <div id="programs-program-content">
     <div id="village-nursery-school" class="class-section class-1">
       <div class="container">
-        <div class="class-description">
+        <div class="class-description col-md-7">
           <h2>Village Nursery School</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -34,13 +34,20 @@ Template Name: Programs
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           </p>
+          <a href="<?php echo home_url(); ?>/enrollment/#class-1" class="btn btn-primary">Enroll Now</a>
         </div>
-        <a href="<?php echo home_url(); ?>/enrollment/#class-1" class="btn btn-primary">Enroll Now</a>
+        <div class="program-photo-right col-md-5">
+          <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-1.jpg" alt="" width="400px">
+        </div>
+        <div class="clearfix"></div>
       </div>
     </div>
     <div id="pit" class="class-section class-2">
       <div class="container">
-        <div class="class-description">
+        <div class="program-photo-right col-md-5">
+          <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-1.jpg" alt="" width="400px">
+        </div>
+        <div class="class-description col-md-7">
           <h2>Parent Infant Toddler</h2>
           <p>
             The Parent-Infant-Toddler Program offers classes that parent/caregiver and child attend together one morning
@@ -63,13 +70,13 @@ Template Name: Programs
             P-I-T classes meet for 28 weeks during the school year from September through April.  The age-appropriate
             classes meet from 9:30-11:00AM in Room 214 and 216 at First United Methodist Church.
           </p>
+          <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
         </div>
-        <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
       </div>
     </div>
     <div id="stay-and-play" class="class-section class-3">
       <div class="container">
-        <div class="class-description">
+        <div class="class-description col-md-7">
           <h2>Stay & Play</h2>
           <p>
             Stay & Play is a perfect way to introduce a Preschool atmosphere to the younger children and build on what
@@ -88,8 +95,11 @@ Template Name: Programs
             elements as a classroom. There will be large motor time, snack time, activity time, and then end the
             day reading a book and singing songs.
           </p>
+          <a href="<?php echo home_url(); ?>/enrollment/#stay-and-play-enroll" class="btn btn-primary">Sign Up Now</a>
         </div>
-        <a href="<?php echo home_url(); ?>/enrollment/#stay-and-play-enroll" class="btn btn-primary">Sign Up Now</a>
+        <div class="program-photo-right col-md-5">
+          <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-1.jpg" alt="" width="400px">
+        </div>
       </div>
     </div>
   </div>

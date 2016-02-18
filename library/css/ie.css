@@ -447,38 +447,37 @@ Our Story styles
 }
 
 /* line 75, ../scss/breakpoints/_1030up.scss */
-.class-description,
 .class-info {
   width: 60%;
 }
 
-/* line 80, ../scss/breakpoints/_1030up.scss */
+/* line 79, ../scss/breakpoints/_1030up.scss */
 .class-download {
   display: block;
   width: 35%;
 }
 
-/* line 87, ../scss/breakpoints/_1030up.scss */
+/* line 86, ../scss/breakpoints/_1030up.scss */
 #programs-page-header #program-subheader {
   display: block;
 }
 
-/* line 92, ../scss/breakpoints/_1030up.scss */
+/* line 91, ../scss/breakpoints/_1030up.scss */
 #programs-subnav {
   display: block;
 }
 
-/* line 96, ../scss/breakpoints/_1030up.scss */
+/* line 95, ../scss/breakpoints/_1030up.scss */
 .class-info-notes {
   width: 60%;
 }
 
-/* line 102, ../scss/breakpoints/_1030up.scss */
+/* line 101, ../scss/breakpoints/_1030up.scss */
 #enrollment-page-header #enrollment-subheader {
   display: block;
 }
 
-/* line 107, ../scss/breakpoints/_1030up.scss */
+/* line 106, ../scss/breakpoints/_1030up.scss */
 #enrollment-subnav {
   display: block;
 }
