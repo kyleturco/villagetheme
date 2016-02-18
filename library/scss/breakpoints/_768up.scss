@@ -58,7 +58,9 @@ NAVIGATION STYLES
 			*/
 			&:hover, &:focus {
 				color: $white;
-				text-decoration: underline;
+        background: $blue;
+        transition: 0.2s;
+        border-radius: 4px;
 			}
 		}
 
