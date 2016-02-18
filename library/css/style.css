@@ -2378,14 +2378,14 @@ Programs & Rates Styles
 }
 
 /* line 1218, ../scss/breakpoints/_base.scss */
-#class-1,
-#class-3 {
+.class-1,
+.class-3 {
   background: #f3f3f3;
 }
 
 /* line 1223, ../scss/breakpoints/_base.scss */
-#class-2,
-#class-4 {
+.class-2,
+.class-4 {
   background: #fff;
 }
 
@@ -2760,22 +2760,23 @@ you can add resource intensive styles.
   }
 
   /* line 78, ../scss/breakpoints/_1030up.scss */
+  .class-description,
   .class-info {
     width: 60%;
   }
 
-  /* line 82, ../scss/breakpoints/_1030up.scss */
+  /* line 83, ../scss/breakpoints/_1030up.scss */
   .class-download {
     display: block;
     width: 35%;
   }
 
-  /* line 89, ../scss/breakpoints/_1030up.scss */
+  /* line 90, ../scss/breakpoints/_1030up.scss */
   #programs-page-header #program-subheader {
     display: block;
   }
 
-  /* line 94, ../scss/breakpoints/_1030up.scss */
+  /* line 95, ../scss/breakpoints/_1030up.scss */
   .class-info-notes {
     width: 60%;
   }

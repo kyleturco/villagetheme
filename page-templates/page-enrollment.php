@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Programs & Rates
+Template Name: Enrollment
 */
 ?>
 
@@ -9,8 +9,8 @@ Template Name: Programs & Rates
 <div id="content">
   <div id="programs-page-header">
     <div class="container">
-      <h1 id="program-header" class="text-center text-white">Programs & Rates</h1>
-      <p id="program-subheader" class="text-center text-white">We offer classes for four main age groups</p>
+      <h1 id="program-header" class="text-center text-white">Enrollment</h1>
+      <p id="program-subheader" class="text-center text-white">The info you need to get started today</p>
     </div>
   </div>
   <div id="programs-subnav">

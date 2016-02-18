@@ -450,22 +450,23 @@ Our Story styles
 }
 
 /* line 78, ../scss/breakpoints/_1030up.scss */
+.class-description,
 .class-info {
   width: 60%;
 }
 
-/* line 82, ../scss/breakpoints/_1030up.scss */
+/* line 83, ../scss/breakpoints/_1030up.scss */
 .class-download {
   display: block;
   width: 35%;
 }
 
-/* line 89, ../scss/breakpoints/_1030up.scss */
+/* line 90, ../scss/breakpoints/_1030up.scss */
 #programs-page-header #program-subheader {
   display: block;
 }
 
-/* line 94, ../scss/breakpoints/_1030up.scss */
+/* line 95, ../scss/breakpoints/_1030up.scss */
 .class-info-notes {
   width: 60%;
 }
