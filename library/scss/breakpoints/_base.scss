@@ -1037,6 +1037,44 @@ Homepage styles
   width: 12em;
   font-size: 1.4em;
 }
+
+#home-welcome-section {
+  padding: 4em 0;
+  background: $light-gray;
+}
+.icon-circle {
+  display: block;
+  margin: 0 auto 2em auto;
+  height: 140px;
+  width: 140px;
+  border-radius: 70px;
+}
+
+.icon-1 {
+  background: $orange;
+  .fa {
+    font-size: 3.4em;
+    margin-top: 0.65em;
+    margin-left: 0.65em;
+  }
+}
+.icon-2 {
+  background: $blue;
+  .fa {
+    font-size: 3.7em;
+    margin-top: 0.5em;
+    margin-left: 0.6em;
+  }
+}
+.icon-3 {
+  background: $green;
+  .fa {
+    font-size: 3.7em;
+    margin-top: 0.5em;
+    margin-left: 0.7em;
+  }
+}
+
 #home-overview-section {
   padding: 4.5em 0;
 }
@@ -1159,6 +1197,9 @@ Programs & Rates Styles
 
 #programs-program-content {
   background: $light-gray;
+  .btn-primary {
+    margin-top: 1em;
+  }
 }
 
 #programs-subnav {

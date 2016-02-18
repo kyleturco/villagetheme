@@ -72,14 +72,24 @@ Template Name: Programs
         <div class="class-description">
           <h2>Stay & Play</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            Stay & Play is a perfect way to introduce a Preschool atmosphere to the younger children and build on what
+             the older children get in the classroom. Activities are safe and appropriate for all ages. For example,
+             finger painting, dot painting, homemade playdough, and other fun activities.
+          </p>
+          <h3>Before-School and After -School Care</h3>
+          <p>
+            Before-school and After-school care is a service available for our VNS families who need a little extra
+            time in the morning or a little extra time after school. Space is limited and must be reserved ahead of
+            time, so that we can maintain our leader to child ratio.
+          </p>
+          <h3>S & P Enrichment</h3>
+          <p>
+            Stay and Play Enrichment is available for VNS and PIT siblings and students and will incorporate similar
+            elements as a classroom. There will be large motor time, snack time, activity time, and then end the
+            day reading a book and singing songs.
           </p>
         </div>
-        <a href="<?php echo home_url(); ?>/enrollment/#stay-and-play-enroll" class="btn btn-primary">Enroll Now</a>
+        <a href="<?php echo home_url(); ?>/enrollment/#stay-and-play-enroll" class="btn btn-primary">Sign Up Now</a>
       </div>
     </div>
   </div>

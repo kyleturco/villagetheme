@@ -19,11 +19,45 @@ Template Name: Home Page
       </div>
     </div>
   </div>
+  <div id="home-welcome-section">
+    <div class="container">
+      <div id="home-icon-1" class="col-md-4">
+        <div class="icon-circle icon-1">
+          <i class="fa fa-bell text-center text-white"></i>
+        </div>
+        <h2 class="text-center">Education</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua
+        </p>
+      </div>
+      <div id="home-icon-2" class="col-md-4">
+        <div class="icon-circle icon-2">
+          <i class="fa fa-home text-center text-white"></i>
+        </div>
+        <h2 class="text-center">Development</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua
+        </p>
+      </div>
+      <div id="home-icon-3" class="col-md-4">
+        <div class="icon-circle icon-3">
+          <i class="fa fa-child text-center text-white"></i>
+        </div>
+        <h2 class="text-center">Childcare</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua
+        </p>
+      </div>
+    </div>
+  </div>
   <div id="home-overview-section">
     <div class="container">
       <div id="inner-content">
         <div id="overview-content-left" class="col-md-6">
-          <h1>Welcome</h1>
+          <h1>Overview</h1>
           <div class="about-text">
             <h4>
               Our philosophy is learning through play as we offer a stimulating environment for children.
