@@ -2379,14 +2379,49 @@ Programs & Rates Styles
 
 /* line 1218, ../scss/breakpoints/_base.scss */
 .class-1,
-.class-3 {
+.class-3,
+.class-5 {
   background: #f3f3f3;
 }
 
-/* line 1223, ../scss/breakpoints/_base.scss */
+/* line 1224, ../scss/breakpoints/_base.scss */
 .class-2,
 .class-4 {
   background: #fff;
+}
+
+/* line 1231, ../scss/breakpoints/_base.scss */
+#enrollment-page-header {
+  background: url("http://localhost:8888/villagenursery/wp-content/uploads/2016/02/enrollment-header.jpg") no-repeat;
+  background-size: cover;
+  padding: 5em 0;
+}
+/* line 1235, ../scss/breakpoints/_base.scss */
+#enrollment-page-header #enrollment-header {
+  margin: 0;
+}
+/* line 1238, ../scss/breakpoints/_base.scss */
+#enrollment-page-header #enrollment-subheader {
+  margin: 0;
+  font-size: 1.6em;
+  display: none;
+}
+
+/* line 1245, ../scss/breakpoints/_base.scss */
+#enrollment-program-content {
+  background: #f3f3f3;
+}
+
+/* line 1249, ../scss/breakpoints/_base.scss */
+#enrollment-subnav {
+  display: none;
+  border-bottom: 1px solid #eaedf2;
+  padding: 0.5em 0;
+}
+/* line 1253, ../scss/breakpoints/_base.scss */
+#enrollment-subnav a {
+  color: #7dd667;
+  padding: 1em 1.2em;
 }
 
 /*********************
@@ -2749,36 +2784,46 @@ you can add resource intensive styles.
     height: 160px;
   }
 
-  /* line 70, ../scss/breakpoints/_1030up.scss */
-  #programs-subnav {
-    display: block;
-  }
-
-  /* line 74, ../scss/breakpoints/_1030up.scss */
+  /* line 71, ../scss/breakpoints/_1030up.scss */
   .letter-text {
     width: 66%;
   }
 
-  /* line 78, ../scss/breakpoints/_1030up.scss */
+  /* line 75, ../scss/breakpoints/_1030up.scss */
   .class-description,
   .class-info {
     width: 60%;
   }
 
-  /* line 83, ../scss/breakpoints/_1030up.scss */
+  /* line 80, ../scss/breakpoints/_1030up.scss */
   .class-download {
     display: block;
     width: 35%;
   }
 
-  /* line 90, ../scss/breakpoints/_1030up.scss */
+  /* line 87, ../scss/breakpoints/_1030up.scss */
   #programs-page-header #program-subheader {
     display: block;
   }
 
-  /* line 95, ../scss/breakpoints/_1030up.scss */
+  /* line 92, ../scss/breakpoints/_1030up.scss */
+  #programs-subnav {
+    display: block;
+  }
+
+  /* line 96, ../scss/breakpoints/_1030up.scss */
   .class-info-notes {
     width: 60%;
+  }
+
+  /* line 102, ../scss/breakpoints/_1030up.scss */
+  #enrollment-page-header #enrollment-subheader {
+    display: block;
+  }
+
+  /* line 107, ../scss/breakpoints/_1030up.scss */
+  #enrollment-subnav {
+    display: block;
   }
 }
 /*********************

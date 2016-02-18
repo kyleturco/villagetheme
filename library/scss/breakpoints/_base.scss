@@ -1216,11 +1216,42 @@ Programs & Rates Styles
 }
 
 .class-1,
-.class-3 {
+.class-3,
+.class-5 {
   background: $light-gray;
 }
 
 .class-2,
 .class-4 {
   background: $white;
+}
+
+// Enrollment Page styles
+
+#enrollment-page-header {
+  background: url('http://localhost:8888/villagenursery/wp-content/uploads/2016/02/enrollment-header.jpg') no-repeat;
+  background-size: cover;
+  padding: 5em 0;
+  #enrollment-header {
+    margin: 0;
+  }
+  #enrollment-subheader {
+    margin: 0;
+    font-size: 1.6em;
+    display: none;
+  }
+}
+
+#enrollment-program-content {
+  background: $light-gray;
+}
+
+#enrollment-subnav {
+  display: none;
+  border-bottom: 1px solid $gray;
+  padding: 0.5em 0;
+  a {
+    color: $green;
+    padding: 1em 1.2em;
+  }
 }

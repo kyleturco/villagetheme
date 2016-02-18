@@ -67,9 +67,6 @@ Our Story styles
   }
 }
 
-#programs-subnav {
-  display: block;
-}
 
 .letter-text {
   width: 66%;
@@ -92,7 +89,23 @@ Our Story styles
   }
 }
 
+#programs-subnav {
+  display: block;
+}
+
 .class-info-notes {
   width: 60%;
 }
+
+// Enrollment Styles
+#enrollment-page-header {
+  #enrollment-subheader {
+    display: block;
+  }
+}
+
+#enrollment-subnav {
+  display: block;
+}
+
 
