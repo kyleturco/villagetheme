@@ -16,11 +16,11 @@ Template Name: Enrollment
   <div id="enrollment-subnav">
     <div class="container">
       <ul class="list-inline text-center">
-        <li><a href="#preschool-2">Preschool 2</a></li>
-        <li><a href="#preschool-3">Preschool 3</a></li>
-        <li><a href="#pre-k">Pre-Kindergarten</a></li>
-        <li><a href="#pit-enroll">Parent-Infant-Toddler</a></li>
-        <li><a href="#stay-and-play-enroll">Stay & Play</a></li>
+        <li><a class="subnav-link" href="#preschool-2">Preschool 2</a></li>
+        <li><a class="subnav-link" href="#preschool-3">Preschool 3</a></li>
+        <li><a class="subnav-link" href="#pre-k">Pre-Kindergarten</a></li>
+        <li><a class="subnav-link" href="#pit-enroll">Parent-Infant-Toddler</a></li>
+        <li><a class="subnav-link" href="#stay-and-play-enroll">Stay & Play</a></li>
       </ul>
     </div>
   </div>

@@ -28,10 +28,18 @@ var waitForFinalEvent = (function () {
 var timeToWaitForLast = 100;
 
 
-$(document).ready(function ready() {
+jQuery(document).ready(function($) {
 
   function init() {
+    $('.subnav-link').on('click', smoothScroll);
+  }
 
+  function smoothScroll(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $(this.hash).offset().top
+    }, 500);
+    return false;
   }
 
   init();

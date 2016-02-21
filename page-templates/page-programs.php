@@ -16,9 +16,9 @@ Template Name: Programs
   <div id="programs-subnav">
     <div class="container">
       <ul class="list-inline text-center">
-        <li><a href="#village-nursery-school">Village Nursery School</a></li>
-        <li><a href="#pit">Parent-Infant-Toddler</a></li>
-        <li><a href="#stay-and-play">Stay & Play</a></li>
+        <li><a class="subnav-link" href="#village-nursery-school">Village Nursery School</a></li>
+        <li><a class="subnav-link" href="#pit">Parent-Infant-Toddler</a></li>
+        <li><a class="subnav-link" href="#stay-and-play">Stay & Play</a></li>
       </ul>
     </div>
   </div>
