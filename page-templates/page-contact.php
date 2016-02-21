@@ -46,14 +46,20 @@ Template Name: Contact Page
     <div id="google-map"></div>
     <script>
       function initMap() {
+        var myLatlng = new google.maps.LatLng(40.425806,-86.936935);
         var mapDiv = document.getElementById('google-map');
         var map = new google.maps.Map(mapDiv, {
-          center: {lat: 40.425806, lng: -86.936935},
+          center: myLatlng,
           zoom: 16,
           zoomControl: false,
           scaleControl: false,
           scrollwheel: false
         });
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          title:"First United Methodist Church - VNS"
+        });
+        marker.setMap(map);
       }
     </script>
   </div>

@@ -139,7 +139,7 @@ Template Name: Home Page
         <h2>Enroll your child today!</h2>
       </div>
       <div class="col-md-3">
-        <button class="btn btn-primary">Learn More</button>
+        <a href="<?php echo home_url(); ?>/programs" class="btn btn-primary">Learn More <i class="fa fa-angle-double-right"></i></a>
       </div>
     </div>
   </div>
