@@ -297,3 +297,19 @@ CUSTOM STYLES
     margin-bottom: 2em;
   }
 }
+
+#story-photo-bar {
+  max-height: 370px;
+  img {
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+  }
+  .photo-two-third {
+    width: 66%;
+  }
+  .photo-one-third {
+    width: 34%;
+    display: block;
+  }
+}

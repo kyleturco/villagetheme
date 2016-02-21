@@ -17,9 +17,8 @@ Template Name: Our Story
       </div>
     </div>
   </div>
-  <div class="clearfix"></div>
-  <div id="story-text-section" class="col-md-12">
-    <div class="container">
+  <div id="story-text-section">
+    <div class="our-story-container">
       <div class="our-story-header">
         <h1>Our Story</h1>
       </div>
@@ -49,33 +48,34 @@ Template Name: Our Story
           </p>
         </div>
       </div>
-      <div class="clearfix"></div>
-      <div id="story-director-section">
-        <div class="letter-text">
-          <h2>A Note from Our Director</h2>
-          <p>
-            I have been one of the "Village" people for the last 6 years. Here at VNS I have played many roles
-            including parent, teacher, and substitute. I'm fortunate to say VNS has been my family's "home away
-            from home" for the entire time we have lived in the Lafayette area.
-           </p>
-           <p>
-            On a professional level I have a
-            Bachelor’s Degree in Elementary Education; I am also a licensed teacher in Indiana. I have taught
-            many of our classes at VNS, kindergarten in Indiana and fifth grade in Virginia. I took time off of
-            teaching to stay at home while my children were young.
-          </p>
-          <p>
-            To me, every person associated with Village
-            Nursery School, whether they are an employee, student, parent/guardian or FUMC church member, provides
-            a unique contribution to our special school.  As Director, I hope we all find our fit in our "home away
-            from home" as we work together here at Village Nursery School and FUMC.
-          </p>
-          <p>
-            Looking forward,
-          </p>
-          <h4>Deanna Bibler</h4>
-          <h5>Village Nursery School Director</h5>
-        </div>
+    </div>
+  </div>
+  <div id="story-director-section">
+    <div class="our-story-container">
+      <div class="letter-text">
+        <h2>A Note from Our Director</h2>
+        <p>
+          I have been one of the "Village" people for the last 6 years. Here at VNS I have played many roles
+          including parent, teacher, and substitute. I'm fortunate to say VNS has been my family's "home away
+          from home" for the entire time we have lived in the Lafayette area.
+         </p>
+         <p>
+          On a professional level I have a
+          Bachelor’s Degree in Elementary Education; I am also a licensed teacher in Indiana. I have taught
+          many of our classes at VNS, kindergarten in Indiana and fifth grade in Virginia. I took time off of
+          teaching to stay at home while my children were young.
+        </p>
+        <p>
+          To me, every person associated with Village
+          Nursery School, whether they are an employee, student, parent/guardian or FUMC church member, provides
+          a unique contribution to our special school.  As Director, I hope we all find our fit in our "home away
+          from home" as we work together here at Village Nursery School and FUMC.
+        </p>
+        <p class="letter-signoff">
+          Looking forward,
+        </p>
+        <p class="director-name">Deanna Bibler</p>
+        <h4>Village Nursery School Director</h4>
       </div>
     </div>
   </div>

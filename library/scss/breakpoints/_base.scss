@@ -1137,15 +1137,23 @@ Our Story styles
 ***************/
 
 .our-story-content {
-  padding: 2em 0;
+  padding: 3em 0 0 0;
 }
 
 #story-text-section {
-  padding: 3em 0;
+  padding: 1em 0 4em;
 }
 
 #story-director-section {
-  padding: 7em 0;
+  padding: 4em 0;
+  background: $gray;
+}
+
+.our-story-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #our-story-photos-right {
@@ -1161,7 +1169,29 @@ Our Story styles
 }
 
 #story-photo-bar {
-  display: none;
+  display: block;
+  max-height: 370px;
+  background: $white;
+  img {
+    width: 100%;
+    overflow: hidden;
+  }
+  .photo-two-third {
+    width: 100%;
+  }
+  .photo-one-third {
+    display: none;
+  }
+}
+
+
+.letter-signoff {
+  margin-top: 2em;
+}
+.director-name {
+  font-size: 1.2em;
+  font-style: italic;
+  color: $orange;
 }
 
 /**************
