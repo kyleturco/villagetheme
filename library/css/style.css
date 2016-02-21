@@ -2057,6 +2057,49 @@ FOOTER STYLES
   background-color: #323944;
   color: #f3f3f3;
 }
+/* line 928, ../scss/breakpoints/_base.scss */
+.footer .right-side-footer-content {
+  text-align: right;
+  display: block;
+  float: right;
+}
+/* line 932, ../scss/breakpoints/_base.scss */
+.footer .right-side-footer-content .fa {
+  margin-left: 0.4em;
+}
+
+/* line 938, ../scss/breakpoints/_base.scss */
+#fumc-link {
+  background-color: #4285f4;
+  padding: 1.5em 0;
+}
+/* line 941, ../scss/breakpoints/_base.scss */
+#fumc-link a {
+  color: #fff;
+}
+/* line 943, ../scss/breakpoints/_base.scss */
+#fumc-link a:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* line 949, ../scss/breakpoints/_base.scss */
+#main-footer {
+  padding: 2.5em 0;
+}
+/* line 951, ../scss/breakpoints/_base.scss */
+#main-footer h3 {
+  margin-top: 0;
+}
+/* line 954, ../scss/breakpoints/_base.scss */
+#main-footer a {
+  color: #aeaeae;
+}
+/* line 956, ../scss/breakpoints/_base.scss */
+#main-footer a:hover {
+  color: #dedede;
+  text-decoration: none;
+}
 
 /*
 if you checked out the link above:
@@ -2071,22 +2114,22 @@ view.
 /*********************
 CUSTOM STYLES
 *********************/
-/* line 954, ../scss/breakpoints/_base.scss */
+/* line 987, ../scss/breakpoints/_base.scss */
 .text-white {
   color: #fff;
 }
 
-/* line 958, ../scss/breakpoints/_base.scss */
+/* line 991, ../scss/breakpoints/_base.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 962, ../scss/breakpoints/_base.scss */
+/* line 995, ../scss/breakpoints/_base.scss */
 .no-left-pad {
   padding-left: 0px;
 }
 
-/* line 967, ../scss/breakpoints/_base.scss */
+/* line 1000, ../scss/breakpoints/_base.scss */
 .btn-primary {
   color: #fff;
   background-color: #7dd667;
@@ -2096,16 +2139,16 @@ CUSTOM STYLES
   border: none;
   border-radius: 7px;
 }
-/* line 975, ../scss/breakpoints/_base.scss */
+/* line 1008, ../scss/breakpoints/_base.scss */
 .btn-primary:hover {
   background-color: #5bcb3f;
 }
 
-/* line 980, ../scss/breakpoints/_base.scss */
+/* line 1013, ../scss/breakpoints/_base.scss */
 a.btn-primary {
   color: #fff;
 }
-/* line 982, ../scss/breakpoints/_base.scss */
+/* line 1015, ../scss/breakpoints/_base.scss */
 a.btn-primary:hover {
   color: #fff;
 }
@@ -2113,30 +2156,30 @@ a.btn-primary:hover {
 /**************
 Homepage styles
 ***************/
-/* line 991, ../scss/breakpoints/_base.scss */
+/* line 1024, ../scss/breakpoints/_base.scss */
 #home-hero-section {
   background: url("http://localhost:8888/villagenursery/wp-content/uploads/2016/02/home-hero-demo3.jpg") no-repeat;
   background-size: cover;
   padding: 6em 0;
 }
-/* line 995, ../scss/breakpoints/_base.scss */
+/* line 1028, ../scss/breakpoints/_base.scss */
 #home-hero-section h3 {
   margin-top: 0;
   font-size: 1.7em;
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 1000, ../scss/breakpoints/_base.scss */
+/* line 1033, ../scss/breakpoints/_base.scss */
 #home-hero-section h1 {
   margin-top: 0.2em;
   font-size: 2.2em;
 }
-/* line 1004, ../scss/breakpoints/_base.scss */
+/* line 1037, ../scss/breakpoints/_base.scss */
 #home-hero-section p {
   font-size: 1.3em;
   margin-bottom: 0.7em;
 }
 
-/* line 1009, ../scss/breakpoints/_base.scss */
+/* line 1042, ../scss/breakpoints/_base.scss */
 #home-hero-btn {
   margin: 0 auto;
   display: block;
@@ -2144,13 +2187,13 @@ Homepage styles
   font-size: 1.4em;
 }
 
-/* line 1016, ../scss/breakpoints/_base.scss */
+/* line 1049, ../scss/breakpoints/_base.scss */
 #home-welcome-section {
   padding: 4em 0;
   background: #f3f3f3;
 }
 
-/* line 1020, ../scss/breakpoints/_base.scss */
+/* line 1053, ../scss/breakpoints/_base.scss */
 .icon-circle {
   display: block;
   margin: 0 auto 2em auto;
@@ -2159,51 +2202,51 @@ Homepage styles
   border-radius: 70px;
 }
 
-/* line 1028, ../scss/breakpoints/_base.scss */
+/* line 1061, ../scss/breakpoints/_base.scss */
 .icon-1 {
   background: #FE6500;
 }
-/* line 1030, ../scss/breakpoints/_base.scss */
+/* line 1063, ../scss/breakpoints/_base.scss */
 .icon-1 .fa {
   font-size: 3.4em;
   margin-top: 0.65em;
   margin-left: 0.65em;
 }
 
-/* line 1036, ../scss/breakpoints/_base.scss */
+/* line 1069, ../scss/breakpoints/_base.scss */
 .icon-2 {
   background: #4285f4;
 }
-/* line 1038, ../scss/breakpoints/_base.scss */
+/* line 1071, ../scss/breakpoints/_base.scss */
 .icon-2 .fa {
   font-size: 3.7em;
   margin-top: 0.5em;
   margin-left: 0.6em;
 }
 
-/* line 1044, ../scss/breakpoints/_base.scss */
+/* line 1077, ../scss/breakpoints/_base.scss */
 .icon-3 {
   background: #F4b400;
 }
-/* line 1046, ../scss/breakpoints/_base.scss */
+/* line 1079, ../scss/breakpoints/_base.scss */
 .icon-3 .fa {
   font-size: 3.7em;
   margin-top: 0.5em;
   margin-left: 0.7em;
 }
 
-/* line 1053, ../scss/breakpoints/_base.scss */
+/* line 1086, ../scss/breakpoints/_base.scss */
 #home-overview-section {
   padding: 4.5em 0;
 }
 
-/* line 1058, ../scss/breakpoints/_base.scss */
+/* line 1091, ../scss/breakpoints/_base.scss */
 #overview-content-left h1 {
   margin-top: 0px;
   margin-bottom: 0.5em;
 }
 
-/* line 1065, ../scss/breakpoints/_base.scss */
+/* line 1098, ../scss/breakpoints/_base.scss */
 #overview-photos-right .photo-left {
   width: 100%;
   height: 336px;
@@ -2213,83 +2256,83 @@ Homepage styles
   background-size: cover;
   margin-top: 1.5em;
 }
-/* line 1074, ../scss/breakpoints/_base.scss */
+/* line 1107, ../scss/breakpoints/_base.scss */
 #overview-photos-right .photos-right {
   display: none;
 }
 
-/* line 1079, ../scss/breakpoints/_base.scss */
+/* line 1112, ../scss/breakpoints/_base.scss */
 #home-classes-section {
   padding: 1em 0;
   background: #f3f3f3;
 }
-/* line 1082, ../scss/breakpoints/_base.scss */
+/* line 1115, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box {
   background: #4285f4;
   margin-top: 0.5em;
   width: 100%;
 }
-/* line 1086, ../scss/breakpoints/_base.scss */
+/* line 1119, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .btn-primary {
   margin-top: 0.5em;
 }
-/* line 1089, ../scss/breakpoints/_base.scss */
+/* line 1122, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box h2 {
   margin: 0em;
   color: #fff;
 }
-/* line 1093, ../scss/breakpoints/_base.scss */
+/* line 1126, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box p {
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 1096, ../scss/breakpoints/_base.scss */
+/* line 1129, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .class-box-text {
   width: 60%;
   padding: 1.5em 0.5em 1.5em 2em;
 }
-/* line 1099, ../scss/breakpoints/_base.scss */
+/* line 1132, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .class-box-text h2 {
   font-size: 1.3em;
 }
-/* line 1103, ../scss/breakpoints/_base.scss */
+/* line 1136, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .class-box-image-1 {
   width: 40%;
   height: 230px;
   background: url(../images/kids-in-classroom.jpg) no-repeat;
   background-size: cover;
 }
-/* line 1109, ../scss/breakpoints/_base.scss */
+/* line 1142, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .class-box-image-2 {
   width: 40%;
   height: 230px;
   background: url(../images/kid-with-marker.jpg) no-repeat;
   background-size: cover;
 }
-/* line 1115, ../scss/breakpoints/_base.scss */
+/* line 1148, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .class-box-image-3 {
   width: 40%;
   height: 230px;
   background: url(../images/kid-with-toy.jpg) no-repeat;
   background-size: cover;
 }
-/* line 1121, ../scss/breakpoints/_base.scss */
+/* line 1154, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .class-box-image-4 {
   width: 40%;
   height: 230px;
   background: url(../images/kids-at-play.jpg) no-repeat;
   background-size: cover;
 }
-/* line 1127, ../scss/breakpoints/_base.scss */
+/* line 1160, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box:hover {
   transition: 0.5s;
 }
 
-/* line 1133, ../scss/breakpoints/_base.scss */
+/* line 1166, ../scss/breakpoints/_base.scss */
 #enroll-section {
   background: #fff;
   padding: 3em 0;
 }
-/* line 1136, ../scss/breakpoints/_base.scss */
+/* line 1169, ../scss/breakpoints/_base.scss */
 #enroll-section .btn-primary {
   margin-top: 1em;
 }
@@ -2297,23 +2340,23 @@ Homepage styles
 /**************
 Our Story styles
 ***************/
-/* line 1145, ../scss/breakpoints/_base.scss */
+/* line 1178, ../scss/breakpoints/_base.scss */
 .our-story-content {
   padding: 3em 0 0 0;
 }
 
-/* line 1149, ../scss/breakpoints/_base.scss */
+/* line 1182, ../scss/breakpoints/_base.scss */
 #story-text-section {
   padding: 1em 0 4em;
 }
 
-/* line 1153, ../scss/breakpoints/_base.scss */
+/* line 1186, ../scss/breakpoints/_base.scss */
 #story-director-section {
   padding: 4em 0;
   background: #eaedf2;
 }
 
-/* line 1158, ../scss/breakpoints/_base.scss */
+/* line 1191, ../scss/breakpoints/_base.scss */
 .our-story-container {
   max-width: 800px;
   margin: 0 auto;
@@ -2321,42 +2364,42 @@ Our Story styles
   padding-right: 15px;
 }
 
-/* line 1167, ../scss/breakpoints/_base.scss */
+/* line 1200, ../scss/breakpoints/_base.scss */
 #our-story-photos-right .photos-top img {
   width: 100%;
   margin-top: 1em;
 }
-/* line 1172, ../scss/breakpoints/_base.scss */
+/* line 1205, ../scss/breakpoints/_base.scss */
 #our-story-photos-right .photos-bottom {
   display: none;
 }
 
-/* line 1177, ../scss/breakpoints/_base.scss */
+/* line 1210, ../scss/breakpoints/_base.scss */
 #story-photo-bar {
   display: block;
   max-height: 370px;
   background: #fff;
 }
-/* line 1181, ../scss/breakpoints/_base.scss */
+/* line 1214, ../scss/breakpoints/_base.scss */
 #story-photo-bar img {
   width: 100%;
   overflow: hidden;
 }
-/* line 1185, ../scss/breakpoints/_base.scss */
+/* line 1218, ../scss/breakpoints/_base.scss */
 #story-photo-bar .photo-two-third {
   width: 100%;
 }
-/* line 1188, ../scss/breakpoints/_base.scss */
+/* line 1221, ../scss/breakpoints/_base.scss */
 #story-photo-bar .photo-one-third {
   display: none;
 }
 
-/* line 1194, ../scss/breakpoints/_base.scss */
+/* line 1227, ../scss/breakpoints/_base.scss */
 .letter-signoff {
   margin-top: 2em;
 }
 
-/* line 1197, ../scss/breakpoints/_base.scss */
+/* line 1230, ../scss/breakpoints/_base.scss */
 .director-name {
   font-size: 1.4em;
   font-style: italic;
@@ -2366,81 +2409,81 @@ Our Story styles
 /**************
 Programs & Rates Styles
 ***************/
-/* line 1207, ../scss/breakpoints/_base.scss */
+/* line 1240, ../scss/breakpoints/_base.scss */
 #programs-page-header {
   background: url("http://localhost:8888/villagenursery/wp-content/uploads/2016/02/programs-header.jpg") no-repeat;
   background-size: cover;
   padding: 5em 0;
 }
-/* line 1211, ../scss/breakpoints/_base.scss */
+/* line 1244, ../scss/breakpoints/_base.scss */
 #programs-page-header #program-header {
   margin: 0;
 }
-/* line 1214, ../scss/breakpoints/_base.scss */
+/* line 1247, ../scss/breakpoints/_base.scss */
 #programs-page-header #program-subheader {
   margin: 0;
   font-size: 1.6em;
   display: none;
 }
 
-/* line 1221, ../scss/breakpoints/_base.scss */
+/* line 1254, ../scss/breakpoints/_base.scss */
 #programs-program-content {
   background: #f3f3f3;
 }
-/* line 1223, ../scss/breakpoints/_base.scss */
+/* line 1256, ../scss/breakpoints/_base.scss */
 #programs-program-content .btn-primary {
   margin-top: 1em;
 }
 
-/* line 1228, ../scss/breakpoints/_base.scss */
+/* line 1261, ../scss/breakpoints/_base.scss */
 .program-photo-right {
   margin-top: 2.5em;
 }
 
-/* line 1233, ../scss/breakpoints/_base.scss */
+/* line 1266, ../scss/breakpoints/_base.scss */
 #programs-subnav {
   display: none;
   border-bottom: 1px solid #eaedf2;
   padding: 0.5em 0;
 }
-/* line 1237, ../scss/breakpoints/_base.scss */
+/* line 1270, ../scss/breakpoints/_base.scss */
 #programs-subnav a {
   color: #7dd667;
   padding: 1em 1.2em;
 }
 
-/* line 1243, ../scss/breakpoints/_base.scss */
+/* line 1276, ../scss/breakpoints/_base.scss */
 .class-info {
   border: 1px solid #eaedf2;
   margin: 1em 0;
 }
-/* line 1246, ../scss/breakpoints/_base.scss */
+/* line 1279, ../scss/breakpoints/_base.scss */
 .class-info i {
   margin-right: 0.3em;
 }
-/* line 1249, ../scss/breakpoints/_base.scss */
+/* line 1282, ../scss/breakpoints/_base.scss */
 .class-info p {
   margin: 0;
 }
-/* line 1252, ../scss/breakpoints/_base.scss */
+/* line 1285, ../scss/breakpoints/_base.scss */
 .class-info h3 {
   margin: 0;
 }
-/* line 1255, ../scss/breakpoints/_base.scss */
+/* line 1288, ../scss/breakpoints/_base.scss */
 .class-info .class-info-header {
   background: #7dd667;
   padding: 0.7em 1em;
   font-weight: 600;
   color: #fff;
 }
-/* line 1261, ../scss/breakpoints/_base.scss */
+/* line 1294, ../scss/breakpoints/_base.scss */
 .class-info .class-info-item {
   padding: 0.7em 1em;
   border-bottom: 1px solid #eaedf2;
   background: #fff;
 }
 
-/* line 1268, ../scss/breakpoints/_base.scss */
+/* line 1301, ../scss/breakpoints/_base.scss */
 .class-download {
   display: none;
   background: #fff;
@@ -2448,120 +2491,120 @@ Programs & Rates Styles
   padding: 1.5em;
   text-align: center;
 }
-/* line 1274, ../scss/breakpoints/_base.scss */
+/* line 1307, ../scss/breakpoints/_base.scss */
 .class-download h2 {
   font-size: 1.55em;
   margin-top: 0;
 }
-/* line 1278, ../scss/breakpoints/_base.scss */
+/* line 1311, ../scss/breakpoints/_base.scss */
 .class-download .btn-primary {
   background-color: #FE6500;
 }
 
-/* line 1283, ../scss/breakpoints/_base.scss */
+/* line 1316, ../scss/breakpoints/_base.scss */
 .class-section {
   padding: 3em 0;
 }
 
-/* line 1287, ../scss/breakpoints/_base.scss */
+/* line 1320, ../scss/breakpoints/_base.scss */
 .class-1,
 .class-3,
 .class-5 {
   background: #f3f3f3;
 }
 
-/* line 1293, ../scss/breakpoints/_base.scss */
+/* line 1326, ../scss/breakpoints/_base.scss */
 .class-2,
 .class-4 {
   background: #fff;
 }
 
-/* line 1300, ../scss/breakpoints/_base.scss */
+/* line 1333, ../scss/breakpoints/_base.scss */
 #enrollment-page-header {
   background: url("http://localhost:8888/villagenursery/wp-content/uploads/2016/02/enrollment-header.jpg") no-repeat;
   background-size: cover;
   padding: 5em 0;
 }
-/* line 1304, ../scss/breakpoints/_base.scss */
+/* line 1337, ../scss/breakpoints/_base.scss */
 #enrollment-page-header #enrollment-header {
   margin: 0;
 }
-/* line 1307, ../scss/breakpoints/_base.scss */
+/* line 1340, ../scss/breakpoints/_base.scss */
 #enrollment-page-header #enrollment-subheader {
   margin: 0;
   font-size: 1.6em;
   display: none;
 }
 
-/* line 1314, ../scss/breakpoints/_base.scss */
+/* line 1347, ../scss/breakpoints/_base.scss */
 #enrollment-program-content {
   background: #f3f3f3;
 }
 
-/* line 1318, ../scss/breakpoints/_base.scss */
+/* line 1351, ../scss/breakpoints/_base.scss */
 #enrollment-subnav {
   display: none;
   border-bottom: 1px solid #eaedf2;
   padding: 0.5em 0;
 }
-/* line 1322, ../scss/breakpoints/_base.scss */
+/* line 1355, ../scss/breakpoints/_base.scss */
 #enrollment-subnav a {
   color: #7dd667;
   padding: 1em 1.2em;
 }
 
-/* line 1330, ../scss/breakpoints/_base.scss */
+/* line 1363, ../scss/breakpoints/_base.scss */
 #contact-top .container {
   padding-top: 2em;
   border-top: 1px solid #eaedf2;
 }
 
-/* line 1338, ../scss/breakpoints/_base.scss */
+/* line 1371, ../scss/breakpoints/_base.scss */
 #contact-director-section a,
 #contact-church-section a {
   color: #4285f4;
 }
-/* line 1341, ../scss/breakpoints/_base.scss */
+/* line 1374, ../scss/breakpoints/_base.scss */
 #contact-director-section .fa,
 #contact-church-section .fa {
   margin-right: 0.7em;
 }
 
-/* line 1346, ../scss/breakpoints/_base.scss */
+/* line 1379, ../scss/breakpoints/_base.scss */
 .contact-divider {
   width: 85%;
 }
 
-/* line 1350, ../scss/breakpoints/_base.scss */
+/* line 1383, ../scss/breakpoints/_base.scss */
 #contact-church-section {
   padding-bottom: 1em;
 }
-/* line 1352, ../scss/breakpoints/_base.scss */
+/* line 1385, ../scss/breakpoints/_base.scss */
 #contact-church-section h2 {
   margin-top: 0;
 }
 
-/* line 1357, ../scss/breakpoints/_base.scss */
+/* line 1390, ../scss/breakpoints/_base.scss */
 #contact-director-section {
   padding-top: 1em;
 }
 
-/* line 1361, ../scss/breakpoints/_base.scss */
+/* line 1394, ../scss/breakpoints/_base.scss */
 #contact-bottom {
   padding-top: 6em;
 }
 
-/* line 1365, ../scss/breakpoints/_base.scss */
+/* line 1398, ../scss/breakpoints/_base.scss */
 #contact-photo-right {
   margin-top: 3em;
 }
-/* line 1367, ../scss/breakpoints/_base.scss */
+/* line 1400, ../scss/breakpoints/_base.scss */
 #contact-photo-right img {
   width: 100%;
   height: auto;
 }
 
-/* line 1373, ../scss/breakpoints/_base.scss */
+/* line 1406, ../scss/breakpoints/_base.scss */
 #google-map {
   display: block;
   width: 100%;

@@ -922,9 +922,42 @@ FOOTER STYLES
 *********************/
 
 .footer {
-    clear: both;
-    background-color: $black;
-    color: $light-gray;
+  clear: both;
+  background-color: $black;
+  color: $light-gray;
+  .right-side-footer-content {
+    text-align: right;
+    display: block;
+    float: right;
+    .fa {
+      margin-left: 0.4em;
+    }
+  }
+}
+
+#fumc-link {
+  background-color: $blue;
+  padding: 1.5em 0;
+  a {
+    color: $white;
+    &:hover {
+      opacity: 0.7;
+      text-decoration: none;
+    }
+  }
+}
+#main-footer {
+  padding: 2.5em 0;
+  h3 {
+    margin-top: 0;
+  }
+  a {
+    color: #aeaeae;
+    &:hover {
+      color: #dedede;
+      text-decoration: none;
+    }
+  }
 }
 
 /*

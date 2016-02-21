@@ -1,22 +1,37 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-				<div id="inner-footer" class="container cf">
-					<nav role="navigation">
-						<?php wp_nav_menu(array(
-    					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
-    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
-    					'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
-    					'menu_class' => 'nav footer-nav cf',            // adding custom nav class
-    					'theme_location' => 'footer-links',             // where it's located in the theme
-    					'before' => '',                                 // before the menu
-    					'after' => '',                                  // after the menu
-    					'link_before' => '',                            // before each link
-    					'link_after' => '',                             // after each link
-    					'depth' => 0,                                   // limit the depth of the nav
-    					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
-						)); ?>
-					</nav>
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
-				</div>
+				<div id="fumc-link">
+          <div class="container">
+            <a href="http://www.fumcwl.org/" target="_blank" rel=”nofollow”><i class="fa fa-angle-double-left"></i> Visit First United Methodist Church</a>
+          </div>
+        </div>
+        <div id="main-footer">
+          <div id="inner-footer" class="container cf">
+            <div class="col-md-3 no-left-pad">
+              <h3>What We Offer</h3>
+              <p>
+                <a href="<?php echo home_url(); ?>/programs/">Programs</a>
+              </p>
+              <p>
+                <a href="<?php echo home_url(); ?>/enrollment/">Enrollment</a>
+              </p>
+              </div>
+            <div class="col-md-3 no-left-pad">
+              <h3>About VNS</h3>
+              <p>
+                <a href="<?php echo home_url(); ?>/our-story/">Our Story</a>
+              </p>
+              <p>
+                <a href="<?php echo home_url(); ?>/contact-us/">Contact</a>
+              </p>
+            </div>
+            <div id="footer-right" class="col-md-6 no-left-pad">
+              <div class="right-side-footer-content">
+                <p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?></p>
+                <a href="https://www.facebook.com/VillageNurserySchoolWL/" rel="nofollow">Connect on Facebook <i class="fa fa-facebook-official"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
 			</footer>
 		</div>
 		<?php // all js scripts are loaded in library/bones.php ?>
