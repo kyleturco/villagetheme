@@ -410,115 +410,123 @@ be seen on the Desktop.
 }
 
 /* line 17, ../scss/breakpoints/_1030up.scss */
+.footer .right-side-footer-content {
+  margin-top: 0;
+  float: right;
+  display: block;
+  text-align: right;
+}
+
+/* line 26, ../scss/breakpoints/_1030up.scss */
 #home-hero-section #inner-content {
   margin: 0 auto;
 }
-/* line 19, ../scss/breakpoints/_1030up.scss */
+/* line 28, ../scss/breakpoints/_1030up.scss */
 #home-hero-section #inner-content h1 {
   font-size: 3em;
 }
-/* line 22, ../scss/breakpoints/_1030up.scss */
+/* line 31, ../scss/breakpoints/_1030up.scss */
 #home-hero-section #inner-content p {
   max-width: 560px;
   margin: 1.5em auto;
 }
 
-/* line 30, ../scss/breakpoints/_1030up.scss */
+/* line 39, ../scss/breakpoints/_1030up.scss */
 #overview-content-left .about-text {
   width: 80%;
 }
-/* line 33, ../scss/breakpoints/_1030up.scss */
+/* line 42, ../scss/breakpoints/_1030up.scss */
 #overview-content-left h4 {
   line-height: 1.4em;
 }
 
-/* line 39, ../scss/breakpoints/_1030up.scss */
+/* line 48, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photo-left {
   width: 66%;
   margin-top: 0;
 }
-/* line 43, ../scss/breakpoints/_1030up.scss */
+/* line 52, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photos-right {
   width: 30%;
   margin-left: 1em;
   display: block;
   float: left;
 }
-/* line 48, ../scss/breakpoints/_1030up.scss */
+/* line 57, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photos-right .photo-1 {
   background: url(../images/kids-at-work.JPG) no-repeat;
   background-size: cover;
   height: 160px;
   margin-bottom: 1em;
 }
-/* line 54, ../scss/breakpoints/_1030up.scss */
+/* line 63, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photos-right .photo-2 {
   background: url(../images/kids-at-table.jpg) no-repeat;
   background-size: cover;
   height: 160px;
 }
 
-/* line 66, ../scss/breakpoints/_1030up.scss */
+/* line 75, ../scss/breakpoints/_1030up.scss */
 #our-story-photos-right .photos-top img {
   margin-top: 0em;
 }
-/* line 70, ../scss/breakpoints/_1030up.scss */
+/* line 79, ../scss/breakpoints/_1030up.scss */
 #our-story-photos-right .photos-bottom {
   display: block;
   margin-top: 1em;
 }
-/* line 73, ../scss/breakpoints/_1030up.scss */
+/* line 82, ../scss/breakpoints/_1030up.scss */
 #our-story-photos-right .photos-bottom img {
   width: 48%;
 }
 
-/* line 79, ../scss/breakpoints/_1030up.scss */
+/* line 88, ../scss/breakpoints/_1030up.scss */
 .class-info {
   width: 60%;
 }
 
-/* line 83, ../scss/breakpoints/_1030up.scss */
+/* line 92, ../scss/breakpoints/_1030up.scss */
 .class-download {
   display: block;
   width: 35%;
 }
 
-/* line 90, ../scss/breakpoints/_1030up.scss */
+/* line 99, ../scss/breakpoints/_1030up.scss */
 #programs-page-header #program-subheader {
   display: block;
 }
 
-/* line 95, ../scss/breakpoints/_1030up.scss */
+/* line 104, ../scss/breakpoints/_1030up.scss */
 #programs-subnav {
   display: block;
 }
 
-/* line 99, ../scss/breakpoints/_1030up.scss */
+/* line 108, ../scss/breakpoints/_1030up.scss */
 .class-info-notes {
   width: 60%;
 }
 
-/* line 105, ../scss/breakpoints/_1030up.scss */
+/* line 114, ../scss/breakpoints/_1030up.scss */
 #enrollment-page-header #enrollment-subheader {
   display: block;
 }
 
-/* line 110, ../scss/breakpoints/_1030up.scss */
+/* line 119, ../scss/breakpoints/_1030up.scss */
 #enrollment-subnav {
   display: block;
 }
 
-/* line 115, ../scss/breakpoints/_1030up.scss */
+/* line 124, ../scss/breakpoints/_1030up.scss */
 .contact-page-content {
   min-height: 750px;
 }
 
-/* line 120, ../scss/breakpoints/_1030up.scss */
+/* line 129, ../scss/breakpoints/_1030up.scss */
 #contact-top .container {
   padding-top: 4em;
 }
 
-/* line 125, ../scss/breakpoints/_1030up.scss */
+/* line 134, ../scss/breakpoints/_1030up.scss */
 #contact-photo-right {
   margin-top: 0em;
 }

@@ -926,9 +926,8 @@ FOOTER STYLES
   background-color: $black;
   color: $light-gray;
   .right-side-footer-content {
-    text-align: right;
-    display: block;
-    float: right;
+    margin-top: 1em;
+    text-align: left;
     .fa {
       margin-left: 0.4em;
     }

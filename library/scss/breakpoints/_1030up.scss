@@ -13,6 +13,15 @@ be seen on the Desktop.
   width: 1040px;
 }
 
+.footer {
+  .right-side-footer-content {
+    margin-top: 0;
+    float: right;
+    display: block;
+    text-align: right;
+  }
+}
+
 #home-hero-section {
   #inner-content {
     margin: 0 auto;
