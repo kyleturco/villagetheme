@@ -1326,11 +1326,53 @@ Programs & Rates Styles
 }
 
 // Contact page styles
-#contact-director-section {
+#contact-top {
+  .container {
+    padding-top: 2em;
+    border-top: 1px solid $gray;
+  }
+}
+
+#contact-director-section,
+#contact-church-section {
   a {
     color: $blue;
   }
   .fa {
     margin-right: 0.7em;
   }
+}
+
+.contact-divider {
+  width: 85%;
+}
+
+#contact-church-section {
+  padding-bottom: 1em;
+  h2 {
+    margin-top: 0;
+  }
+}
+
+#contact-director-section {
+  padding-top: 1em;
+}
+
+#contact-bottom {
+  padding-top: 6em;
+}
+
+#contact-photo-right {
+  margin-top: 3em;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#google-map {
+  display: block;
+  width: 100%;
+  height: 430px;
+  background: $gray;
 }

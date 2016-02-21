@@ -508,6 +508,21 @@ be seen on the Desktop.
   display: block;
 }
 
+/* line 115, ../scss/breakpoints/_1030up.scss */
+.contact-page-content {
+  min-height: 750px;
+}
+
+/* line 120, ../scss/breakpoints/_1030up.scss */
+#contact-top .container {
+  padding-top: 4em;
+}
+
+/* line 125, ../scss/breakpoints/_1030up.scss */
+#contact-photo-right {
+  margin-top: 0em;
+}
+
 /*
 you can call the larger styles if you want, but there's really no need
 */

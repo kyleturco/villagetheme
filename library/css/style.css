@@ -2511,12 +2511,62 @@ Programs & Rates Styles
 }
 
 /* line 1330, ../scss/breakpoints/_base.scss */
-#contact-director-section a {
+#contact-top .container {
+  padding-top: 2em;
+  border-top: 1px solid #eaedf2;
+}
+
+/* line 1338, ../scss/breakpoints/_base.scss */
+#contact-director-section a,
+#contact-church-section a {
   color: #4285f4;
 }
-/* line 1333, ../scss/breakpoints/_base.scss */
-#contact-director-section .fa {
+/* line 1341, ../scss/breakpoints/_base.scss */
+#contact-director-section .fa,
+#contact-church-section .fa {
   margin-right: 0.7em;
+}
+
+/* line 1346, ../scss/breakpoints/_base.scss */
+.contact-divider {
+  width: 85%;
+}
+
+/* line 1350, ../scss/breakpoints/_base.scss */
+#contact-church-section {
+  padding-bottom: 1em;
+}
+/* line 1352, ../scss/breakpoints/_base.scss */
+#contact-church-section h2 {
+  margin-top: 0;
+}
+
+/* line 1357, ../scss/breakpoints/_base.scss */
+#contact-director-section {
+  padding-top: 1em;
+}
+
+/* line 1361, ../scss/breakpoints/_base.scss */
+#contact-bottom {
+  padding-top: 6em;
+}
+
+/* line 1365, ../scss/breakpoints/_base.scss */
+#contact-photo-right {
+  margin-top: 3em;
+}
+/* line 1367, ../scss/breakpoints/_base.scss */
+#contact-photo-right img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 1373, ../scss/breakpoints/_base.scss */
+#google-map {
+  display: block;
+  width: 100%;
+  height: 430px;
+  background: #eaedf2;
 }
 
 /*********************
@@ -2946,6 +2996,21 @@ you can add resource intensive styles.
   /* line 110, ../scss/breakpoints/_1030up.scss */
   #enrollment-subnav {
     display: block;
+  }
+
+  /* line 115, ../scss/breakpoints/_1030up.scss */
+  .contact-page-content {
+    min-height: 750px;
+  }
+
+  /* line 120, ../scss/breakpoints/_1030up.scss */
+  #contact-top .container {
+    padding-top: 4em;
+  }
+
+  /* line 125, ../scss/breakpoints/_1030up.scss */
+  #contact-photo-right {
+    margin-top: 0em;
   }
 }
 /*********************
