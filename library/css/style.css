@@ -2108,7 +2108,7 @@ Homepage styles
 ***************/
 /* line 985, ../scss/breakpoints/_base.scss */
 #home-hero-section {
-  background: url("http://localhost:8888/villagenursery/wp-content/uploads/2016/02/home-hero-demo1.jpg") no-repeat;
+  background: url("http://localhost:8888/villagenursery/wp-content/uploads/2016/02/home-hero-demo3.jpg") no-repeat;
   background-size: cover;
   padding: 6em 0;
 }
@@ -2202,7 +2202,7 @@ Homepage styles
   height: 336px;
   display: block;
   float: left;
-  background: url("http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg") no-repeat;
+  background: url(../images/home-photo-1.JPG) no-repeat;
   background-size: cover;
   margin-top: 1.5em;
 }
@@ -2248,28 +2248,28 @@ Homepage styles
 #home-classes-section .class-box .class-box-image-1 {
   width: 40%;
   height: 230px;
-  background: url("http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg") no-repeat;
+  background: url(../images/kids-in-classroom.jpg) no-repeat;
   background-size: cover;
 }
 /* line 1103, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .class-box-image-2 {
   width: 40%;
   height: 230px;
-  background: url("http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg") no-repeat;
+  background: url(../images/kid-with-marker.jpg) no-repeat;
   background-size: cover;
 }
 /* line 1109, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .class-box-image-3 {
   width: 40%;
   height: 230px;
-  background: url("http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg") no-repeat;
+  background: url(../images/kid-with-toy.jpg) no-repeat;
   background-size: cover;
 }
 /* line 1115, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .class-box-image-4 {
   width: 40%;
   height: 230px;
-  background: url("http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg") no-repeat;
+  background: url(../images/kids-at-play.jpg) no-repeat;
   background-size: cover;
 }
 /* line 1121, ../scss/breakpoints/_base.scss */
@@ -2291,99 +2291,113 @@ Homepage styles
 Our Story styles
 ***************/
 /* line 1139, ../scss/breakpoints/_base.scss */
+.our-story-content {
+  padding: 2em 0;
+}
+
+/* line 1143, ../scss/breakpoints/_base.scss */
 #story-text-section {
   padding: 3em 0;
 }
 
-/* line 1143, ../scss/breakpoints/_base.scss */
+/* line 1147, ../scss/breakpoints/_base.scss */
 #story-director-section {
   padding: 7em 0;
 }
 
-/* line 1147, ../scss/breakpoints/_base.scss */
-.letter-text {
-  max-width: 600px;
-  margin: 0 auto;
+/* line 1153, ../scss/breakpoints/_base.scss */
+#our-story-photos-right .photos-top img {
+  width: 100%;
+  margin-top: 1em;
+}
+/* line 1158, ../scss/breakpoints/_base.scss */
+#our-story-photos-right .photos-bottom {
+  display: none;
+}
+
+/* line 1163, ../scss/breakpoints/_base.scss */
+#story-photo-bar {
+  display: none;
 }
 
 /**************
 Programs & Rates Styles
 ***************/
-/* line 1156, ../scss/breakpoints/_base.scss */
+/* line 1171, ../scss/breakpoints/_base.scss */
 #programs-page-header {
   background: url("http://localhost:8888/villagenursery/wp-content/uploads/2016/02/programs-header.jpg") no-repeat;
   background-size: cover;
   padding: 5em 0;
 }
-/* line 1160, ../scss/breakpoints/_base.scss */
+/* line 1175, ../scss/breakpoints/_base.scss */
 #programs-page-header #program-header {
   margin: 0;
 }
-/* line 1163, ../scss/breakpoints/_base.scss */
+/* line 1178, ../scss/breakpoints/_base.scss */
 #programs-page-header #program-subheader {
   margin: 0;
   font-size: 1.6em;
   display: none;
 }
 
-/* line 1170, ../scss/breakpoints/_base.scss */
+/* line 1185, ../scss/breakpoints/_base.scss */
 #programs-program-content {
   background: #f3f3f3;
 }
-/* line 1172, ../scss/breakpoints/_base.scss */
+/* line 1187, ../scss/breakpoints/_base.scss */
 #programs-program-content .btn-primary {
   margin-top: 1em;
 }
 
-/* line 1177, ../scss/breakpoints/_base.scss */
+/* line 1192, ../scss/breakpoints/_base.scss */
 .program-photo-right {
   margin-top: 2.5em;
 }
 
-/* line 1182, ../scss/breakpoints/_base.scss */
+/* line 1197, ../scss/breakpoints/_base.scss */
 #programs-subnav {
   display: none;
   border-bottom: 1px solid #eaedf2;
   padding: 0.5em 0;
 }
-/* line 1186, ../scss/breakpoints/_base.scss */
+/* line 1201, ../scss/breakpoints/_base.scss */
 #programs-subnav a {
   color: #7dd667;
   padding: 1em 1.2em;
 }
 
-/* line 1192, ../scss/breakpoints/_base.scss */
+/* line 1207, ../scss/breakpoints/_base.scss */
 .class-info {
   border: 1px solid #eaedf2;
   margin: 1em 0;
 }
-/* line 1195, ../scss/breakpoints/_base.scss */
+/* line 1210, ../scss/breakpoints/_base.scss */
 .class-info i {
   margin-right: 0.3em;
 }
-/* line 1198, ../scss/breakpoints/_base.scss */
+/* line 1213, ../scss/breakpoints/_base.scss */
 .class-info p {
   margin: 0;
 }
-/* line 1201, ../scss/breakpoints/_base.scss */
+/* line 1216, ../scss/breakpoints/_base.scss */
 .class-info h3 {
   margin: 0;
 }
-/* line 1204, ../scss/breakpoints/_base.scss */
+/* line 1219, ../scss/breakpoints/_base.scss */
 .class-info .class-info-header {
   background: #7dd667;
   padding: 0.7em 1em;
   font-weight: 600;
   color: #fff;
 }
-/* line 1210, ../scss/breakpoints/_base.scss */
+/* line 1225, ../scss/breakpoints/_base.scss */
 .class-info .class-info-item {
   padding: 0.7em 1em;
   border-bottom: 1px solid #eaedf2;
   background: #fff;
 }
 
-/* line 1217, ../scss/breakpoints/_base.scss */
+/* line 1232, ../scss/breakpoints/_base.scss */
 .class-download {
   display: none;
   background: #fff;
@@ -2391,63 +2405,63 @@ Programs & Rates Styles
   padding: 1.5em;
   text-align: center;
 }
-/* line 1223, ../scss/breakpoints/_base.scss */
+/* line 1238, ../scss/breakpoints/_base.scss */
 .class-download h2 {
   font-size: 1.55em;
   margin-top: 0;
 }
-/* line 1227, ../scss/breakpoints/_base.scss */
+/* line 1242, ../scss/breakpoints/_base.scss */
 .class-download .btn-primary {
   background-color: #FE6500;
 }
 
-/* line 1232, ../scss/breakpoints/_base.scss */
+/* line 1247, ../scss/breakpoints/_base.scss */
 .class-section {
   padding: 3em 0;
 }
 
-/* line 1236, ../scss/breakpoints/_base.scss */
+/* line 1251, ../scss/breakpoints/_base.scss */
 .class-1,
 .class-3,
 .class-5 {
   background: #f3f3f3;
 }
 
-/* line 1242, ../scss/breakpoints/_base.scss */
+/* line 1257, ../scss/breakpoints/_base.scss */
 .class-2,
 .class-4 {
   background: #fff;
 }
 
-/* line 1249, ../scss/breakpoints/_base.scss */
+/* line 1264, ../scss/breakpoints/_base.scss */
 #enrollment-page-header {
   background: url("http://localhost:8888/villagenursery/wp-content/uploads/2016/02/enrollment-header.jpg") no-repeat;
   background-size: cover;
   padding: 5em 0;
 }
-/* line 1253, ../scss/breakpoints/_base.scss */
+/* line 1268, ../scss/breakpoints/_base.scss */
 #enrollment-page-header #enrollment-header {
   margin: 0;
 }
-/* line 1256, ../scss/breakpoints/_base.scss */
+/* line 1271, ../scss/breakpoints/_base.scss */
 #enrollment-page-header #enrollment-subheader {
   margin: 0;
   font-size: 1.6em;
   display: none;
 }
 
-/* line 1263, ../scss/breakpoints/_base.scss */
+/* line 1278, ../scss/breakpoints/_base.scss */
 #enrollment-program-content {
   background: #f3f3f3;
 }
 
-/* line 1267, ../scss/breakpoints/_base.scss */
+/* line 1282, ../scss/breakpoints/_base.scss */
 #enrollment-subnav {
   display: none;
   border-bottom: 1px solid #eaedf2;
   padding: 0.5em 0;
 }
-/* line 1271, ../scss/breakpoints/_base.scss */
+/* line 1286, ../scss/breakpoints/_base.scss */
 #enrollment-subnav a {
   color: #7dd667;
   padding: 1em 1.2em;
@@ -2777,81 +2791,118 @@ you can add resource intensive styles.
     margin: 1.5em auto;
   }
 
-  /**************
-  Our Story styles
-  ***************/
-  /* line 38, ../scss/breakpoints/_1030up.scss */
+  /* line 30, ../scss/breakpoints/_1030up.scss */
   #overview-content-left .about-text {
     width: 80%;
   }
-  /* line 41, ../scss/breakpoints/_1030up.scss */
+  /* line 33, ../scss/breakpoints/_1030up.scss */
   #overview-content-left h4 {
     line-height: 1.4em;
   }
 
-  /* line 47, ../scss/breakpoints/_1030up.scss */
+  /* line 39, ../scss/breakpoints/_1030up.scss */
   #overview-photos-right .photo-left {
     width: 66%;
     margin-top: 0;
   }
-  /* line 51, ../scss/breakpoints/_1030up.scss */
+  /* line 43, ../scss/breakpoints/_1030up.scss */
   #overview-photos-right .photos-right {
     width: 30%;
     margin-left: 1em;
     display: block;
     float: left;
   }
-  /* line 56, ../scss/breakpoints/_1030up.scss */
+  /* line 48, ../scss/breakpoints/_1030up.scss */
   #overview-photos-right .photos-right .photo-1 {
-    background: url("http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg") no-repeat;
+    background: url(../images/kids-at-work.JPG) no-repeat;
     background-size: cover;
     height: 160px;
     margin-bottom: 1em;
   }
-  /* line 62, ../scss/breakpoints/_1030up.scss */
+  /* line 54, ../scss/breakpoints/_1030up.scss */
   #overview-photos-right .photos-right .photo-2 {
-    background: url("http://localhost:8888/villagenursery/wp-content/themes/vnstheme/library/images/home-photo-1.jpg") no-repeat;
+    background: url(../images/kids-at-table.jpg) no-repeat;
     background-size: cover;
     height: 160px;
   }
 
-  /* line 71, ../scss/breakpoints/_1030up.scss */
+  /* line 63, ../scss/breakpoints/_1030up.scss */
+  .our-story-text {
+    width: 87%;
+  }
+
+  /* line 69, ../scss/breakpoints/_1030up.scss */
+  #our-story-photos-right .photos-top img {
+    margin-top: 0em;
+  }
+  /* line 73, ../scss/breakpoints/_1030up.scss */
+  #our-story-photos-right .photos-bottom {
+    display: block;
+    margin-top: 1em;
+  }
+  /* line 76, ../scss/breakpoints/_1030up.scss */
+  #our-story-photos-right .photos-bottom img {
+    width: 48%;
+  }
+
+  /* line 82, ../scss/breakpoints/_1030up.scss */
+  #story-photo-bar {
+    display: block;
+    max-height: 370px;
+    background: #fff;
+  }
+  /* line 86, ../scss/breakpoints/_1030up.scss */
+  #story-photo-bar img {
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+  }
+  /* line 91, ../scss/breakpoints/_1030up.scss */
+  #story-photo-bar .photo-two-third {
+    width: 66%;
+  }
+  /* line 94, ../scss/breakpoints/_1030up.scss */
+  #story-photo-bar .photo-one-third {
+    width: 34%;
+  }
+
+  /* line 100, ../scss/breakpoints/_1030up.scss */
   .letter-text {
     width: 66%;
   }
 
-  /* line 75, ../scss/breakpoints/_1030up.scss */
+  /* line 104, ../scss/breakpoints/_1030up.scss */
   .class-info {
     width: 60%;
   }
 
-  /* line 79, ../scss/breakpoints/_1030up.scss */
+  /* line 108, ../scss/breakpoints/_1030up.scss */
   .class-download {
     display: block;
     width: 35%;
   }
 
-  /* line 86, ../scss/breakpoints/_1030up.scss */
+  /* line 115, ../scss/breakpoints/_1030up.scss */
   #programs-page-header #program-subheader {
     display: block;
   }
 
-  /* line 91, ../scss/breakpoints/_1030up.scss */
+  /* line 120, ../scss/breakpoints/_1030up.scss */
   #programs-subnav {
     display: block;
   }
 
-  /* line 95, ../scss/breakpoints/_1030up.scss */
+  /* line 124, ../scss/breakpoints/_1030up.scss */
   .class-info-notes {
     width: 60%;
   }
 
-  /* line 101, ../scss/breakpoints/_1030up.scss */
+  /* line 130, ../scss/breakpoints/_1030up.scss */
   #enrollment-page-header #enrollment-subheader {
     display: block;
   }
 
-  /* line 106, ../scss/breakpoints/_1030up.scss */
+  /* line 135, ../scss/breakpoints/_1030up.scss */
   #enrollment-subnav {
     display: block;
   }

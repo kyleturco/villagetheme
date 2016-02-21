@@ -15,7 +15,7 @@ Template Name: Home Page
         <p class="text-white text-center">
           <i>A safe and secure enviornment dedicated to helping children grow and flourish</i>
         </p>
-        <a id="home-hero-btn" href="<?php echo home_url(); ?>/programs-rates/" class="btn btn-primary">See Our Programs <i class="fa fa-angle-double-right"></i></a>
+        <a id="home-hero-btn" href="<?php echo home_url(); ?>/programs/" class="btn btn-primary">See Our Programs <i class="fa fa-angle-double-right"></i></a>
       </div>
     </div>
   </div>

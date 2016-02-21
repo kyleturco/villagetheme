@@ -37,7 +37,7 @@ Template Name: Programs
           <a href="<?php echo home_url(); ?>/enrollment/#class-1" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="program-photo-right col-md-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/library/images/home-photo-1.jpg" alt="" width="400px">
+          <img src="<?php echo get_template_directory_uri(); ?>/library/images/kids-in-playroom.jpg" alt="" width="400px">
         </div>
         <div class="clearfix"></div>
       </div>
@@ -98,7 +98,7 @@ Template Name: Programs
           <a href="<?php echo home_url(); ?>/enrollment/#stay-and-play-enroll" class="btn btn-primary">Sign Up Now</a>
         </div>
         <div class="program-photo-right col-md-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/library/images/classroom-1.jpg" alt="" width="400px">
+          <img src="<?php echo get_template_directory_uri(); ?>/library/images/book-rack.jpg" alt="" width="400px">
         </div>
       </div>
     </div>
