@@ -1099,8 +1099,9 @@ Homepage styles
     height: 336px;
     display: block;
     float: left;
-    background: url(../images/home-photo-1.JPG) no-repeat;
+    background: url(../images/home-photo-4.JPG) no-repeat;
     background-size: cover;
+    background-position: center;
     margin-top: 1.5em;
   }
   .photos-right {
@@ -1137,24 +1138,28 @@ Homepage styles
       height: 230px;
       background: url(../images/kids-in-classroom.jpg) no-repeat;
       background-size: cover;
+      background-position: center;
     }
     .class-box-image-2 {
       width: 40%;
       height: 230px;
       background: url(../images/kid-with-marker.jpg) no-repeat;
       background-size: cover;
+      background-position: center;
     }
     .class-box-image-3 {
       width: 40%;
       height: 230px;
       background: url(../images/kid-with-toy.jpg) no-repeat;
       background-size: cover;
+      background-position: center;
     }
     .class-box-image-4 {
       width: 40%;
       height: 230px;
       background: url(../images/kids-at-play.jpg) no-repeat;
       background-size: cover;
+      background-position: center;
     }
     &:hover {
       transition: 0.5s;
@@ -1237,8 +1242,10 @@ Programs & Rates Styles
 ***************/
 
 #programs-page-header {
-  background: url('http://localhost:8888/villagenursery/wp-content/uploads/2016/02/programs-header.jpg') no-repeat;
+  background: url(../images/programs-header-ver2.jpg) no-repeat;
   background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 20%;
   padding: 5em 0;
   #program-header {
     margin: 0;
@@ -1254,6 +1261,9 @@ Programs & Rates Styles
   background: $light-gray;
   .btn-primary {
     margin-top: 1em;
+  }
+  img {
+    width: 100%;
   }
 }
 
@@ -1330,9 +1340,11 @@ Programs & Rates Styles
 // Enrollment Page styles
 
 #enrollment-page-header {
-  background: url('http://localhost:8888/villagenursery/wp-content/uploads/2016/02/enrollment-header.jpg') no-repeat;
+  background: url(../images/enrollment-header-ver2.jpg) no-repeat;
   background-size: cover;
   padding: 5em 0;
+  background-position-x: 45%;
+  background-position-y: 60%;
   #enrollment-header {
     margin: 0;
   }
