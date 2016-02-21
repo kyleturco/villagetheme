@@ -53,7 +53,7 @@ Template Name: Our Story
   <div id="story-director-section">
     <div class="our-story-container">
       <div class="letter-text">
-        <h2>A Note from Our Director</h2>
+        <h1>A Note from Our Director</h1>
         <p>
           I have been one of the "Village" people for the last 6 years. Here at VNS I have played many roles
           including parent, teacher, and substitute. I'm fortunate to say VNS has been my family's "home away

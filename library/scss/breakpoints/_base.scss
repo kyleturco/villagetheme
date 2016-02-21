@@ -1195,7 +1195,7 @@ Our Story styles
   margin-top: 2em;
 }
 .director-name {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-style: italic;
   color: $orange;
 }
@@ -1322,5 +1322,15 @@ Programs & Rates Styles
   a {
     color: $green;
     padding: 1em 1.2em;
+  }
+}
+
+// Contact page styles
+#contact-director-section {
+  a {
+    color: $blue;
+  }
+  .fa {
+    margin-right: 0.7em;
   }
 }

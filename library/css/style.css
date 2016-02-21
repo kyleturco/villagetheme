@@ -2358,7 +2358,7 @@ Our Story styles
 
 /* line 1197, ../scss/breakpoints/_base.scss */
 .director-name {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-style: italic;
   color: #FE6500;
 }
@@ -2508,6 +2508,15 @@ Programs & Rates Styles
 #enrollment-subnav a {
   color: #7dd667;
   padding: 1em 1.2em;
+}
+
+/* line 1330, ../scss/breakpoints/_base.scss */
+#contact-director-section a {
+  color: #4285f4;
+}
+/* line 1333, ../scss/breakpoints/_base.scss */
+#contact-director-section .fa {
+  margin-right: 0.7em;
 }
 
 /*********************
@@ -2810,11 +2819,11 @@ you can add resource intensive styles.
   }
   /* line 308, ../scss/breakpoints/_768up.scss */
   #story-photo-bar .photo-two-third {
-    width: 66%;
+    width: 65%;
   }
   /* line 311, ../scss/breakpoints/_768up.scss */
   #story-photo-bar .photo-one-third {
-    width: 34%;
+    width: 33.5%;
     display: block;
   }
 }

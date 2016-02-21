@@ -386,11 +386,11 @@ CUSTOM STYLES
 }
 /* line 308, ../scss/breakpoints/_768up.scss */
 #story-photo-bar .photo-two-third {
-  width: 66%;
+  width: 65%;
 }
 /* line 311, ../scss/breakpoints/_768up.scss */
 #story-photo-bar .photo-one-third {
-  width: 34%;
+  width: 33.5%;
   display: block;
 }
 
