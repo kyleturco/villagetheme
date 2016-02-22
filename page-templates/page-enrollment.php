@@ -33,7 +33,7 @@ Template Name: Enrollment
         <div class="class-download pull-right">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
-          <div class="btn btn-primary">Get My Form</div>
+          <a href="<?php echo home_url(); ?>/wp-content/uploads/2016/02/village-nursery-school-enrollment.pdf" class="btn btn-primary" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
           <div class="class-info-header">
@@ -86,7 +86,7 @@ Template Name: Enrollment
         <div class="class-download pull-right">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
-          <div class="btn btn-primary">Get My Form</div>
+          <a href="<?php echo home_url(); ?>/wp-content/uploads/2016/02/village-nursery-school-enrollment.pdf" class="btn btn-primary" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
           <div class="class-info-header">
@@ -137,7 +137,7 @@ Template Name: Enrollment
         <div class="class-download pull-right">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
-          <div class="btn btn-primary">Get My Form</div>
+          <a href="<?php echo home_url(); ?>/wp-content/uploads/2016/02/village-nursery-school-enrollment.pdf" class="btn btn-primary" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
           <div class="class-info-header">
@@ -180,10 +180,6 @@ Template Name: Enrollment
             *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 2 for individuals who'd benefit
              from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
           </p>
-          <p>
-            **This class is for 3-5yr olds with a PreK curriculum modified to Preschool 2 for individuals who'd benefit
-            from it.
-          </p>
         </div>
       </div>
     </div>
@@ -195,7 +191,7 @@ Template Name: Enrollment
         <div class="class-download pull-right">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
-          <div class="btn btn-primary">Get My Form</div>
+          <a href="<?php echo home_url(); ?>/wp-content/uploads/2016/02/village-nursery-school-enrollment.pdf" class="btn btn-primary" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
           <div class="class-info-header">
@@ -240,10 +236,12 @@ Template Name: Enrollment
         <div class="class-1-header text-center">
           <h1>Stay & Play</h1>
         </div>
-        <div class="class-download pull-right">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
-          <div class="btn btn-primary">Get My Form</div>
+        <div class="class-info-notes">
+          <p>
+            Sign-up for Before-School (8:30 AM - 9:00 AM) and After-School care (11:30 AM - 12:00 PM). Limited spots
+            are available. You must call ahead or sign-up in advance. We do have a ratio of adults to children for better
+            care and may not be able to accommodate your drop-in needs if you do not call ahead.
+          </p>
         </div>
         <div class="class-info">
           <div class="class-info-header">
@@ -253,39 +251,19 @@ Template Name: Enrollment
               <p>4-5 years old (must be 4 by August 1 of the school year)</p>
             </div>
           <div class="class-info-header">
-            <h3><i class="fa fa-usd"></i> Tuition</h3>
+            <h3><i class="fa fa-usd"></i> Tuition & Scheduling</h3>
           </div>
           <div class="tuition-info">
             <div class="class-info-item info-1">
-              <p>$125/month for 1 class/week</p>
+              <p>Session 1 (8:30am - 9:00 am) $5</p>
             </div>
             <div class="class-info-item info-2">
-              <p>$200/month for 2 classes/week</p>
-            </div>
-          </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
-          </div>
-          <div class="schedule-info">
-            <div class="class-info-item info-1">
-              <p>Monday/Wednesday/Friday 9:00-11:30 AM</p>
-            </div>
-            <div class="class-info-item info-2">
-              <p>Monday-Friday 9:00-11:30 AM</p>
+              <p>Session 2 (9:00am - 11:030 am) $15 or $5 per half hour</p>
             </div>
             <div class="class-info-item info-3">
-              <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM</p>
-            </div>
-            <div class="class-info-item info-4">
-              <p>**Tuesday-Wednesday-Thursday 12:30-2:50 PM</p>
+              <p>Session 3 (11:30am - 12:00 pm) $5</p>
             </div>
           </div>
-        </div>
-        <div class="class-info-notes">
-          <p>
-            *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 2 for individuals who'd benefit
-             from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
-          </p>
         </div>
       </div>
     </div>

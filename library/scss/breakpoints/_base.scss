@@ -1319,6 +1319,9 @@ Programs & Rates Styles
   }
   .btn-primary {
     background-color: $orange;
+    &:hover {
+      background-color: darken($orange, 8%);
+    }
   }
 }
 
