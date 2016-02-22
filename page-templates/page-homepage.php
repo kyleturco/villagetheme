@@ -91,7 +91,7 @@ Template Name: Home Page
             <br>
             <b>Class size:</b> 10
           </p>
-          <a href="<?php echo home_url(); ?>/enrollment/#class-1" class="btn btn-primary">Enroll Now</a>
+          <a href="<?php echo home_url(); ?>/enrollment/#preschool-2" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="class-box-image-1 pull-right"></div>
       </div>
@@ -103,7 +103,7 @@ Template Name: Home Page
             <br>
             <b>Class size:</b> 15
           </p>
-          <a href="<?php echo home_url(); ?>/enrollment/#class-2" class="btn btn-primary">Enroll Now</a>
+          <a href="<?php echo home_url(); ?>/enrollment/#preschool-3" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="class-box-image-2 pull-right"></div>
       </div>
@@ -115,7 +115,7 @@ Template Name: Home Page
             <br>
             <b>Class size:</b> 15
           </p>
-          <a href="<?php echo home_url(); ?>/enrollment/#class-3" class="btn btn-primary">Enroll Now</a>
+          <a href="<?php echo home_url(); ?>/enrollment/#pre-k" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="class-box-image-3 pull-right"></div>
       </div>
@@ -127,7 +127,7 @@ Template Name: Home Page
             <br>
             <b>Class size:</b> Varies
           </p>
-          <a href="<?php echo home_url(); ?>/enrollment/#class-4" class="btn btn-primary">Enroll Now</a>
+          <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
         </div>
       <div class="class-box-image-4 pull-right"></div>
       </div>

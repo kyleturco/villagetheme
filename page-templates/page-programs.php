@@ -45,7 +45,7 @@ Template Name: Programs
     <div id="pit" class="class-section class-2">
       <div class="container">
         <div class="program-photo-right col-md-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.jpg" alt="" width="400px">
+          <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="" width="400px">
         </div>
         <div class="class-description col-md-7">
           <h2>Parent Infant Toddler</h2>
