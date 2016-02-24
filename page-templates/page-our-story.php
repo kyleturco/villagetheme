@@ -9,10 +9,10 @@ Template Name: Our Story
 <div id="content" class="our-story-content">
   <div id="story-photo-bar">
     <div class="container">
-      <div class="photo-two-third pull-left">
+      <div class="photo-two-third">
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/vns-blocks.jpg" alt="">
       </div>
-      <div class="photo-one-third pull-right">
+      <div class="photo-one-third">
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/vns-classroom.jpg" alt="">
       </div>
     </div>
@@ -71,11 +71,20 @@ Template Name: Our Story
           a unique contribution to our special school.  As Director, I hope we all find our fit in our "home away
           from home" as we work together here at Village Nursery School and FUMC.
         </p>
-        <p class="letter-signoff">
-          Looking forward,
-        </p>
-        <p class="director-name">Deanna Bibler</p>
-        <h4>Village Nursery School Director</h4>
+        <div class="director-signoff">
+          <div class="left-side">
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/deanna-bibler-headshot.jpg" alt="">
+          </div>
+          <div class="right-side">
+            <p class="letter-signoff">
+              Looking forward,
+            </p>
+            <p class="director-name">Deanna Bibler</p>
+            <h4>Director</h4>
+            <p>Village Nursery School</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
       </div>
     </div>
   </div>

@@ -384,15 +384,6 @@ CUSTOM STYLES
   height: 370px;
   overflow: hidden;
 }
-/* line 308, ../scss/breakpoints/_768up.scss */
-#story-photo-bar .photo-two-third {
-  width: 65%;
-}
-/* line 311, ../scss/breakpoints/_768up.scss */
-#story-photo-bar .photo-one-third {
-  width: 33.5%;
-  display: block;
-}
 
 /******************************************************************
 Site Name:
@@ -480,53 +471,53 @@ be seen on the Desktop.
   width: 48%;
 }
 
-/* line 88, ../scss/breakpoints/_1030up.scss */
+/* line 89, ../scss/breakpoints/_1030up.scss */
 .class-info {
   width: 60%;
 }
 
-/* line 92, ../scss/breakpoints/_1030up.scss */
+/* line 93, ../scss/breakpoints/_1030up.scss */
 .class-download {
   display: block;
   width: 35%;
 }
 
-/* line 99, ../scss/breakpoints/_1030up.scss */
+/* line 100, ../scss/breakpoints/_1030up.scss */
 #programs-page-header #program-subheader {
   display: block;
 }
 
-/* line 104, ../scss/breakpoints/_1030up.scss */
+/* line 105, ../scss/breakpoints/_1030up.scss */
 #programs-subnav {
   display: block;
 }
 
-/* line 108, ../scss/breakpoints/_1030up.scss */
+/* line 109, ../scss/breakpoints/_1030up.scss */
 .class-info-notes {
   width: 60%;
 }
 
-/* line 114, ../scss/breakpoints/_1030up.scss */
+/* line 115, ../scss/breakpoints/_1030up.scss */
 #enrollment-page-header #enrollment-subheader {
   display: block;
 }
 
-/* line 119, ../scss/breakpoints/_1030up.scss */
+/* line 120, ../scss/breakpoints/_1030up.scss */
 #enrollment-subnav {
   display: block;
 }
 
-/* line 124, ../scss/breakpoints/_1030up.scss */
+/* line 125, ../scss/breakpoints/_1030up.scss */
 .contact-page-content {
   min-height: 750px;
 }
 
-/* line 129, ../scss/breakpoints/_1030up.scss */
+/* line 130, ../scss/breakpoints/_1030up.scss */
 #contact-top .container {
   padding-top: 4em;
 }
 
-/* line 134, ../scss/breakpoints/_1030up.scss */
+/* line 135, ../scss/breakpoints/_1030up.scss */
 #contact-photo-right {
   margin-top: 0em;
 }

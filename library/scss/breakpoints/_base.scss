@@ -1056,21 +1056,20 @@ Homepage styles
   width: 140px;
   border-radius: 70px;
 }
-
 .icon-1 {
   background: $orange;
   .fa {
-    font-size: 3.4em;
-    margin-top: 0.65em;
-    margin-left: 0.65em;
+    font-size: 3.7em;
+    margin-top: 0.5em;
+    margin-left: 0.6em;
   }
 }
 .icon-2 {
   background: $blue;
   .fa {
-    font-size: 3.7em;
-    margin-top: 0.5em;
-    margin-left: 0.6em;
+    font-size: 3.4em;
+    margin-top: 0.65em;
+    margin-left: 0.65em;
   }
 }
 .icon-3 {
@@ -1216,11 +1215,12 @@ Our Story styles
   max-height: 370px;
   background: $white;
   img {
-    width: 100%;
     overflow: hidden;
   }
   .photo-two-third {
-    width: 100%;
+    width: 741px;
+    margin: 0 auto;
+    display: block;
   }
   .photo-one-third {
     display: none;
@@ -1228,25 +1228,44 @@ Our Story styles
 }
 
 
-.letter-signoff {
+.director-signoff {
   margin-top: 2em;
+  img {
+    float: left;
+    width: 120px;
+    display: block;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: 5px solid $white;
+  }
+  h4 {
+    margin-bottom: 0;
+  }
+  .right-side {
+    float: left;
+    display: block;
+    .director-name {
+      font-size: 1.5em;
+      font-style: italic;
+      color: #1f1f1f;
+    }
+  }
 }
-.director-name {
-  font-size: 1.4em;
-  font-style: italic;
-  color: $orange;
-}
-
 /**************
 Programs & Rates Styles
 ***************/
+
+#program-header,
+#enrollment-header {
+  font-size: 3em;
+}
 
 #programs-page-header {
   background: url(../images/programs-header-ver2.jpg) no-repeat;
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 20%;
-  padding: 5em 0;
+  padding: 6em 0;
   #program-header {
     margin: 0;
   }
@@ -1344,7 +1363,7 @@ Programs & Rates Styles
 #enrollment-page-header {
   background: url(../images/enrollment-header-ver2.jpg) no-repeat;
   background-size: cover;
-  padding: 5em 0;
+  padding: 6em 0;
   background-position-x: 45%;
   background-position-y: 60%;
   #enrollment-header {
