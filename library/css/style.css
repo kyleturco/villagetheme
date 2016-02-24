@@ -2450,50 +2450,50 @@ Programs & Rates Styles
   margin-top: 2.5em;
 }
 
-/* line 1275, ../scss/breakpoints/_base.scss */
+/* line 1274, ../scss/breakpoints/_base.scss */
 #programs-subnav {
   display: none;
   border-bottom: 1px solid #eaedf2;
   padding: 0.5em 0;
 }
-/* line 1279, ../scss/breakpoints/_base.scss */
+/* line 1278, ../scss/breakpoints/_base.scss */
 #programs-subnav a {
   color: #7dd667;
   padding: 1em 1.2em;
 }
 
-/* line 1285, ../scss/breakpoints/_base.scss */
+/* line 1284, ../scss/breakpoints/_base.scss */
 .class-info {
   border: 1px solid #eaedf2;
   margin: 1em 0;
 }
-/* line 1288, ../scss/breakpoints/_base.scss */
+/* line 1287, ../scss/breakpoints/_base.scss */
 .class-info i {
   margin-right: 0.3em;
 }
-/* line 1291, ../scss/breakpoints/_base.scss */
+/* line 1290, ../scss/breakpoints/_base.scss */
 .class-info p {
   margin: 0;
 }
-/* line 1294, ../scss/breakpoints/_base.scss */
+/* line 1293, ../scss/breakpoints/_base.scss */
 .class-info h3 {
   margin: 0;
 }
-/* line 1297, ../scss/breakpoints/_base.scss */
+/* line 1296, ../scss/breakpoints/_base.scss */
 .class-info .class-info-header {
   background: #7dd667;
   padding: 0.7em 1em;
   font-weight: 600;
   color: #fff;
 }
-/* line 1303, ../scss/breakpoints/_base.scss */
+/* line 1302, ../scss/breakpoints/_base.scss */
 .class-info .class-info-item {
   padding: 0.7em 1em;
   border-bottom: 1px solid #eaedf2;
   background: #fff;
 }
 
-/* line 1310, ../scss/breakpoints/_base.scss */
+/* line 1309, ../scss/breakpoints/_base.scss */
 .class-download {
   display: none;
   background: #fff;
@@ -2501,39 +2501,39 @@ Programs & Rates Styles
   padding: 1.5em;
   text-align: center;
 }
-/* line 1316, ../scss/breakpoints/_base.scss */
+/* line 1315, ../scss/breakpoints/_base.scss */
 .class-download h2 {
   font-size: 1.55em;
   margin-top: 0;
 }
-/* line 1320, ../scss/breakpoints/_base.scss */
+/* line 1319, ../scss/breakpoints/_base.scss */
 .class-download .btn-primary {
   background-color: #FE6500;
 }
-/* line 1322, ../scss/breakpoints/_base.scss */
+/* line 1321, ../scss/breakpoints/_base.scss */
 .class-download .btn-primary:hover {
   background-color: #d55500;
 }
 
-/* line 1328, ../scss/breakpoints/_base.scss */
+/* line 1327, ../scss/breakpoints/_base.scss */
 .class-section {
   padding: 3em 0;
 }
 
-/* line 1332, ../scss/breakpoints/_base.scss */
+/* line 1331, ../scss/breakpoints/_base.scss */
 .class-1,
 .class-3,
 .class-5 {
   background: #f3f3f3;
 }
 
-/* line 1338, ../scss/breakpoints/_base.scss */
+/* line 1337, ../scss/breakpoints/_base.scss */
 .class-2,
 .class-4 {
   background: #fff;
 }
 
-/* line 1345, ../scss/breakpoints/_base.scss */
+/* line 1344, ../scss/breakpoints/_base.scss */
 #enrollment-page-header {
   background: url(../images/enrollment-header-ver2.jpg) no-repeat;
   background-size: cover;
@@ -2541,86 +2541,86 @@ Programs & Rates Styles
   background-position-x: 45%;
   background-position-y: 60%;
 }
-/* line 1351, ../scss/breakpoints/_base.scss */
+/* line 1350, ../scss/breakpoints/_base.scss */
 #enrollment-page-header #enrollment-header {
   margin: 0;
 }
-/* line 1354, ../scss/breakpoints/_base.scss */
+/* line 1353, ../scss/breakpoints/_base.scss */
 #enrollment-page-header #enrollment-subheader {
   margin: 0;
   font-size: 1.6em;
   display: none;
 }
 
-/* line 1361, ../scss/breakpoints/_base.scss */
+/* line 1360, ../scss/breakpoints/_base.scss */
 #enrollment-program-content {
   background: #f3f3f3;
 }
 
-/* line 1365, ../scss/breakpoints/_base.scss */
+/* line 1364, ../scss/breakpoints/_base.scss */
 #enrollment-subnav {
   display: none;
   border-bottom: 1px solid #eaedf2;
   padding: 0.5em 0;
 }
-/* line 1369, ../scss/breakpoints/_base.scss */
+/* line 1368, ../scss/breakpoints/_base.scss */
 #enrollment-subnav a {
   color: #7dd667;
   padding: 1em 1.2em;
 }
 
-/* line 1377, ../scss/breakpoints/_base.scss */
+/* line 1376, ../scss/breakpoints/_base.scss */
 #contact-top .container {
   padding-top: 2em;
   border-top: 1px solid #eaedf2;
 }
 
-/* line 1385, ../scss/breakpoints/_base.scss */
+/* line 1384, ../scss/breakpoints/_base.scss */
 #contact-director-section a,
 #contact-church-section a {
   color: #4285f4;
 }
-/* line 1388, ../scss/breakpoints/_base.scss */
+/* line 1387, ../scss/breakpoints/_base.scss */
 #contact-director-section .fa,
 #contact-church-section .fa {
   margin-right: 0.7em;
 }
 
-/* line 1393, ../scss/breakpoints/_base.scss */
+/* line 1392, ../scss/breakpoints/_base.scss */
 .contact-divider {
   width: 85%;
 }
 
-/* line 1397, ../scss/breakpoints/_base.scss */
+/* line 1396, ../scss/breakpoints/_base.scss */
 #contact-church-section {
   padding-bottom: 1em;
 }
-/* line 1399, ../scss/breakpoints/_base.scss */
+/* line 1398, ../scss/breakpoints/_base.scss */
 #contact-church-section h2 {
   margin-top: 0;
 }
 
-/* line 1404, ../scss/breakpoints/_base.scss */
+/* line 1403, ../scss/breakpoints/_base.scss */
 #contact-director-section {
   padding-top: 1em;
 }
 
-/* line 1408, ../scss/breakpoints/_base.scss */
+/* line 1407, ../scss/breakpoints/_base.scss */
 #contact-bottom {
   padding-top: 6em;
 }
 
-/* line 1412, ../scss/breakpoints/_base.scss */
+/* line 1411, ../scss/breakpoints/_base.scss */
 #contact-photo-right {
   margin-top: 3em;
 }
-/* line 1414, ../scss/breakpoints/_base.scss */
+/* line 1413, ../scss/breakpoints/_base.scss */
 #contact-photo-right img {
   width: 100%;
   height: auto;
 }
 
-/* line 1420, ../scss/breakpoints/_base.scss */
+/* line 1419, ../scss/breakpoints/_base.scss */
 #google-map {
   display: block;
   width: 100%;

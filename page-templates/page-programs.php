@@ -10,7 +10,7 @@ Template Name: Programs
   <div id="programs-page-header">
     <div class="container">
       <h1 id="program-header" class="text-center text-white">Our Classes & Programs</h1>
-      <p id="program-subheader" class="text-center text-white">We offer classes for four main age groups</p>
+      <p id="program-subheader" class="text-center text-white">We offer classes for ages 10 months through Pre-K</p>
     </div>
   </div>
   <div id="programs-subnav">
@@ -28,11 +28,26 @@ Template Name: Programs
         <div class="class-description col-md-7">
           <h2>Village Nursery School</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            VNS offers preschool classes for ages 2 years through pre-kindergarten where we encourage learning through
+            play and guided, academic structure.  Our learning activities planned, the selection of educational toys
+            and materials offered, and even the classroom organization and daily schedule give children the foundation
+            of learning they need to succeed throughout their academic careers and beyond. We alternate fun, weekly
+            themes that give the children an exposure to interesting science and social studies related topics. Students
+            are encouraged to explore through hands-on manipulatives and investigative processes that stimulate their
+            natural curiosity for learning.  We offer small class sizes with ideal student to teacher ratios.  In the
+            course of students’ years at Village, the children are well prepared for entering kindergarten.
+          </p>
+          <p>
+            We are very proud of the success of our “alums." It is our goal that VNS children become independent,
+            self-confident, curious learners who work well with others. Besides receiving an excellent pre-reading
+            and math foundation, VNS children also learn how to be a member of a group as they sing together,
+            participate in interesting discussions, take turns with the weather chart and calendar or listen to a story.
+            They are provided the skills needed to complete “assignments,” follow multi-step verbal directions, wait
+            their turn to speak and be responsible for their school belongings.
+          </p>
+          <p>
+            We provide a safe and secure environment where learning is all around gently guiding each individual child
+            we teach to flourish!
           </p>
           <a href="<?php echo home_url(); ?>/enrollment/#class-1" class="btn btn-primary">Enroll Now</a>
         </div>
