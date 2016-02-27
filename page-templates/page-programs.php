@@ -28,26 +28,24 @@ Template Name: Programs
         <div class="class-description col-md-7">
           <h2>Village Nursery School</h2>
           <p>
-            VNS offers preschool classes for ages 2 years through pre-kindergarten where we encourage learning through
-            play and guided, academic structure.  Our learning activities planned, the selection of educational toys
-            and materials offered, and even the classroom organization and daily schedule give children the foundation
-            of learning they need to succeed throughout their academic careers and beyond. We alternate fun, weekly
-            themes that give the children an exposure to interesting science and social studies related topics. Students
-            are encouraged to explore through hands-on manipulatives and investigative processes that stimulate their
-            natural curiosity for learning.  We offer small class sizes with ideal student to teacher ratios.  In the
-            course of students’ years at Village, the children are well prepared for entering kindergarten.
+            Our mission is to provide every student with a quality early childhood experience. We
+            strive to create a safe, nurturing and developmentally appropriate environment which fosters
+            individual needs. We believe in empowering children by offering them opportunities to make
+            decisions and solve problems. It is our goal that children will possess confidence in their abilities
+            and establish lasting relationships with teachers and peers. By offering an engaging curriculum
+            it is our aspiration that each child will develop a positive outlook towards school, an appreciation
+            of the world around them and acquire a lifelong love of learning.
           </p>
           <p>
-            We are very proud of the success of our “alums." It is our goal that VNS children become independent,
-            self-confident, curious learners who work well with others. Besides receiving an excellent pre-reading
-            and math foundation, VNS children also learn how to be a member of a group as they sing together,
-            participate in interesting discussions, take turns with the weather chart and calendar or listen to a story.
-            They are provided the skills needed to complete “assignments,” follow multi-step verbal directions, wait
-            their turn to speak and be responsible for their school belongings.
-          </p>
-          <p>
-            We provide a safe and secure environment where learning is all around gently guiding each individual child
-            we teach to flourish!
+            Through guided discovery and hands-on activities, students are exposed to a fully
+            integrated thematic curriculum. The broad range of age appropriate activities will easily engage
+            toddlers and preschoolers. Activities will be based on weekly academic themes of study and
+            social skills (i.e. Ocean Life, Friendship). In addition, our prekindergarten program also
+            incorporates a weekly letter and number focus (i.e. the letter A, the number 10), as well as
+            literature theme days (i.e. Dr. Seuss Day). The children will be introduced to experiences
+            including: children's literature, dramatic play, arts & crafts, science discovery & nature, cooking,
+            sensory activities, social skills development, music & singing, fine & large motor activities, and
+            early math skills. In addition, the curriculum will be enriched by field trips and special guests.
           </p>
           <a href="<?php echo home_url(); ?>/enrollment/#class-1" class="btn btn-primary">Enroll Now</a>
         </div>

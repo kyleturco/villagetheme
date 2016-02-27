@@ -25,7 +25,7 @@ Template Name: Our Story
       <div>
         <div class="our-story-text">
           <p>
-            The Village Nursery School was established at First United Methodist Church, West Lafayette, Ind.,
+            The Village Nursery School was established at First United Methodist Church, West Lafayette, IN,
             in 1972 with the philosophy and educational understanding that young children learn best in an
             atmosphere of purposeful and productive play experiences.
             The learning activities planned, the selection of educational toys and materials, and even the
@@ -44,7 +44,7 @@ Template Name: Our Story
             and math foundation, VNS children also learn how to be a member of a group as they sing together,
             participate in interesting discussions, take turns with the weather chart and calendar, or listen
             to a story. They also learn to complete “assignments”, follow multi-step verbal directions, wait
-            their turn to speak, and be responsible for their school things.
+            their turn to speak, and be responsible for their school items.
           </p>
         </div>
       </div>

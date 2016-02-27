@@ -93,17 +93,17 @@ Template Name: Enrollment
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
             <div class="class-info-item info-1">
-              <p>3-4 years old (By August 1 of the school year)</p>
+              <p>3-4 years old (Must be 3 by August 1)</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
             <div class="class-info-item info-1">
-              <p>$90/month for 1 class/week</p>
+              <p>$90/month for 2 class/week</p>
             </div>
             <div class="class-info-item info-2">
-              <p>$125/month for 2 classes/week</p>
+              <p>$125/month for 3 classes/week</p>
             </div>
           </div>
           <div class="class-info-header">
@@ -151,10 +151,10 @@ Template Name: Enrollment
           </div>
           <div class="tuition-info">
             <div class="class-info-item info-1">
-              <p>$125/month for 1 class/week</p>
+              <p>$125/month for 3 class/week</p>
             </div>
             <div class="class-info-item info-2">
-              <p>$200/month for 2 classes/week</p>
+              <p>$200/month for 5 classes/week</p>
             </div>
           </div>
           <div class="class-info-header">
@@ -169,9 +169,6 @@ Template Name: Enrollment
             </div>
             <div class="class-info-item info-3">
               <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM</p>
-            </div>
-            <div class="class-info-item info-4">
-              <p>**Tuesday-Wednesday-Thursday 12:30-2:50 PM</p>
             </div>
           </div>
         </div>
@@ -198,7 +195,7 @@ Template Name: Enrollment
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
             <div class="class-info-item info-1">
-              <p>Classes for toddlers 10-24 months</p>
+              <p>Classes for toddlers 10-24+ months</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
@@ -248,20 +245,31 @@ Template Name: Enrollment
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
             <div class="class-info-item info-1">
-              <p>4-5 years old (must be 4 by August 1 of the school year)</p>
+              <p>Must be 12 months old (and walking)</p>
             </div>
           <div class="class-info-header">
-            <h3><i class="fa fa-usd"></i> Tuition & Scheduling</h3>
+            <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
             <div class="class-info-item info-1">
-              <p>Session 1 (8:30am - 9:00 am) $5</p>
+              <p>$5/half hour</p>
             </div>
             <div class="class-info-item info-2">
-              <p>Session 2 (9:00am - 11:030 am) $15 or $5 per half hour</p>
+              <p>$15/Enrichment Time(9AM - 11:30AM)</p>
             </div>
             <div class="class-info-item info-3">
-              <p>Session 3 (11:30am - 12:00 pm) $5</p>
+              <p>$25/Full morning (8:30AM - Noon)</p>
+            </div>
+          </div>
+          <div class="class-info-header">
+            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
+          </div>
+          <div class="schedule-info">
+            <div class="class-info-item info-1">
+              <p>
+                “Varies Daily” Program is offered M-F mornings from 8:30AM-Noon but is scheduled on a “first come
+                 first serve” basis.  Please contact the VNS Director to inquire about availability.
+               </p>
             </div>
           </div>
         </div>

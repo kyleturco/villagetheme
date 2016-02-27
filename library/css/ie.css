@@ -374,11 +374,23 @@ CUSTOM STYLES
   margin-bottom: 2em;
 }
 
-/* line 301, ../scss/breakpoints/_768up.scss */
+/* line 302, ../scss/breakpoints/_768up.scss */
+.home-icon {
+  margin: 3em 0;
+  padding-bottom: 2.5em;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+/* line 308, ../scss/breakpoints/_768up.scss */
+.homepage-description {
+  padding: 0em 5em;
+}
+
+/* line 312, ../scss/breakpoints/_768up.scss */
 #story-photo-bar {
   max-height: 370px;
 }
-/* line 303, ../scss/breakpoints/_768up.scss */
+/* line 314, ../scss/breakpoints/_768up.scss */
 #story-photo-bar img {
   width: 100%;
   height: 370px;

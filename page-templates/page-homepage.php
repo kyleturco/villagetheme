@@ -21,34 +21,33 @@ Template Name: Home Page
   </div>
   <div id="home-welcome-section">
     <div class="container">
-      <div id="home-icon-1" class="col-md-4">
+      <div id="home-icon-1" class="col-md-4 home-icon">
         <div class="icon-circle icon-1">
           <i class="fa fa-home text-center text-white"></i>
         </div>
         <h2 class="text-center">Safe & Secure</h2>
-        <p class="text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua
+        <p class="text-center homepage-description">
+          Educated, qualified staff members with background checks and CPR certifications.  Small classes with a
+          minimal student to teacher ratio.
         </p>
       </div>
-      <div id="home-icon-2" class="col-md-4">
+      <div id="home-icon-2" class="col-md-4 home-icon">
         <div class="icon-circle icon-2">
           <i class="fa fa-bell text-center text-white"></i>
         </div>
         <h2 class="text-center">Academic</h2>
-        <p class="text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua
+        <p class="text-center homepage-description">
+          Follows Indiana’s early learning development framework, the Foundations, which provides core skills
+          that children are to achieve at various ages.
         </p>
       </div>
-      <div id="home-icon-3" class="col-md-4">
+      <div id="home-icon-3" class="col-md-4 home-icon">
         <div class="icon-circle icon-3">
           <i class="fa fa-child text-center text-white"></i>
         </div>
         <h2 class="text-center">Fun</h2>
-        <p class="text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua
+        <p class="text-center homepage-description">
+          Learn through social play, games and exciting experiments exploring the world around us!
         </p>
       </div>
     </div>
@@ -63,7 +62,7 @@ Template Name: Home Page
               Our philosophy is learning through play as we offer a stimulating environment for children.
             </h4>
             <p>
-              The Village Nursery School was established at First United Methodist Church, West Lafayette, Ind., in 1972
+              The Village Nursery School was established at First United Methodist Church, West Lafayette, IN, in 1972
               with the philosophy and educational understanding that young children learn best in an atmosphere of
               purposeful and productive play experiences.
             </p>
@@ -125,7 +124,7 @@ Template Name: Home Page
           <p>
             <b>Ages:</b> Under 2
             <br>
-            <b>Class size:</b> Varies
+            <b>Class size:</b> 10
           </p>
           <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
         </div>
