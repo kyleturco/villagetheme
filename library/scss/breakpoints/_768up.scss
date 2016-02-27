@@ -295,16 +295,13 @@ CUSTOM STYLES
   .class-box {
     width: 48%;
     margin-bottom: 2em;
+    .class-box-text {
+      padding: 1.5em 0.5em 1.5em 1em;
+    }
   }
 }
 
 //Homepage icons
-.home-icon {
-  margin: 3em 0;
-  padding-bottom: 2.5em;
-  border-bottom: 1px solid #cdcdcd;
-}
-
 .homepage-description {
   padding: 0em 5em;
 }

@@ -35,6 +35,21 @@ be seen on the Desktop.
   }
 }
 
+//Homepage icons
+#home-welcome-section {
+  padding: 2em 0;
+  background: $light-gray;
+}
+
+#home-icon-2 {
+  border-top: none;
+  border-bottom: none;
+}
+
+.homepage-description {
+  padding: 0em 1em;
+}
+
 #overview-content-left {
   .about-text {
     width: 80%;
@@ -68,6 +83,14 @@ be seen on the Desktop.
   }
 }
 
+#home-classes-section {
+  .class-box {
+    .class-box-text {
+      padding: 1.5em 0.5em 1.5em 2em;
+    }
+  }
+}
+
 // Our story styles
 
 #our-story-photos-right {
@@ -84,7 +107,6 @@ be seen on the Desktop.
     }
   }
 }
-
 
 .class-info {
   width: 60%;

@@ -373,24 +373,21 @@ CUSTOM STYLES
   width: 48%;
   margin-bottom: 2em;
 }
-
-/* line 302, ../scss/breakpoints/_768up.scss */
-.home-icon {
-  margin: 3em 0;
-  padding-bottom: 2.5em;
-  border-bottom: 1px solid #cdcdcd;
+/* line 298, ../scss/breakpoints/_768up.scss */
+#home-classes-section .class-box .class-box-text {
+  padding: 1.5em 0.5em 1.5em 1em;
 }
 
-/* line 308, ../scss/breakpoints/_768up.scss */
+/* line 305, ../scss/breakpoints/_768up.scss */
 .homepage-description {
   padding: 0em 5em;
 }
 
-/* line 312, ../scss/breakpoints/_768up.scss */
+/* line 309, ../scss/breakpoints/_768up.scss */
 #story-photo-bar {
   max-height: 370px;
 }
-/* line 314, ../scss/breakpoints/_768up.scss */
+/* line 311, ../scss/breakpoints/_768up.scss */
 #story-photo-bar img {
   width: 100%;
   height: 370px;
@@ -435,101 +432,123 @@ be seen on the Desktop.
 }
 
 /* line 39, ../scss/breakpoints/_1030up.scss */
+#home-welcome-section {
+  padding: 2em 0;
+  background: #f3f3f3;
+}
+
+/* line 44, ../scss/breakpoints/_1030up.scss */
+#home-icon-2 {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* line 49, ../scss/breakpoints/_1030up.scss */
+.homepage-description {
+  padding: 0em 1em;
+}
+
+/* line 54, ../scss/breakpoints/_1030up.scss */
 #overview-content-left .about-text {
   width: 80%;
 }
-/* line 42, ../scss/breakpoints/_1030up.scss */
+/* line 57, ../scss/breakpoints/_1030up.scss */
 #overview-content-left h4 {
   line-height: 1.4em;
 }
 
-/* line 48, ../scss/breakpoints/_1030up.scss */
+/* line 63, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photo-left {
   width: 66%;
   margin-top: 0;
 }
-/* line 52, ../scss/breakpoints/_1030up.scss */
+/* line 67, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photos-right {
   width: 30%;
   margin-left: 1em;
   display: block;
   float: left;
 }
-/* line 57, ../scss/breakpoints/_1030up.scss */
+/* line 72, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photos-right .photo-1 {
   background: url(../images/kids-at-work.JPG) no-repeat;
   background-size: cover;
   height: 160px;
   margin-bottom: 1em;
 }
-/* line 63, ../scss/breakpoints/_1030up.scss */
+/* line 78, ../scss/breakpoints/_1030up.scss */
 #overview-photos-right .photos-right .photo-2 {
   background: url(../images/kids-at-table.jpg) no-repeat;
   background-size: cover;
   height: 160px;
 }
 
-/* line 75, ../scss/breakpoints/_1030up.scss */
+/* line 88, ../scss/breakpoints/_1030up.scss */
+#home-classes-section .class-box .class-box-text {
+  padding: 1.5em 0.5em 1.5em 2em;
+}
+
+/* line 98, ../scss/breakpoints/_1030up.scss */
 #our-story-photos-right .photos-top img {
   margin-top: 0em;
 }
-/* line 79, ../scss/breakpoints/_1030up.scss */
+/* line 102, ../scss/breakpoints/_1030up.scss */
 #our-story-photos-right .photos-bottom {
   display: block;
   margin-top: 1em;
 }
-/* line 82, ../scss/breakpoints/_1030up.scss */
+/* line 105, ../scss/breakpoints/_1030up.scss */
 #our-story-photos-right .photos-bottom img {
   width: 48%;
 }
 
-/* line 89, ../scss/breakpoints/_1030up.scss */
+/* line 111, ../scss/breakpoints/_1030up.scss */
 .class-info {
   width: 60%;
 }
 
-/* line 93, ../scss/breakpoints/_1030up.scss */
+/* line 115, ../scss/breakpoints/_1030up.scss */
 .class-download {
   display: block;
   width: 35%;
 }
 
-/* line 100, ../scss/breakpoints/_1030up.scss */
+/* line 122, ../scss/breakpoints/_1030up.scss */
 #programs-page-header #program-subheader {
   display: block;
 }
 
-/* line 105, ../scss/breakpoints/_1030up.scss */
+/* line 127, ../scss/breakpoints/_1030up.scss */
 #programs-subnav {
   display: block;
 }
 
-/* line 109, ../scss/breakpoints/_1030up.scss */
+/* line 131, ../scss/breakpoints/_1030up.scss */
 .class-info-notes {
   width: 60%;
 }
 
-/* line 115, ../scss/breakpoints/_1030up.scss */
+/* line 137, ../scss/breakpoints/_1030up.scss */
 #enrollment-page-header #enrollment-subheader {
   display: block;
 }
 
-/* line 120, ../scss/breakpoints/_1030up.scss */
+/* line 142, ../scss/breakpoints/_1030up.scss */
 #enrollment-subnav {
   display: block;
 }
 
-/* line 125, ../scss/breakpoints/_1030up.scss */
+/* line 147, ../scss/breakpoints/_1030up.scss */
 .contact-page-content {
   min-height: 750px;
 }
 
-/* line 130, ../scss/breakpoints/_1030up.scss */
+/* line 152, ../scss/breakpoints/_1030up.scss */
 #contact-top .container {
   padding-top: 4em;
 }
 
-/* line 135, ../scss/breakpoints/_1030up.scss */
+/* line 157, ../scss/breakpoints/_1030up.scss */
 #contact-photo-right {
   margin-top: 0em;
 }
