@@ -7,18 +7,13 @@ Template Name: Our Story
 <?php get_header(); ?>
 
 <div id="content" class="our-story-content">
-  <div id="story-photo-bar">
-    <div class="container">
-      <div class="photo-two-third">
+  <div class="our-story-container">
+    <div id="story-photo-bar">
+      <div class="story-photo">
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/vns-blocks.jpg" alt="">
       </div>
-      <div class="photo-one-third">
-        <img src="<?php echo get_template_directory_uri(); ?>/library/images/vns-classroom.jpg" alt="">
-      </div>
     </div>
-  </div>
-  <div id="story-text-section">
-    <div class="our-story-container">
+    <div id="story-text-section">
       <div class="our-story-header">
         <h1>Our Story</h1>
       </div>

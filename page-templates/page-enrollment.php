@@ -33,7 +33,7 @@ Template Name: Enrollment
         <div class="class-download pull-right">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
-          <a href="<?php echo home_url(); ?>/wp-content/uploads/2016/02/village-nursery-school-enrollment.pdf" class="btn btn-primary" target="_blank">Get My Form</a>
+          <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
           <div class="class-info-header">
@@ -86,7 +86,7 @@ Template Name: Enrollment
         <div class="class-download pull-right">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
-          <a href="<?php echo home_url(); ?>/wp-content/uploads/2016/02/village-nursery-school-enrollment.pdf" class="btn btn-primary" target="_blank">Get My Form</a>
+          <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
           <div class="class-info-header">
@@ -137,7 +137,7 @@ Template Name: Enrollment
         <div class="class-download pull-right">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
-          <a href="<?php echo home_url(); ?>/wp-content/uploads/2016/02/village-nursery-school-enrollment.pdf" class="btn btn-primary" target="_blank">Get My Form</a>
+          <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
           <div class="class-info-header">
@@ -188,7 +188,7 @@ Template Name: Enrollment
         <div class="class-download pull-right">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
-          <a href="<?php echo home_url(); ?>/wp-content/uploads/2016/02/village-nursery-school-enrollment.pdf" class="btn btn-primary" target="_blank">Get My Form</a>
+          <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
           <div class="class-info-header">

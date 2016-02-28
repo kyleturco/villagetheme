@@ -383,17 +383,6 @@ CUSTOM STYLES
   padding: 0em 5em;
 }
 
-/* line 309, ../scss/breakpoints/_768up.scss */
-#story-photo-bar {
-  max-height: 370px;
-}
-/* line 311, ../scss/breakpoints/_768up.scss */
-#story-photo-bar img {
-  width: 100%;
-  height: 370px;
-  overflow: hidden;
-}
-
 /******************************************************************
 Site Name:
 Author:

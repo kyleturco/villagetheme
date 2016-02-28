@@ -1043,6 +1043,15 @@ Homepage styles
   display: block;
   width: 12em;
   font-size: 1.4em;
+  .fa {
+    -webkit-transition: 0.3s;
+  }
+  &:hover {
+    .fa {
+      margin-left: 5px;
+      -webkit-transition: 0.3s;
+    }
+  }
 }
 
 #home-welcome-section {
@@ -1199,11 +1208,11 @@ Our Story styles
 }
 
 #story-text-section {
-  padding: 1em 0 4em;
+  padding: 0em 0 4em;
 }
 
 #story-director-section {
-  padding: 4em 0;
+  padding: 2em 0 4em;
   background: $gray;
 }
 
@@ -1232,14 +1241,7 @@ Our Story styles
   background: $white;
   img {
     overflow: hidden;
-  }
-  .photo-two-third {
-    width: 741px;
-    margin: 0 auto;
-    display: block;
-  }
-  .photo-one-third {
-    display: none;
+    width: 100%;
   }
 }
 
@@ -1347,15 +1349,28 @@ Programs & Rates Styles
   border: 1px solid $gray;
   padding: 1.5em;
   text-align: center;
+  -webkit-transition: 0.3s;
   h2 {
     font-size: 1.55em;
     margin-top: 0;
+    border-bottom: 1px solid $gray;
+    padding-bottom: 0.4em;
+  }
+  p {
+    margin-top: 1em;
   }
   .btn-primary {
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
     background-color: $orange;
     &:hover {
       background-color: darken($orange, 8%);
     }
+  }
+  &:hover {
+    box-shadow: 0px 0px 22px 1px rgba(189,189,189,0.4);
+    -webkit-transition: 0.3s;
+    border: 1px solid darken($gray, 10%);
   }
 }
 
