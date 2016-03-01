@@ -30,7 +30,7 @@ Template Name: Enrollment
         <div class="class-1-header text-center">
           <h1>Preschool 2</h1>
         </div>
-        <div class="class-download pull-right">
+        <div class="class-download">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
           <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
@@ -77,13 +77,18 @@ Template Name: Enrollment
           </p>
         </div>
       </div>
+      <div class="class-download class-download-mobile">
+        <h2>Interested in enrolling?</h2>
+        <p>Download the registration form below.</p>
+        <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+      </div>
     </div>
     <div id="preschool-3" class="class-section class-2">
       <div class="container">
         <div class="class-1-header text-center">
           <h1>Preschool 3</h1>
         </div>
-        <div class="class-download pull-right">
+        <div class="class-download">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
           <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
@@ -128,13 +133,18 @@ Template Name: Enrollment
           </p>
         </div>
       </div>
+      <div class="class-download class-download-mobile">
+        <h2>Interested in enrolling?</h2>
+        <p>Download the registration form below.</p>
+        <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+      </div>
     </div>
     <div id="pre-k" class="class-section class-3">
       <div class="container">
         <div class="class-1-header text-center">
           <h1>Pre-Kindergarten</h1>
         </div>
-        <div class="class-download pull-right">
+        <div class="class-download">
           <h2>Interested in enrolling?</h2>
           <p>Download the registration form below.</p>
           <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
@@ -179,16 +189,16 @@ Template Name: Enrollment
           </p>
         </div>
       </div>
+      <div class="class-download class-download-mobile">
+        <h2>Interested in enrolling?</h2>
+        <p>Download the registration form below.</p>
+        <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+      </div>
     </div>
     <div id="pit-enroll" class="class-section class-4">
       <div class="container">
         <div class="class-1-header text-center">
           <h1>P.I.T.</h1>
-        </div>
-        <div class="class-download pull-right">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
-          <a href="<?php echo home_url(); ?>/village-nursery-school-enrollment-2016.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
           <div class="class-info-header">

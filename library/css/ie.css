@@ -505,44 +505,50 @@ be seen on the Desktop.
 .class-download {
   display: block;
   width: 35%;
+  float: right;
 }
 
-/* line 122, ../scss/breakpoints/_1030up.scss */
+/* line 121, ../scss/breakpoints/_1030up.scss */
+.class-download-mobile {
+  display: none;
+}
+
+/* line 127, ../scss/breakpoints/_1030up.scss */
 #programs-page-header #program-subheader {
   display: block;
 }
 
-/* line 127, ../scss/breakpoints/_1030up.scss */
+/* line 132, ../scss/breakpoints/_1030up.scss */
 #programs-subnav {
   display: block;
 }
 
-/* line 131, ../scss/breakpoints/_1030up.scss */
+/* line 136, ../scss/breakpoints/_1030up.scss */
 .class-info-notes {
   width: 60%;
 }
 
-/* line 137, ../scss/breakpoints/_1030up.scss */
+/* line 142, ../scss/breakpoints/_1030up.scss */
 #enrollment-page-header #enrollment-subheader {
   display: block;
 }
 
-/* line 142, ../scss/breakpoints/_1030up.scss */
+/* line 147, ../scss/breakpoints/_1030up.scss */
 #enrollment-subnav {
   display: block;
 }
 
-/* line 147, ../scss/breakpoints/_1030up.scss */
+/* line 152, ../scss/breakpoints/_1030up.scss */
 .contact-page-content {
   min-height: 750px;
 }
 
-/* line 152, ../scss/breakpoints/_1030up.scss */
+/* line 157, ../scss/breakpoints/_1030up.scss */
 #contact-top .container {
   padding-top: 4em;
 }
 
-/* line 157, ../scss/breakpoints/_1030up.scss */
+/* line 162, ../scss/breakpoints/_1030up.scss */
 #contact-photo-right {
   margin-top: 0em;
 }

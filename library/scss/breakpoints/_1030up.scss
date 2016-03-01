@@ -115,6 +115,11 @@ be seen on the Desktop.
 .class-download {
   display: block;
   width: 35%;
+  float: right;
+}
+
+.class-download-mobile {
+  display: none;
 }
 
 // Programs styles
