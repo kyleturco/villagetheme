@@ -224,6 +224,14 @@ HEADER STYLES
   padding: 1em;
 }
 
+.navbar-toggle {
+  border: 1px solid $blue;
+}
+
+.icon-bar {
+  background: $blue;
+}
+
 #logo {
   margin: 0.75em 0;
 

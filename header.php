@@ -47,12 +47,21 @@
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 		<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-			<div id="inner-header">
-				<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-				<div id="header-left" class="pull-left">
-          <p id="logo" class="h3" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+      <div id="inner-header">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-vns-header" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="header-left" class="pull-left">
+            <p id="logo" class="h3" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+          </div>
         </div>
-        <div id="header-right" class="pull-right">
+        <div class="navbar-collapse collapse" id="main-vns-header">
+				<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
+        <div id="header-right">
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(
     					         'container' => false,                           // remove nav container
@@ -68,6 +77,7 @@
     					         'fallback_cb' => ''                             // fallback function (if there is one)
 						)); ?>
 					</nav>
+        </div>
         </div>
         <div class="clearfix"></div>
 			</div>
