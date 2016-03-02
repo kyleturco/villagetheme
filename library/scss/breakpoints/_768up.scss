@@ -33,7 +33,10 @@ HEADER STYLES
 
 .header {}
 
-	#logo {}
+	#logo {
+    font-size: 1.125em;
+    margin: 0.75em 0;
+  }
 
 /*********************
 NAVIGATION STYLES

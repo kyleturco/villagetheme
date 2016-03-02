@@ -200,6 +200,11 @@ Template Name: Enrollment
         <div class="class-1-header text-center">
           <h1>P.I.T.</h1>
         </div>
+        <div class="class-download">
+          <h2>Interested in enrolling?</h2>
+          <p>Download the registration form below.</p>
+          <a href="<?php echo home_url(); ?>/village-nursery-school-pit-enrollment.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        </div>
         <div class="class-info">
           <div class="class-info-header">
             <h3><i class="fa fa-child"></i> Ages</h3>
@@ -236,6 +241,11 @@ Template Name: Enrollment
             </div>
           </div>
         </div>
+      </div>
+      <div class="class-download class-download-mobile">
+        <h2>Interested in enrolling?</h2>
+        <p>Download the registration form below.</p>
+        <a href="<?php echo home_url(); ?>/village-nursery-school-pit-enrollment.pdf" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
       </div>
     </div>
     <div id="stay-and-play-enroll" class="class-section class-5">

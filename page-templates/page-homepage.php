@@ -122,7 +122,7 @@ Template Name: Home Page
         <div class="class-box-text pull-left">
           <h2>P.I.T.</h2>
           <p>
-            <b>Ages:</b> Under 2
+            <b>Ages:</b> 10-24+ months
             <br>
             <b>Class size:</b> 10
           </p>

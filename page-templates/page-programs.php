@@ -50,7 +50,7 @@ Template Name: Programs
           <a href="<?php echo home_url(); ?>/enrollment/#class-1" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="program-photo-right col-md-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/library/images/kids-in-playroom.jpg" alt="" width="400px">
+          <img src="<?php echo get_template_directory_uri(); ?>/library/images/kids-in-playroom.jpg" alt="village nursery school playroom" width="400px">
         </div>
         <div class="clearfix"></div>
       </div>
@@ -58,7 +58,7 @@ Template Name: Programs
     <div id="pit" class="class-section class-2">
       <div class="container">
         <div class="program-photo-right col-md-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="" width="400px">
+          <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="village nursery school sandtable" width="400px">
         </div>
         <div class="class-description col-md-7">
           <h2>Parent Infant Toddler</h2>
@@ -111,7 +111,7 @@ Template Name: Programs
           <a href="<?php echo home_url(); ?>/enrollment/#stay-and-play-enroll" class="btn btn-primary">Sign Up Now</a>
         </div>
         <div class="program-photo-right col-md-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/library/images/book-rack.jpg" alt="" width="400px">
+          <img src="<?php echo get_template_directory_uri(); ?>/library/images/book-rack.jpg" alt="village nursery school bookrack" width="400px">
         </div>
       </div>
     </div>

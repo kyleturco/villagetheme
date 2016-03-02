@@ -10,7 +10,7 @@ Template Name: Our Story
   <div class="our-story-container">
     <div id="story-photo-bar">
       <div class="story-photo">
-        <img src="<?php echo get_template_directory_uri(); ?>/library/images/vns-blocks.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/library/images/vns-blocks.jpg" alt="village nursery school - child playing">
       </div>
     </div>
     <div id="story-text-section">
@@ -68,7 +68,7 @@ Template Name: Our Story
         </p>
         <div class="director-signoff">
           <div class="left-side">
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/deanna-bibler-headshot.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/deanna-bibler-headshot.jpg" alt="village nursery school director deanna bibler">
           </div>
           <div class="right-side">
             <p class="letter-signoff">
