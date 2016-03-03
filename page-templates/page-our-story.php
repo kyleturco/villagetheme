@@ -18,30 +18,13 @@ Template Name: Our Story
         <h1>Our Story</h1>
       </div>
       <div>
-        <div class="our-story-text">
-          <p>
-            The Village Nursery School was established at First United Methodist Church, West Lafayette, IN,
-            in 1972 with the philosophy and educational understanding that young children learn best in an
-            atmosphere of purposeful and productive play experiences.
-            The learning activities planned, the selection of educational toys and materials, and even the
-            organization of the space and the schedule give children the foundation of learning they need to
-            succeed throughout their academic careers and beyond. Our programs serve children ages infant
-            through preschool.
-          </p>
-          <p>
-            There are changing weekly themes that give the children an exposure to many interesting science
-            and social studies related topics. In the course of their years at Village, culminating in our
-            pre-k class, the children are well prepared for entering kindergarten.
-          </p>
-          <p>
-            We are very proud of the success of our “alums." It is our goal that VNS children become independent,
-            self confident, curious learners who work well with others. Besides receiving an excellent pre-reading
-            and math foundation, VNS children also learn how to be a member of a group as they sing together,
-            participate in interesting discussions, take turns with the weather chart and calendar, or listen
-            to a story. They also learn to complete “assignments”, follow multi-step verbal directions, wait
-            their turn to speak, and be responsible for their school items.
-          </p>
-        </div>
+      <!-- gets page content from WP -->
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+          <div class="our-story-text">
+            <?php the_content(); ?>
+          </div>
+        <?php endwhile; else : ?>
+        <?php endif; ?>
       </div>
     </div>
   </div>

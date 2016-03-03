@@ -13,7 +13,7 @@ Template Name: Home Page
         <h3 class="text-white text-center">Welcome to</h3>
         <h1 class="text-white text-center">Village Nursery School</h1>
         <p class="text-white text-center">
-          <i>A safe and secure enviornment dedicated to helping children grow and flourish</i>
+          <i>A safe and secure environment dedicated to helping children grow and flourish</i>
         </p>
         <a id="home-hero-btn" href="<?php echo home_url(); ?>/programs/" class="btn btn-primary">See Our Programs <i class="fa fa-angle-double-right"></i></a>
       </div>
