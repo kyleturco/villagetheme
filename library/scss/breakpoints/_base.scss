@@ -221,11 +221,12 @@ HEADER STYLES
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.28);
   -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.28);
   box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.28);
-  padding: 1em;
+  padding: 0.4em 1em;
 }
 
 .navbar-toggle {
   border: 1px solid $blue;
+  margin-top: 1.25em;
 }
 
 .icon-bar {

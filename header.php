@@ -56,7 +56,11 @@
             <span class="icon-bar"></span>
           </button>
           <div id="header-left" class="pull-left">
-            <p id="logo" class="h3" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+            <div id="logo" class="h3" itemscope itemtype="http://schema.org/Organization">
+							<a href="<?php echo home_url(); ?>" rel="nofollow">
+								<img src="<?php echo get_template_directory_uri(); ?>/library/images/vns-logo.png" alt="village nursery school logo" width="170px">
+							</a>
+						</div>
           </div>
         </div>
         <div class="navbar-collapse collapse" id="main-vns-header">
