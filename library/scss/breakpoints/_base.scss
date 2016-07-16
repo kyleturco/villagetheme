@@ -1035,10 +1035,9 @@ Homepage styles
   background: url(../images/home-hero-light.jpg) no-repeat;
   background-size: cover;
   padding: 6em 0;
-  h3 {
+  .welcome-text {
     margin-top: 0;
     font-size: 1.7em;
-    color: rgba(256, 256, 256, 0.7);
   }
   .main-header {
     margin-top: 0.2em;

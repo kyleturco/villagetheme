@@ -10,7 +10,7 @@ Template Name: Home Page
   <div class="home-hero-section">
     <div class="container">
       <div class="col-md-7">
-        <h3 class="text-white">Welcome to</h3>
+        <h1 class="welcome-text h3">Welcome to</h1>
         <h1 class="main-header">Village Nursery School</h1>
         <p class="narrow-content">
           <i>A safe and secure environment dedicated to helping children grow and flourish</i>
