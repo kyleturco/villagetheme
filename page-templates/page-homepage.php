@@ -82,6 +82,7 @@ Template Name: Home Page
   <div id="home-classes-section">
     <div class="container">
       <h1 class="text-center">Our Classes</h1>
+      <p class="h3 text-center">Check out our 2016 Calendar!<a href="/">Click Here</a></p>
       <div class="class-box pull-left">
         <div class="class-box-text pull-left">
           <h2>Preschool 2</h2>
@@ -92,7 +93,7 @@ Template Name: Home Page
           </p>
           <a href="<?php echo home_url(); ?>/enrollment/#preschool-2" class="btn btn-primary">Enroll Now</a>
         </div>
-        <div class="class-box-image-1 pull-right"></div>
+        <div class="class-box-image class-box-image-1 pull-right"></div>
       </div>
       <div class="class-box pull-right">
         <div class="class-box-text pull-left">
@@ -104,7 +105,7 @@ Template Name: Home Page
           </p>
           <a href="<?php echo home_url(); ?>/enrollment/#preschool-3" class="btn btn-primary">Enroll Now</a>
         </div>
-        <div class="class-box-image-2 pull-right"></div>
+        <div class="class-box-image class-box-image-2 pull-right"></div>
       </div>
       <div class="class-box pull-left">
         <div class="class-box-text pull-left">
@@ -116,7 +117,7 @@ Template Name: Home Page
           </p>
           <a href="<?php echo home_url(); ?>/enrollment/#pre-k" class="btn btn-primary">Enroll Now</a>
         </div>
-        <div class="class-box-image-3 pull-right"></div>
+        <div class="class-box-image class-box-image-3 pull-right"></div>
       </div>
       <div class="class-box pull-right">
         <div class="class-box-text pull-left">
@@ -128,11 +129,12 @@ Template Name: Home Page
           </p>
           <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
         </div>
-      <div class="class-box-image-4 pull-right"></div>
+        <div class="class-box-image class-box-image-4 pull-right"></div>
       </div>
+      <div class="clearfix"></div>
     </div>
   </div>
-  <div id="enroll-section">
+  <div class="enroll-section">
     <div class="container">
       <div class="col-md-9">
         <h2>Enroll your child today!</h2>
