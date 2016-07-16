@@ -1031,8 +1031,8 @@ a.btn-primary {
 Homepage styles
 ***************/
 
-#home-hero-section {
-  background: url(../images/home-hero-demo3.jpg) no-repeat;
+.home-hero-section {
+  background: url(../images/home-hero-light.jpg) no-repeat;
   background-size: cover;
   padding: 6em 0;
   h3 {
@@ -1040,7 +1040,7 @@ Homepage styles
     font-size: 1.7em;
     color: rgba(256, 256, 256, 0.7);
   }
-  h1 {
+  .main-header {
     margin-top: 0.2em;
     font-size: 2.2em;
   }
@@ -1048,9 +1048,12 @@ Homepage styles
     font-size: 1.3em;
     margin-bottom: 0.7em;
   }
+  .ollie-owl {
+    height: 18em;
+    margin: 0 auto;
+  }
 }
-#home-hero-btn {
-  margin: 0 auto;
+.home-hero-btn {
   display: block;
   width: 12em;
   font-size: 1.4em;
@@ -1067,7 +1070,8 @@ Homepage styles
 
 #home-welcome-section {
   padding: 2em 0;
-  background: $light-gray;
+  background: $white;
+  border-bottom: 1px solid #dedede;
 }
 .icon-circle {
   display: block;

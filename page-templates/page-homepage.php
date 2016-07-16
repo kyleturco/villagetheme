@@ -7,15 +7,19 @@ Template Name: Home Page
 <?php get_header(); ?>
 
 <div id="content">
-  <div id="home-hero-section">
+  <div class="home-hero-section">
     <div class="container">
-      <div id="inner-content">
-        <h3 class="text-white text-center">Welcome to</h3>
-        <h1 class="text-white text-center">Village Nursery School</h1>
-        <p class="text-white text-center">
+      <div class="col-md-7">
+        <h3 class="text-white">Welcome to</h3>
+        <h1 class="main-header">Village Nursery School</h1>
+        <p class="narrow-content">
           <i>A safe and secure environment dedicated to helping children grow and flourish</i>
         </p>
-        <a id="home-hero-btn" href="<?php echo home_url(); ?>/programs/" class="btn btn-primary">See Our Programs <i class="fa fa-angle-double-right"></i></a>
+        <a href="<?php echo home_url(); ?>/programs/" class="btn btn-primary home-hero-btn">See Our Programs <i class="fa fa-angle-double-right"></i></a>
+      </div>
+      <div class="col-md-5">
+        <img class="ollie-owl img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/vns-logo-owl-transparent-bkg-hires.png"
+        alt="Village Nursery School Ollie the Owl">
       </div>
     </div>
   </div>
