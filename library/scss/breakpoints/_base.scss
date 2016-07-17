@@ -1344,6 +1344,15 @@ Programs & Rates Styles
 
 .program-photo-right {
   margin-top: 2.5em;
+  .class-download {
+    width: 75%;
+    margin: 1.5em auto 0;
+    display: block;
+    float: none;
+  }
+  .h2 {
+    font-size: 1.25em;
+  }
 }
 
 #programs-subnav {
@@ -1406,7 +1415,7 @@ Programs & Rates Styles
     }
   }
   &:hover {
-    box-shadow: 0 0 5px 1px rgba(189,189,189,0.4);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
     -webkit-transition: 0.3s;
     border: 1px solid darken($gray, 10%);
   }

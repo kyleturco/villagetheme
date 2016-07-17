@@ -32,13 +32,17 @@ $sp_description = get_field('sp_description');
       <div class="container">
         <div class="class-description col-md-7">
           <h2>Village Nursery School</h2>
-          <p>
+          <p class="narrow-content">
             <?php echo $vns_description; ?>
           </p>
           <a href="<?php echo home_url(); ?>/enrollment/#class-1" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="program-photo-right col-md-5">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/kids-in-playroom.jpg" alt="village nursery school playroom" width="400px">
+          <div class="class-download">
+            <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Schedule 2016-2017 </h3>
+            <a href="/" class="btn btn-primary">Download Now</a>
+          </div>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -47,6 +51,10 @@ $sp_description = get_field('sp_description');
       <div class="container">
         <div class="program-photo-right col-md-5">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="village nursery school sandtable" width="400px">
+          <div class="class-download">
+            <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Schedule 2016-2017 </h3>
+            <a href="/" class="btn btn-primary">Download Now</a>
+          </div>
         </div>
         <div class="class-description col-md-7">
           <h2>Parent Infant Toddler</h2>
@@ -61,7 +69,7 @@ $sp_description = get_field('sp_description');
       <div class="container">
         <div class="class-description col-md-7">
           <h2>Stay & Play</h2>
-          <p>
+          <p class="narrow-content">
             <?php echo $sp_description; ?>
           </p>
           <a href="<?php echo home_url(); ?>/enrollment/#stay-and-play-enroll" class="btn btn-primary">Sign Up Now</a>

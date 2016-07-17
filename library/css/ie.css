@@ -380,21 +380,26 @@ mobile. Make sure to double check these!
 /*********************
 CUSTOM STYLES
 *********************/
-/* line 303, ../scss/breakpoints/_768up.scss */
+/* line 302, ../scss/breakpoints/_768up.scss */
+.narrow-content {
+  padding-right: 2em;
+}
+
+/* line 307, ../scss/breakpoints/_768up.scss */
 #home-classes-section .class-box {
   width: 48%;
   margin-bottom: 2em;
 }
-/* line 306, ../scss/breakpoints/_768up.scss */
+/* line 310, ../scss/breakpoints/_768up.scss */
 #home-classes-section .class-box .class-box-text {
   padding: 1.5em 0.5em 1.5em 1em;
 }
-/* line 310, ../scss/breakpoints/_768up.scss */
+/* line 314, ../scss/breakpoints/_768up.scss */
 #home-classes-section .calendar-tag {
   width: 66%;
 }
 
-/* line 316, ../scss/breakpoints/_768up.scss */
+/* line 320, ../scss/breakpoints/_768up.scss */
 .homepage-description {
   padding: 0em 5em;
 }
