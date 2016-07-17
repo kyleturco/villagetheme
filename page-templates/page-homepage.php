@@ -82,56 +82,61 @@ Template Name: Home Page
   <div id="home-classes-section">
     <div class="container">
       <h1 class="text-center">Our Classes</h1>
-      <p class="h3 text-center">Check out our 2016 Calendar!<a href="/">Click Here</a></p>
-      <div class="class-box pull-left">
-        <div class="class-box-text pull-left">
-          <h2>Preschool 2</h2>
-          <p>
-            <b>Ages:</b> 2-3
-            <br>
-            <b>Class size:</b> 10
-          </p>
-          <a href="<?php echo home_url(); ?>/enrollment/#preschool-2" class="btn btn-primary">Enroll Now</a>
+      <div class="class-box-section clearfix">
+        <div class="class-box pull-left">
+          <div class="class-box-text pull-left">
+            <h2>Preschool 2</h2>
+            <p>
+              <b>Ages:</b> 2-3
+              <br>
+              <b>Class size:</b> 10
+            </p>
+            <a href="<?php echo home_url(); ?>/enrollment/#preschool-2" class="btn btn-primary">Enroll Now</a>
+          </div>
+          <div class="class-box-image class-box-image-1 pull-right"></div>
         </div>
-        <div class="class-box-image class-box-image-1 pull-right"></div>
-      </div>
-      <div class="class-box pull-right">
-        <div class="class-box-text pull-left">
-          <h2>Preschool 3</h2>
-          <p>
-            <b>Ages:</b> 3-4
-            <br>
-            <b>Class size:</b> 15
-          </p>
-          <a href="<?php echo home_url(); ?>/enrollment/#preschool-3" class="btn btn-primary">Enroll Now</a>
+        <div class="class-box pull-right">
+          <div class="class-box-text pull-left">
+            <h2>Preschool 3</h2>
+            <p>
+              <b>Ages:</b> 3-4
+              <br>
+              <b>Class size:</b> 15
+            </p>
+            <a href="<?php echo home_url(); ?>/enrollment/#preschool-3" class="btn btn-primary">Enroll Now</a>
+          </div>
+          <div class="class-box-image class-box-image-2 pull-right"></div>
         </div>
-        <div class="class-box-image class-box-image-2 pull-right"></div>
-      </div>
-      <div class="class-box pull-left">
-        <div class="class-box-text pull-left">
-          <h2>Pre-K</h2>
-          <p>
-            <b>Ages:</b> 4-5
-            <br>
-            <b>Class size:</b> 15
-          </p>
-          <a href="<?php echo home_url(); ?>/enrollment/#pre-k" class="btn btn-primary">Enroll Now</a>
+        <div class="class-box pull-left">
+          <div class="class-box-text pull-left">
+            <h2>Pre-K</h2>
+            <p>
+              <b>Ages:</b> 4-5
+              <br>
+              <b>Class size:</b> 15
+            </p>
+            <a href="<?php echo home_url(); ?>/enrollment/#pre-k" class="btn btn-primary">Enroll Now</a>
+          </div>
+          <div class="class-box-image class-box-image-3 pull-right"></div>
         </div>
-        <div class="class-box-image class-box-image-3 pull-right"></div>
-      </div>
-      <div class="class-box pull-right">
-        <div class="class-box-text pull-left">
-          <h2>P.I.T.</h2>
-          <p>
-            <b>Ages:</b> 10-24+ months
-            <br>
-            <b>Class size:</b> 10
-          </p>
-          <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
+        <div class="class-box pull-right">
+          <div class="class-box-text pull-left">
+            <h2>P.I.T.</h2>
+            <p>
+              <b>Ages:</b> 10-24+ months
+              <br>
+              <b>Class size:</b> 10
+            </p>
+            <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
+          </div>
+          <div class="class-box-image class-box-image-4 pull-right"></div>
         </div>
-        <div class="class-box-image class-box-image-4 pull-right"></div>
       </div>
-      <div class="clearfix"></div>
+      <div class="calendar-tag">
+        <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Scheduling</h3>
+        <p class="h3">Check out our 2016 Calendar!</p>
+        <a class="btn btn-primary calendar-tag-btn" href="/">Click Here</a>
+      </div>
     </div>
   </div>
   <div class="enroll-section">

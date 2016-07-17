@@ -1155,9 +1155,29 @@ Homepage styles
   }
 }
 
+.class-box-section {
+  margin-top: 1.5em;
+}
+
 #home-classes-section {
-  padding: 1em 0;
+  padding: 1em 0 3em;
   background: $light-gray;
+  h1 {
+    margin-bottom: 0;
+  }
+  .calendar-tag {
+    border: 1px solid $gray;
+    background: $white;
+    margin: 1em auto 0;
+    display: block;
+    padding: 1.5em 1.5em 3em;
+    text-align: center;
+    &-btn {
+      margin: 1em auto 0;
+      width: 7em;
+      display: block;
+    }
+  }
   .class-box {
     background: $blue;
     margin-top: 0.5em;
