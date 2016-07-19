@@ -134,8 +134,8 @@ Template Name: Home Page
       </div>
       <div class="calendar-tag">
         <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Scheduling</h3>
-        <p class="h3">Check out our 2016 Calendar!</p>
-        <a class="btn btn-primary calendar-tag-btn" href="/">Click Here</a>
+        <p class="h3">For scheduling info visit our <a href="<?php echo home_url(); ?>/programs">Programs</a> page</p>
+        <a class="btn btn-primary calendar-tag-btn" href="<?php echo home_url(); ?>/programs">Click Here</a>
       </div>
     </div>
   </div>

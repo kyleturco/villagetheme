@@ -53,7 +53,7 @@ $sp_description = get_field('sp_description');
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="village nursery school sandtable" width="400px">
           <div class="class-download">
             <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Schedule 2016-2017 </h3>
-            <a href="/" class="btn btn-primary">Download Now</a>
+            <a href="<?php echo get_template_directory_uri(); ?>/vns-calendar-2016-2017.pdf" class="btn btn-primary" target="_blank">Download Now</a>
           </div>
         </div>
         <div class="class-description col-md-7">
