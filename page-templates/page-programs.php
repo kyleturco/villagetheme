@@ -4,9 +4,11 @@ Template Name: Programs
 */
 
 // Sets variables for WP custom fields
-$vns_description = get_field('vns_description');
-$pit_description = get_field('pit_description');
-$sp_description = get_field('sp_description');
+  $vns_description = get_field('vns_description');
+  $pit_description = get_field('pit_description');
+  $sp_description = get_field('sp_description');
+  $vns_schedule = get_field('vns_schedule');
+  $pit_schedule = get_field('pit_schedule');
 ?>
 
 <?php get_header(); ?>
@@ -39,10 +41,12 @@ $sp_description = get_field('sp_description');
         </div>
         <div class="program-photo-right col-md-5">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/kids-in-playroom.jpg" alt="village nursery school playroom" width="400px">
+          <?php if (!empty($vns_schedule)) { ?>
           <div class="class-download">
             <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Schedule 2016-2017 </h3>
-            <a href="/" class="btn btn-primary">Download Now</a>
+            <a href="<?php echo $vns_schedule; ?>" class="btn btn-primary" target="_blank">Download Now</a>
           </div>
+          <?php } ?>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -51,10 +55,12 @@ $sp_description = get_field('sp_description');
       <div class="container">
         <div class="program-photo-right col-md-5">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="village nursery school sandtable" width="400px">
+          <?php if (!empty($pit_schedule)) { ?>
           <div class="class-download">
             <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Schedule 2016-2017 </h3>
-            <a href="<?php echo get_template_directory_uri(); ?>/vns-calendar-2016-2017.pdf" class="btn btn-primary" target="_blank">Download Now</a>
+            <a href="<?php echo $pit_schedule; ?>" class="btn btn-primary" target="_blank">Download Now</a>
           </div>
+          <?php } ?>
         </div>
         <div class="class-description col-md-7">
           <h2>Parent Infant Toddler</h2>
