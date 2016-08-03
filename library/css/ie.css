@@ -404,6 +404,15 @@ CUSTOM STYLES
   padding: 0em 5em;
 }
 
+/* line 324, ../scss/breakpoints/_768up.scss */
+.program-photo-right {
+  margin-top: 2.5em;
+}
+/* line 326, ../scss/breakpoints/_768up.scss */
+.program-photo-right .class-download {
+  width: 75%;
+}
+
 /******************************************************************
 Site Name:
 Author:
