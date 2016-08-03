@@ -25,117 +25,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/********************
-WORDPRESS BODY CLASSES
-style a page via class
-********************/
-
-.rtl {}
-
-/* for sites that are read right to left (i.e. hebrew) */
-.home {}
-
-/* home page */
-.blog {}
-
-/* blog template page */
-.archive {}
-
-/* archive page */
-.date {}
-
-/* date archive page */
-.date-paged-1 {}
-
-/* replace the number to the corresponding page number */
-.search {}
-
-/* search page */
-.search-results {}
-
-/* search result page */
-.search-no-results {}
-
-/* no results search page */
-.search-paged-1 {}
-
-/* individual paged search (i.e. body.search-paged-3) */
-.error404 {}
-
-/* 404 page */
-.single {}
-
-/* single post page */
-.postid-1 {}
-
-/* individual post page by id (i.e. body.postid-73) */
-.single-paged-1 {}
-
-/* individual paged single (i.e. body.single-paged-3) */
-.attachment {}
-
-/* attatchment page */
-.attachmentid-1 {}
-
-/* individual attatchment page (i.e. body.attachmentid-763) */
-.attachment-mime-type {}
-
-/* style mime type pages */
-.author {}
-
-/* author page */
-.author-nicename {}
-
-/* user nicename (i.e. body.author-samueladams) */
-.author-paged-1 {}
-
-/* paged author archives (i.e. body.author-paged-4) for page 4 */
-.category {}
-
-/* category page */
-.category-1 {}
-
-/* individual category page (i.e. body.category-6) */
-.category-paged-1 {}
-
-/* replace the number to the corresponding page number */
-.tag {}
-
-/* tag page */
-.tag-slug {}
-
-/* individual tag page (i.e. body.tag-news) */
-.tag-paged-1 {}
-
-/* replace the number to the corresponding page number */
-.page-template {}
-
-/* custom page template page */
-.page-template-page-php {}
-
-/* individual page template (i.e. body.page-template-contact-php */
-.page-paged-1 {}
-
-/* replace the number to the corresponding page number */
-.page-parent {}
-
-/* parent page template */
-.page-child {}
-
-/* child page template */
-.parent-pageid-1 {}
-
-/* replace the number to the corresponding page number */
-.logged-in {}
-
-/* if user is logged in */
-.paged {}
-
-/* paged items like search results or archives */
-.paged-1 {}
-
-/* individual paged (i.e. body.paged-3) */
-
 /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -172,44 +61,44 @@ H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-    text-rendering: optimizelegibility;
-    font-weight: 500;
+  text-rendering: optimizelegibility;
+  font-weight: 500;
 
-    /* removing text decoration from all headline links */
-    a {
-        text-decoration: none;
-    }
+  /* removing text decoration from all headline links */
+  a {
+      text-decoration: none;
+  }
 }
 
 h1, .h1 {
-    font-size: 2.7em;
-    line-height: 1.333em;
-    font-family: $header;
-    color: $blue;
+  font-size: 2.15em;
+  line-height: 1.333em;
+  font-family: $header;
+  color: $blue;
 }
 
 h2, .h2 {
-    font-size: 1.75em;
-    line-height: 1.4em;
-    margin-bottom: 0.375em;
-    font-family: $header;
-    color: $blue;
+  font-size: 1.75em;
+  line-height: 1.4em;
+  margin-bottom: 0.375em;
+  font-family: $header;
+  color: $blue;
 }
 
 h3, .h3 {
-    font-size: 1.125em;
+  font-size: 1.125em;
 }
 
 h4, .h4 {
-    font-size: 1.1em;
-    font-weight: 700;
+  font-size: 1.1em;
+  font-weight: 700;
 }
 
 h5, .h5 {
-    font-size: 0.846em;
-    line-height: 2.09em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  font-size: 0.846em;
+  line-height: 2.09em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /*********************
@@ -265,11 +154,6 @@ NAVIGATION STYLES
         padding: 0.75em;
         &:hover, &:focus {}
     }
-
-    &:first-child {}
-
-    &:last-child {}
-
     ul.sub-menu,
     ul.children {
       li {
@@ -288,17 +172,6 @@ NAVIGATION STYLES
       }
     }
   }
-
-  /* end .menu li */
-
-  /* highlight current page */
-  li.current-menu-item,
-  li.current_page_item,
-  li.current_page_ancestor {
-      a {}
-  }
-
-    /* end current highlighters */
 }
 
 /* end .nav */
@@ -330,46 +203,6 @@ POSTS & CONTENT STYLES
 
 /* end .hentry */
 
-.single-title,
-.page-title,
-.entry-title {
-    margin: 0;
-}
-
-.single-title {}
-
-.page-title {}
-
-.entry-title {}
-
-.archive-title {}
-
-/* want to style individual post classes? Booya! */
-.post-id {}
-
-/* post by id (i.e. post-3) */
-.post {}
-
-/* general post style */
-.page {}
-
-/* general article on a page style */
-.attachment {}
-
-/* general style on an attatchment */
-.sticky {}
-
-/* sticky post style */
-.hentry {}
-
-/* hentry class */
-.category-slug {}
-
-/* style by category (i.e. category-videos) */
-.tag-slug {}
-
-/* style by tag (i.e. tag-news) */
-
 /* post meta */
 .byline {
   color: $meta-gray;
@@ -385,20 +218,6 @@ POSTS & CONTENT STYLES
 
   p {
       margin: 0 0 1.5em;
-  }
-
-  ul, ol, table, dl {}
-
-  ul, ol {
-      li {}
-  }
-
-  ul {
-      li {}
-  }
-
-  ol {
-      li {}
   }
 
   table {
@@ -520,34 +339,7 @@ POSTS & CONTENT STYLES
     text-align: center;
   }
 }
-
 /* end .wp-caption */
-
-/* image gallery styles */
-.gallery {
-  dl {
-      a {}
-
-      img {}
-  }
-
-  dt {}
-
-  dd {}
-}
-
-/* end .gallery */
-
-/* gallery caption styles */
-.gallery-caption {}
-
-.size-full {}
-
-.size-large {}
-
-.size-medium {}
-
-.size-thumbnail {}
 
 // the tag output
 .tags {
@@ -708,30 +500,6 @@ COMMENT STYLES
         margin-bottom: 0;
     }
 
-    .children {
-        margin: 0;
-
-        li {}
-
-        /* variations */
-        .comment {}
-
-        .alt {}
-
-        .odd {}
-
-        .even {}
-
-        .depth-1 {}
-
-        /* change number for different depth */
-        .byuser {}
-
-        .bypostauthor {}
-
-        .comment-author-admin {}
-    }
-
     /* end children */
 
     &[class*=depth-] {
@@ -748,17 +516,6 @@ COMMENT STYLES
         margin-left: 7px;
         padding: 7px;
     }
-
-    &.depth-2 {}
-
-    &.depth-3 {}
-
-    &.depth-4 {}
-
-    &.depth-5 {}
-
-    /* general comment classes */
-    &.alt {}
 
     &.odd {
         background-color: $white;
@@ -1313,7 +1070,7 @@ Programs & Rates Styles
 
 #program-header,
 #enrollment-header {
-  font-size: 3em;
+  font-size: 2.35em;
 }
 
 #programs-page-header {
@@ -1321,7 +1078,7 @@ Programs & Rates Styles
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 20%;
-  padding: 6em 0;
+  padding: 3.5em 0;
   #program-header {
     margin: 0;
   }
@@ -1445,7 +1202,7 @@ Programs & Rates Styles
 #enrollment-page-header {
   background: url(../images/enrollment-header-ver2.jpg) no-repeat;
   background-size: cover;
-  padding: 6em 0;
+  padding: 3.5em 0;
   background-position-x: 45%;
   background-position-y: 60%;
   #enrollment-header {
