@@ -938,32 +938,21 @@ Homepage styles
   .class-box {
     background: $blue;
     margin-top: 0.5em;
-    width: 100%;
+
     .btn-primary {
       margin-top: 0.5em;
     }
+
+    &__text {
+      padding: 1em 0.5em 2em 2em;
+    }
+
     h2 {
       margin: 0em;
       color: $white;
     }
     p {
       color: rgba(256, 256, 256, 0.7);
-    }
-    .class-box-text {
-      width: 60%;
-      padding: 1.5em 0.5em 1.5em 2em;
-      h2 {
-        font-size: 1.3em;
-      }
-    }
-    &-image {
-      width: 40%;
-      height: 230px;
-    }
-    &-image-1 {
-      background: url(../images/kids-in-classroom.jpg) no-repeat;
-      background-size: cover;
-      background-position: center;
     }
     &-image-2 {
       background: url(../images/kid-with-marker.jpg) no-repeat;

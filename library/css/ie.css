@@ -345,44 +345,39 @@ h1, .h1 {
 
 /* line 167, ../scss/breakpoints/_768up.scss */
 #home-classes-section .class-box {
-  width: 48%;
   margin-bottom: 2em;
 }
 /* line 170, ../scss/breakpoints/_768up.scss */
-#home-classes-section .class-box .class-box-text {
-  padding: 1.5em 0.5em 1.5em 1em;
-}
-/* line 174, ../scss/breakpoints/_768up.scss */
 #home-classes-section .calendar-tag {
   width: 66%;
 }
 
-/* line 180, ../scss/breakpoints/_768up.scss */
+/* line 176, ../scss/breakpoints/_768up.scss */
 .homepage-description {
   padding: 0em 5em;
 }
 
-/* line 184, ../scss/breakpoints/_768up.scss */
+/* line 180, ../scss/breakpoints/_768up.scss */
 #program-header,
 #enrollment-header {
   font-size: 3em;
 }
 
-/* line 189, ../scss/breakpoints/_768up.scss */
+/* line 185, ../scss/breakpoints/_768up.scss */
 #programs-page-header {
   padding: 6em 0;
 }
 
-/* line 193, ../scss/breakpoints/_768up.scss */
+/* line 189, ../scss/breakpoints/_768up.scss */
 #enrollment-page-header {
   padding: 6em 0;
 }
 
-/* line 197, ../scss/breakpoints/_768up.scss */
+/* line 193, ../scss/breakpoints/_768up.scss */
 .program-photo-right {
   margin-top: 2.5em;
 }
-/* line 199, ../scss/breakpoints/_768up.scss */
+/* line 195, ../scss/breakpoints/_768up.scss */
 .program-photo-right .class-download {
   width: 75%;
 }
