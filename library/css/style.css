@@ -2681,6 +2681,49 @@ Programs & Rates Styles
   background: #eaedf2;
 }
 
+/* line 1288, ../scss/breakpoints/_base.scss */
+.enrollment__page-content {
+  padding: 4em 0;
+}
+/* line 1292, ../scss/breakpoints/_base.scss */
+.enrollment__content-header {
+  margin-top: 0;
+}
+/* line 1296, ../scss/breakpoints/_base.scss */
+.enrollment__alert {
+  padding: 1em 2em 2em;
+  margin: 0 0 2em;
+}
+/* line 1300, ../scss/breakpoints/_base.scss */
+.enrollment__alert--header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5em;
+}
+/* line 1304, ../scss/breakpoints/_base.scss */
+.enrollment__alert--header .icon {
+  padding-right: 0.75em;
+}
+/* line 1311, ../scss/breakpoints/_base.scss */
+.enrollment__date--date {
+  font-size: 1.5em;
+  color: #7dd667;
+}
+/* line 1316, ../scss/breakpoints/_base.scss */
+.enrollment__date--container {
+  padding: 2em 0;
+  border-bottom: 1px solid #ccc;
+}
+@media (min-width: 768px) {
+  /* line 1316, ../scss/breakpoints/_base.scss */
+  .enrollment__date--container {
+    margin-right: 4em;
+  }
+}
+/* line 1324, ../scss/breakpoints/_base.scss */
+.enrollment__date--container:first-of-type {
+  border-top: 1px solid #ccc;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
