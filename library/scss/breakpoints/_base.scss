@@ -896,6 +896,29 @@ Homepage styles
   }
 }
 
+.enrollment-cta {
+  text-align: center;
+  padding: 3em 0;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+
+  &__header,
+  &__description {
+    margin-top: 0;
+  }
+
+  &__btn {
+    background: $blue;
+    margin-top: 1em;
+
+    &:hover {
+      background: darken($blue, 10%);
+    }
+  }
+}
+
 #overview-photos-right {
   .photo-left {
     width: 100%;
