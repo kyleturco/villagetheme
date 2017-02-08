@@ -44,7 +44,7 @@ Template Name: Enrollment 2017
           <h4>ENROLLMENT for Current VNS &amp; PIT Families Opens</h4>
         </div>
         <div class="enrollment__date--container">
-          <h3 class="enrollment__date--date">Thursday, March 23rd: 8:30am - 2pm</h3>
+          <h3 class="enrollment__date--date">Thursday, March 23rd: 8:30am - 3pm</h3>
           <h4>ENROLLMENT for VNS &amp; PIT past Alumni Opens</h4>
         </div>
         <div class="enrollment__date--container">
