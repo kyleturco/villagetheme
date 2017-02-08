@@ -27,30 +27,10 @@ Template Name: Enrollment 2017
       </div>
       <div class="col-md-8 pull-left">
         <h1 class="enrollment__content-header">Dates to Know</h1>
-        <div class="enrollment__date--container">
-          <h3 class="enrollment__date--date">Monday, March 6th: 5:30-7PM</h3>
-          <h4>Open House</h4>
-          <p class="enrollment__date--description">
-            Monday, March 6th, 5:30-7PM – Come meet our staff, visit our classrooms and learn more information
-            about the multiple programs we offer at Village Nursery School.
-          </p>
-        </div>
-        <div class="enrollment__date--container">
-          <h3 class="enrollment__date--date">Monday, March 20th: 8:30am - 1pm</h3>
-          <h4>ENROLLMENT for VNS Staff, Board &amp; FUMC Church Members Opens</h4>
-        </div>
-        <div class="enrollment__date--container">
-          <h3 class="enrollment__date--date">Wednesday, March 22nd: 8:30am - 3pm</h3>
-          <h4>ENROLLMENT for Current VNS &amp; PIT Families Opens</h4>
-        </div>
-        <div class="enrollment__date--container">
-          <h3 class="enrollment__date--date">Thursday, March 23rd: 8:30am - 3pm</h3>
-          <h4>ENROLLMENT for VNS &amp; PIT past Alumni Opens</h4>
-        </div>
-        <div class="enrollment__date--container">
-          <h3 class="enrollment__date--date">Friday, March 24th: 8:30am - 3pm</h3>
-          <h4>ENROLLMENT to the Public Opens</h4>
-        </div>
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+          <?php the_content(); ?>
+        <?php endwhile; else : ?>
+        <?php endif; ?>
       </div>
     </div>
   </div>
