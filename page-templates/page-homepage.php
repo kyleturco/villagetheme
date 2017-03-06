@@ -85,10 +85,6 @@ Template Name: Home Page
         </div>
         <div id="overview-photos-right" class="col-md-6">
           <div class="photo-left"></div>
-          <div class="photos-right">
-            <div class="photo-1"></div>
-            <div class="photo-2"></div>
-          </div>
         </div>
       </div>
     </div>
@@ -98,53 +94,65 @@ Template Name: Home Page
     <div class="container">
       <h1 class="text-center">Our Classes</h1>
       <div class="class-box-section clearfix">
-        <div class="class-box pull-left">
-          <div class="class-box-text pull-left">
-            <h2>Preschool 2</h2>
-            <p>
-              <b>Ages:</b> 2-3
-              <br>
-              <b>Class size:</b> 10
-            </p>
-            <a href="<?php echo home_url(); ?>/enrollment/#preschool-2" class="btn btn-primary">Enroll Now</a>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="class-box clearfix">
+              <div class="class-box__text">
+                <h2 class="class-box__text__header">Preschool 2</h2>
+                <p>
+                  <b>Ages:</b> 2-3
+                  <br>
+                  <b>Class size:</b> 10
+                </p>
+                <a href="<?php echo home_url(); ?>/enrollment/#preschool-2" class="btn btn-primary">Enroll Now</a>
+              </div>
+              <div class="class-box__image class-box-image-1"></div>
+            </div>
           </div>
-          <div class="class-box-image class-box-image-1 pull-right"></div>
+          <div class="col-md-6">
+            <div class="class-box clearfix">
+              <div class="class-box__text">
+                <h2 class="class-box__text__header">Preschool 3</h2>
+                <p>
+                  <b>Ages:</b> 3-4
+                  <br>
+                  <b>Class size:</b> 15
+                </p>
+                <a href="<?php echo home_url(); ?>/enrollment/#preschool-3" class="btn btn-primary">Enroll Now</a>
+              </div>
+              <div class="class-box__image class-box-image-2"></div>
+            </div>
+          </div>
         </div>
-        <div class="class-box pull-right">
-          <div class="class-box-text pull-left">
-            <h2>Preschool 3</h2>
-            <p>
-              <b>Ages:</b> 3-4
-              <br>
-              <b>Class size:</b> 15
-            </p>
-            <a href="<?php echo home_url(); ?>/enrollment/#preschool-3" class="btn btn-primary">Enroll Now</a>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="class-box clearfix">
+              <div class="class-box__text">
+                <h2 class="class-box__text__header">Pre-K</h2>
+                <p>
+                  <b>Ages:</b> 4-5
+                  <br>
+                  <b>Class size:</b> 15
+                </p>
+                <a href="<?php echo home_url(); ?>/enrollment/#pre-k" class="btn btn-primary">Enroll Now</a>
+              </div>
+              <div class="class-box__image class-box-image-3"></div>
+            </div>
           </div>
-          <div class="class-box-image class-box-image-2 pull-right"></div>
-        </div>
-        <div class="class-box pull-left">
-          <div class="class-box-text pull-left">
-            <h2>Pre-K</h2>
-            <p>
-              <b>Ages:</b> 4-5
-              <br>
-              <b>Class size:</b> 15
-            </p>
-            <a href="<?php echo home_url(); ?>/enrollment/#pre-k" class="btn btn-primary">Enroll Now</a>
+          <div class="col-md-6">
+            <div class="class-box clearfix">
+              <div class="class-box__text">
+                <h2 class="class-box__text__header">P.I.T.</h2>
+                <p>
+                  <b>Ages:</b> 10-24+ months
+                  <br>
+                  <b>Class size:</b> 10
+                </p>
+                <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
+              </div>
+              <div class="class-box__image class-box-image-4"></div>
+            </div>
           </div>
-          <div class="class-box-image class-box-image-3 pull-right"></div>
-        </div>
-        <div class="class-box pull-right">
-          <div class="class-box-text pull-left">
-            <h2>P.I.T.</h2>
-            <p>
-              <b>Ages:</b> 10-24+ months
-              <br>
-              <b>Class size:</b> 10
-            </p>
-            <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
-          </div>
-          <div class="class-box-image class-box-image-4 pull-right"></div>
         </div>
       </div>
       <div class="calendar-tag">

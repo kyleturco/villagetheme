@@ -2267,26 +2267,22 @@ Homepage styles
   background-position: center;
   margin-top: 1.5em;
 }
-/* line 933, ../scss/breakpoints/_base.scss */
-#overview-photos-right .photos-right {
-  display: none;
-}
 
-/* line 938, ../scss/breakpoints/_base.scss */
+/* line 935, ../scss/breakpoints/_base.scss */
 .class-box-section {
   margin-top: 1.5em;
 }
 
-/* line 942, ../scss/breakpoints/_base.scss */
+/* line 939, ../scss/breakpoints/_base.scss */
 #home-classes-section {
   padding: 1em 0 3em;
   background: #f3f3f3;
 }
-/* line 945, ../scss/breakpoints/_base.scss */
+/* line 942, ../scss/breakpoints/_base.scss */
 #home-classes-section h1 {
   margin-bottom: 0;
 }
-/* line 948, ../scss/breakpoints/_base.scss */
+/* line 945, ../scss/breakpoints/_base.scss */
 #home-classes-section .calendar-tag {
   border: 1px solid #eaedf2;
   background: #fff;
@@ -2295,80 +2291,78 @@ Homepage styles
   padding: 1.5em 1.5em 3em;
   text-align: center;
 }
-/* line 955, ../scss/breakpoints/_base.scss */
+/* line 952, ../scss/breakpoints/_base.scss */
 #home-classes-section .calendar-tag-btn {
   margin: 1em auto 0;
   width: 7em;
   display: block;
 }
-/* line 961, ../scss/breakpoints/_base.scss */
+/* line 958, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box {
   background: #4285f4;
   margin-top: 0.5em;
-  width: 100%;
 }
-/* line 965, ../scss/breakpoints/_base.scss */
+/* line 962, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box .btn-primary {
   margin-top: 0.5em;
 }
-/* line 968, ../scss/breakpoints/_base.scss */
-#home-classes-section .class-box h2 {
-  margin: 0em;
-  color: #fff;
-}
-/* line 972, ../scss/breakpoints/_base.scss */
+/* line 966, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box p {
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 975, ../scss/breakpoints/_base.scss */
-#home-classes-section .class-box .class-box-text {
+/* line 970, ../scss/breakpoints/_base.scss */
+#home-classes-section .class-box__text {
   width: 60%;
+  float: left;
   padding: 1.5em 0.5em 1.5em 2em;
 }
-/* line 978, ../scss/breakpoints/_base.scss */
-#home-classes-section .class-box .class-box-text h2 {
+/* line 975, ../scss/breakpoints/_base.scss */
+#home-classes-section .class-box__text__header {
+  margin: 0;
+  color: #fff;
   font-size: 1.3em;
 }
 /* line 982, ../scss/breakpoints/_base.scss */
-#home-classes-section .class-box-image {
+#home-classes-section .class-box__image {
   width: 40%;
+  float: left;
   height: 230px;
 }
-/* line 986, ../scss/breakpoints/_base.scss */
+/* line 988, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box-image-1 {
   background: url(../images/kids-in-classroom.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
-/* line 991, ../scss/breakpoints/_base.scss */
+/* line 993, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box-image-2 {
   background: url(../images/kid-with-marker.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
-/* line 996, ../scss/breakpoints/_base.scss */
+/* line 998, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box-image-3 {
   background: url(../images/kid-with-toy.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
-/* line 1001, ../scss/breakpoints/_base.scss */
+/* line 1003, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box-image-4 {
   background: url(../images/kids-at-play.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
-/* line 1006, ../scss/breakpoints/_base.scss */
+/* line 1008, ../scss/breakpoints/_base.scss */
 #home-classes-section .class-box:hover {
   transition: 0.5s;
 }
 
-/* line 1012, ../scss/breakpoints/_base.scss */
+/* line 1014, ../scss/breakpoints/_base.scss */
 .enroll-section {
   background: #fff;
   padding: 3em 0;
 }
-/* line 1015, ../scss/breakpoints/_base.scss */
+/* line 1017, ../scss/breakpoints/_base.scss */
 .enroll-section .btn-primary {
   margin-top: 0.7em;
 }
@@ -2376,23 +2370,23 @@ Homepage styles
 /**************
 Our Story styles
 ***************/
-/* line 1024, ../scss/breakpoints/_base.scss */
+/* line 1026, ../scss/breakpoints/_base.scss */
 .our-story-content {
   padding: 3em 0 0 0;
 }
 
-/* line 1028, ../scss/breakpoints/_base.scss */
+/* line 1030, ../scss/breakpoints/_base.scss */
 #story-text-section {
   padding: 0em 0 4em;
 }
 
-/* line 1032, ../scss/breakpoints/_base.scss */
+/* line 1034, ../scss/breakpoints/_base.scss */
 #story-director-section {
   padding: 2em 0 4em;
   background: #eaedf2;
 }
 
-/* line 1037, ../scss/breakpoints/_base.scss */
+/* line 1039, ../scss/breakpoints/_base.scss */
 .our-story-container {
   max-width: 800px;
   margin: 0 auto;
@@ -2400,33 +2394,33 @@ Our Story styles
   padding-right: 15px;
 }
 
-/* line 1046, ../scss/breakpoints/_base.scss */
+/* line 1048, ../scss/breakpoints/_base.scss */
 #our-story-photos-right .photos-top img {
   width: 100%;
   margin-top: 1em;
 }
-/* line 1051, ../scss/breakpoints/_base.scss */
+/* line 1053, ../scss/breakpoints/_base.scss */
 #our-story-photos-right .photos-bottom {
   display: none;
 }
 
-/* line 1056, ../scss/breakpoints/_base.scss */
+/* line 1058, ../scss/breakpoints/_base.scss */
 #story-photo-bar {
   display: block;
   max-height: 370px;
   background: #fff;
 }
-/* line 1060, ../scss/breakpoints/_base.scss */
+/* line 1062, ../scss/breakpoints/_base.scss */
 #story-photo-bar img {
   overflow: hidden;
   width: 100%;
 }
 
-/* line 1067, ../scss/breakpoints/_base.scss */
+/* line 1069, ../scss/breakpoints/_base.scss */
 .director-signoff {
   margin-top: 2em;
 }
-/* line 1069, ../scss/breakpoints/_base.scss */
+/* line 1071, ../scss/breakpoints/_base.scss */
 .director-signoff img {
   float: left;
   width: 120px;
@@ -2435,16 +2429,16 @@ Our Story styles
   margin-bottom: 1em;
   border: 5px solid #fff;
 }
-/* line 1077, ../scss/breakpoints/_base.scss */
+/* line 1079, ../scss/breakpoints/_base.scss */
 .director-signoff h4 {
   margin-bottom: 0;
 }
-/* line 1080, ../scss/breakpoints/_base.scss */
+/* line 1082, ../scss/breakpoints/_base.scss */
 .director-signoff .right-side {
   float: left;
   display: block;
 }
-/* line 1083, ../scss/breakpoints/_base.scss */
+/* line 1085, ../scss/breakpoints/_base.scss */
 .director-signoff .right-side .director-name {
   font-size: 1.5em;
   font-style: italic;
@@ -2454,13 +2448,13 @@ Our Story styles
 /**************
 Programs & Rates Styles
 ***************/
-/* line 1094, ../scss/breakpoints/_base.scss */
+/* line 1096, ../scss/breakpoints/_base.scss */
 #program-header,
 #enrollment-header {
   font-size: 2.35em;
 }
 
-/* line 1099, ../scss/breakpoints/_base.scss */
+/* line 1101, ../scss/breakpoints/_base.scss */
 #programs-page-header {
   background: url(../images/programs-header-ver2.jpg) no-repeat;
   background-size: cover;
@@ -2468,89 +2462,89 @@ Programs & Rates Styles
   background-position-y: 20%;
   padding: 3.5em 0;
 }
-/* line 1105, ../scss/breakpoints/_base.scss */
+/* line 1107, ../scss/breakpoints/_base.scss */
 #programs-page-header #program-header {
   margin: 0;
 }
-/* line 1108, ../scss/breakpoints/_base.scss */
+/* line 1110, ../scss/breakpoints/_base.scss */
 #programs-page-header #program-subheader {
   margin: 0;
   font-size: 1.6em;
   display: none;
 }
 
-/* line 1115, ../scss/breakpoints/_base.scss */
+/* line 1117, ../scss/breakpoints/_base.scss */
 #programs-program-content {
   background: #f3f3f3;
 }
-/* line 1117, ../scss/breakpoints/_base.scss */
+/* line 1119, ../scss/breakpoints/_base.scss */
 #programs-program-content .btn-primary {
   margin-top: 1em;
 }
-/* line 1120, ../scss/breakpoints/_base.scss */
+/* line 1122, ../scss/breakpoints/_base.scss */
 #programs-program-content img {
   width: 100%;
 }
 
-/* line 1125, ../scss/breakpoints/_base.scss */
+/* line 1127, ../scss/breakpoints/_base.scss */
 .program-photo-right {
   margin-top: 2.5em;
 }
-/* line 1127, ../scss/breakpoints/_base.scss */
+/* line 1129, ../scss/breakpoints/_base.scss */
 .program-photo-right .class-download {
   margin: 1.5em auto 0;
   display: block;
   float: none;
 }
-/* line 1132, ../scss/breakpoints/_base.scss */
+/* line 1134, ../scss/breakpoints/_base.scss */
 .program-photo-right .h2 {
   font-size: 1.25em;
 }
 
-/* line 1137, ../scss/breakpoints/_base.scss */
+/* line 1139, ../scss/breakpoints/_base.scss */
 #programs-subnav {
   display: none;
   border-bottom: 1px solid #eaedf2;
   padding: 0.5em 0;
 }
-/* line 1141, ../scss/breakpoints/_base.scss */
+/* line 1143, ../scss/breakpoints/_base.scss */
 #programs-subnav a {
   color: #7dd667;
   padding: 1em 1.2em;
 }
 
-/* line 1147, ../scss/breakpoints/_base.scss */
+/* line 1149, ../scss/breakpoints/_base.scss */
 .class-info {
   border: 1px solid #eaedf2;
   margin: 1em 0;
 }
-/* line 1150, ../scss/breakpoints/_base.scss */
+/* line 1152, ../scss/breakpoints/_base.scss */
 .class-info i {
   margin-right: 0.3em;
 }
-/* line 1153, ../scss/breakpoints/_base.scss */
+/* line 1155, ../scss/breakpoints/_base.scss */
 .class-info p {
   margin: 0;
 }
-/* line 1156, ../scss/breakpoints/_base.scss */
+/* line 1158, ../scss/breakpoints/_base.scss */
 .class-info h3 {
   margin: 0;
 }
-/* line 1159, ../scss/breakpoints/_base.scss */
+/* line 1161, ../scss/breakpoints/_base.scss */
 .class-info .class-info-header {
   background: #7dd667;
   padding: 0.7em 1em;
   font-weight: 600;
   color: #fff;
 }
-/* line 1165, ../scss/breakpoints/_base.scss */
+/* line 1167, ../scss/breakpoints/_base.scss */
 .class-info .class-info-item {
   padding: 0.7em 1em;
   border-bottom: 1px solid #eaedf2;
   background: #fff;
 }
 
-/* line 1172, ../scss/breakpoints/_base.scss */
+/* line 1174, ../scss/breakpoints/_base.scss */
 .class-download {
   display: none;
   background: #fff;
@@ -2559,59 +2553,59 @@ Programs & Rates Styles
   text-align: center;
   -webkit-transition: 0.3s;
 }
-/* line 1179, ../scss/breakpoints/_base.scss */
+/* line 1181, ../scss/breakpoints/_base.scss */
 .class-download h2 {
   font-size: 1.55em;
   margin-top: 0;
   border-bottom: 1px solid #eaedf2;
   padding-bottom: 0.4em;
 }
-/* line 1185, ../scss/breakpoints/_base.scss */
+/* line 1187, ../scss/breakpoints/_base.scss */
 .class-download p {
   margin-top: 1em;
 }
-/* line 1188, ../scss/breakpoints/_base.scss */
+/* line 1190, ../scss/breakpoints/_base.scss */
 .class-download .btn-primary {
   margin-top: 0.5em;
   margin-bottom: 0.7em;
   background-color: #FE6500;
 }
-/* line 1192, ../scss/breakpoints/_base.scss */
+/* line 1194, ../scss/breakpoints/_base.scss */
 .class-download .btn-primary:hover {
   background-color: #d55500;
 }
-/* line 1196, ../scss/breakpoints/_base.scss */
+/* line 1198, ../scss/breakpoints/_base.scss */
 .class-download:hover {
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
   -webkit-transition: 0.3s;
   border: 1px solid #cbd2df;
 }
 
-/* line 1203, ../scss/breakpoints/_base.scss */
+/* line 1205, ../scss/breakpoints/_base.scss */
 .class-download-mobile {
   display: block;
   margin: 1em 0;
 }
 
-/* line 1208, ../scss/breakpoints/_base.scss */
+/* line 1210, ../scss/breakpoints/_base.scss */
 .class-section {
   padding: 3em 0;
 }
 
-/* line 1212, ../scss/breakpoints/_base.scss */
+/* line 1214, ../scss/breakpoints/_base.scss */
 .class-1,
 .class-3,
 .class-5 {
   background: #f3f3f3;
 }
 
-/* line 1218, ../scss/breakpoints/_base.scss */
+/* line 1220, ../scss/breakpoints/_base.scss */
 .class-2,
 .class-4 {
   background: #fff;
 }
 
-/* line 1225, ../scss/breakpoints/_base.scss */
+/* line 1227, ../scss/breakpoints/_base.scss */
 #enrollment-page-header {
   background: url(../images/enrollment-header-ver2.jpg) no-repeat;
   background-size: cover;
@@ -2619,86 +2613,86 @@ Programs & Rates Styles
   background-position-x: 45%;
   background-position-y: 60%;
 }
-/* line 1231, ../scss/breakpoints/_base.scss */
+/* line 1233, ../scss/breakpoints/_base.scss */
 #enrollment-page-header #enrollment-header {
   margin: 0;
 }
-/* line 1234, ../scss/breakpoints/_base.scss */
+/* line 1236, ../scss/breakpoints/_base.scss */
 #enrollment-page-header #enrollment-subheader {
   margin: 0;
   font-size: 1.6em;
   display: none;
 }
 
-/* line 1241, ../scss/breakpoints/_base.scss */
+/* line 1243, ../scss/breakpoints/_base.scss */
 #enrollment-program-content {
   background: #f3f3f3;
 }
 
-/* line 1245, ../scss/breakpoints/_base.scss */
+/* line 1247, ../scss/breakpoints/_base.scss */
 #enrollment-subnav {
   display: none;
   border-bottom: 1px solid #eaedf2;
   padding: 0.5em 0;
 }
-/* line 1249, ../scss/breakpoints/_base.scss */
+/* line 1251, ../scss/breakpoints/_base.scss */
 #enrollment-subnav a {
   color: #7dd667;
   padding: 1em 1.2em;
 }
 
-/* line 1257, ../scss/breakpoints/_base.scss */
+/* line 1259, ../scss/breakpoints/_base.scss */
 #contact-top .container {
   padding-top: 2em;
   border-top: 1px solid #eaedf2;
 }
 
-/* line 1265, ../scss/breakpoints/_base.scss */
+/* line 1267, ../scss/breakpoints/_base.scss */
 #contact-director-section a,
 #contact-church-section a {
   color: #4285f4;
 }
-/* line 1268, ../scss/breakpoints/_base.scss */
+/* line 1270, ../scss/breakpoints/_base.scss */
 #contact-director-section .fa,
 #contact-church-section .fa {
   margin-right: 0.7em;
 }
 
-/* line 1273, ../scss/breakpoints/_base.scss */
+/* line 1275, ../scss/breakpoints/_base.scss */
 .contact-divider {
   width: 85%;
 }
 
-/* line 1277, ../scss/breakpoints/_base.scss */
+/* line 1279, ../scss/breakpoints/_base.scss */
 #contact-church-section {
   padding-bottom: 1em;
 }
-/* line 1279, ../scss/breakpoints/_base.scss */
+/* line 1281, ../scss/breakpoints/_base.scss */
 #contact-church-section h2 {
   margin-top: 0;
 }
 
-/* line 1284, ../scss/breakpoints/_base.scss */
+/* line 1286, ../scss/breakpoints/_base.scss */
 #contact-director-section {
   padding-top: 1em;
 }
 
-/* line 1288, ../scss/breakpoints/_base.scss */
+/* line 1290, ../scss/breakpoints/_base.scss */
 #contact-bottom {
   padding-top: 6em;
 }
 
-/* line 1292, ../scss/breakpoints/_base.scss */
+/* line 1294, ../scss/breakpoints/_base.scss */
 #contact-photo-right {
   margin-top: 3em;
 }
-/* line 1294, ../scss/breakpoints/_base.scss */
+/* line 1296, ../scss/breakpoints/_base.scss */
 #contact-photo-right img {
   width: 100%;
   height: auto;
 }
 
-/* line 1300, ../scss/breakpoints/_base.scss */
+/* line 1302, ../scss/breakpoints/_base.scss */
 #google-map {
   display: block;
   width: 100%;
@@ -2706,45 +2700,45 @@ Programs & Rates Styles
   background: #eaedf2;
 }
 
-/* line 1311, ../scss/breakpoints/_base.scss */
+/* line 1313, ../scss/breakpoints/_base.scss */
 .enrollment__page-content {
   padding: 4em 0;
 }
-/* line 1315, ../scss/breakpoints/_base.scss */
+/* line 1317, ../scss/breakpoints/_base.scss */
 .enrollment__content-header {
   margin-top: 0;
 }
-/* line 1319, ../scss/breakpoints/_base.scss */
+/* line 1321, ../scss/breakpoints/_base.scss */
 .enrollment__alert {
   padding: 1em 2em 2em;
   margin: 0 0 2em;
 }
-/* line 1323, ../scss/breakpoints/_base.scss */
+/* line 1325, ../scss/breakpoints/_base.scss */
 .enrollment__alert--header {
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.5em;
 }
-/* line 1327, ../scss/breakpoints/_base.scss */
+/* line 1329, ../scss/breakpoints/_base.scss */
 .enrollment__alert--header .icon {
   padding-right: 0.75em;
 }
-/* line 1334, ../scss/breakpoints/_base.scss */
+/* line 1336, ../scss/breakpoints/_base.scss */
 .enrollment__date--date {
   font-size: 1.5em;
   color: #7dd667;
 }
-/* line 1339, ../scss/breakpoints/_base.scss */
+/* line 1341, ../scss/breakpoints/_base.scss */
 .enrollment__date--container {
   padding: 2em 0;
   border-bottom: 1px solid #ccc;
 }
 @media (min-width: 768px) {
-  /* line 1339, ../scss/breakpoints/_base.scss */
+  /* line 1341, ../scss/breakpoints/_base.scss */
   .enrollment__date--container {
     margin-right: 4em;
   }
 }
-/* line 1347, ../scss/breakpoints/_base.scss */
+/* line 1349, ../scss/breakpoints/_base.scss */
 .enrollment__date--container:first-of-type {
   border-top: 1px solid #ccc;
 }
@@ -3008,44 +3002,39 @@ you can add resource intensive styles.
 
   /* line 167, ../scss/breakpoints/_768up.scss */
   #home-classes-section .class-box {
-    width: 48%;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
-  /* line 170, ../scss/breakpoints/_768up.scss */
-  #home-classes-section .class-box .class-box-text {
-    padding: 1.5em 0.5em 1.5em 1em;
-  }
-  /* line 174, ../scss/breakpoints/_768up.scss */
+  /* line 171, ../scss/breakpoints/_768up.scss */
   #home-classes-section .calendar-tag {
     width: 66%;
   }
 
-  /* line 180, ../scss/breakpoints/_768up.scss */
+  /* line 177, ../scss/breakpoints/_768up.scss */
   .homepage-description {
     padding: 0em 5em;
   }
 
-  /* line 184, ../scss/breakpoints/_768up.scss */
+  /* line 181, ../scss/breakpoints/_768up.scss */
   #program-header,
   #enrollment-header {
     font-size: 3em;
   }
 
-  /* line 189, ../scss/breakpoints/_768up.scss */
+  /* line 186, ../scss/breakpoints/_768up.scss */
   #programs-page-header {
     padding: 6em 0;
   }
 
-  /* line 193, ../scss/breakpoints/_768up.scss */
+  /* line 190, ../scss/breakpoints/_768up.scss */
   #enrollment-page-header {
     padding: 6em 0;
   }
 
-  /* line 197, ../scss/breakpoints/_768up.scss */
+  /* line 194, ../scss/breakpoints/_768up.scss */
   .program-photo-right {
     margin-top: 2.5em;
   }
-  /* line 199, ../scss/breakpoints/_768up.scss */
+  /* line 196, ../scss/breakpoints/_768up.scss */
   .program-photo-right .class-download {
     width: 75%;
   }
@@ -3121,107 +3110,77 @@ you can add resource intensive styles.
   }
 
   /* line 63, ../scss/breakpoints/_1030up.scss */
-  #overview-photos-right .photo-left {
-    width: 66%;
-    margin-top: 0;
-  }
-  /* line 67, ../scss/breakpoints/_1030up.scss */
-  #overview-photos-right .photos-right {
-    width: 30%;
-    margin-left: 1em;
-    display: block;
-    float: left;
-  }
-  /* line 72, ../scss/breakpoints/_1030up.scss */
-  #overview-photos-right .photos-right .photo-1 {
-    background: url(../images/kids-at-work.JPG) no-repeat;
-    background-size: cover;
-    height: 160px;
-    margin-bottom: 1em;
-  }
-  /* line 78, ../scss/breakpoints/_1030up.scss */
-  #overview-photos-right .photos-right .photo-2 {
-    background: url(../images/kids-at-table.jpg) no-repeat;
-    background-size: cover;
-    height: 160px;
-  }
-
-  /* line 88, ../scss/breakpoints/_1030up.scss */
-  #home-classes-section .class-box .class-box-text {
-    padding: 1.5em 0.5em 1.5em 2em;
-  }
-  /* line 92, ../scss/breakpoints/_1030up.scss */
   #home-classes-section .calendar-tag {
     width: 33%;
   }
 
-  /* line 101, ../scss/breakpoints/_1030up.scss */
+  /* line 72, ../scss/breakpoints/_1030up.scss */
   #our-story-photos-right .photos-top img {
     margin-top: 0em;
   }
-  /* line 105, ../scss/breakpoints/_1030up.scss */
+  /* line 76, ../scss/breakpoints/_1030up.scss */
   #our-story-photos-right .photos-bottom {
     display: block;
     margin-top: 1em;
   }
-  /* line 108, ../scss/breakpoints/_1030up.scss */
+  /* line 79, ../scss/breakpoints/_1030up.scss */
   #our-story-photos-right .photos-bottom img {
     width: 48%;
   }
 
-  /* line 114, ../scss/breakpoints/_1030up.scss */
+  /* line 85, ../scss/breakpoints/_1030up.scss */
   .class-info {
     width: 60%;
   }
 
-  /* line 118, ../scss/breakpoints/_1030up.scss */
+  /* line 89, ../scss/breakpoints/_1030up.scss */
   .class-download {
     display: block;
     width: 35%;
     float: right;
   }
 
-  /* line 124, ../scss/breakpoints/_1030up.scss */
+  /* line 95, ../scss/breakpoints/_1030up.scss */
   .class-download-mobile {
     display: none;
   }
 
-  /* line 130, ../scss/breakpoints/_1030up.scss */
+  /* line 101, ../scss/breakpoints/_1030up.scss */
   #programs-page-header #program-subheader {
     display: block;
   }
 
-  /* line 135, ../scss/breakpoints/_1030up.scss */
+  /* line 106, ../scss/breakpoints/_1030up.scss */
   #programs-subnav {
     display: block;
   }
 
-  /* line 139, ../scss/breakpoints/_1030up.scss */
+  /* line 110, ../scss/breakpoints/_1030up.scss */
   .class-info-notes {
     width: 60%;
   }
 
-  /* line 145, ../scss/breakpoints/_1030up.scss */
+  /* line 116, ../scss/breakpoints/_1030up.scss */
   #enrollment-page-header #enrollment-subheader {
     display: block;
   }
 
-  /* line 150, ../scss/breakpoints/_1030up.scss */
+  /* line 121, ../scss/breakpoints/_1030up.scss */
   #enrollment-subnav {
     display: block;
   }
 
-  /* line 155, ../scss/breakpoints/_1030up.scss */
+  /* line 126, ../scss/breakpoints/_1030up.scss */
   .contact-page-content {
     min-height: 750px;
   }
 
-  /* line 160, ../scss/breakpoints/_1030up.scss */
+  /* line 131, ../scss/breakpoints/_1030up.scss */
   #contact-top .container {
     padding-top: 4em;
   }
 
-  /* line 165, ../scss/breakpoints/_1030up.scss */
+  /* line 136, ../scss/breakpoints/_1030up.scss */
   #contact-photo-right {
     margin-top: 0em;
   }
