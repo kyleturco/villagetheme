@@ -166,7 +166,7 @@ Template Name: Home Page
                 </p>
                 <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
               </div>
-              <div class="class-box__image class-box-image-4"></div>
+              <div class="class-box__image class-box-image-5"></div>
             </div>
           </div>
           <div class="col-md-6">

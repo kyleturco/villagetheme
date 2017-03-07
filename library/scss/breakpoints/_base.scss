@@ -993,21 +993,31 @@ Homepage styles
       background-size: cover;
       background-position: center;
     }
+
     &-image-2 {
       background: url(../images/kid-with-marker.jpg) no-repeat;
       background-size: cover;
       background-position: center;
     }
+
     &-image-3 {
       background: url(../images/kid-with-toy.jpg) no-repeat;
       background-size: cover;
       background-position: center;
     }
+
     &-image-4 {
       background: url(../images/kids-at-play.jpg) no-repeat;
       background-size: cover;
       background-position: center;
     }
+
+    &-image-5 {
+      background: url(../images/home-photo-2.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
     &:hover {
       transition: 0.5s;
     }
