@@ -81,11 +81,11 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
             *There is a maximum of 10 children with 2 teachers per class.
           </p>
         </div>
-      </div>
-      <div class="class-download class-download-mobile">
-        <h2>Interested in enrolling?</h2>
-        <p>Download the registration form below.</p>
-        <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        <div class="class-download class-download-mobile">
+          <h2>Interested in enrolling?</h2>
+          <p>Download the registration form below.</p>
+          <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        </div>
       </div>
     </div>
     <div id="preschool-3" class="class-section class-2">
@@ -137,11 +137,11 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
             from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
           </p>
         </div>
-      </div>
-      <div class="class-download class-download-mobile">
-        <h2>Interested in enrolling?</h2>
-        <p>Download the registration form below.</p>
-        <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        <div class="class-download class-download-mobile">
+          <h2>Interested in enrolling?</h2>
+          <p>Download the registration form below.</p>
+          <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        </div>
       </div>
     </div>
     <div id="pre-k" class="class-section class-3">
@@ -166,7 +166,7 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
           </div>
           <div class="tuition-info">
             <div class="class-info-item info-1">
-              <p>$125/month for 3 class/week</p>
+              <p>$125/month for 3 classes/week</p>
             </div>
             <div class="class-info-item info-2">
               <p>$200/month for 5 classes/week</p>
@@ -193,14 +193,55 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
              from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
           </p>
         </div>
-      </div>
-      <div class="class-download class-download-mobile">
-        <h2>Interested in enrolling?</h2>
-        <p>Download the registration form below.</p>
-        <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        <div class="class-download class-download-mobile">
+          <h2>Interested in enrolling?</h2>
+          <p>Download the registration form below.</p>
+          <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        </div>
       </div>
     </div>
-    <div id="pit-enroll" class="class-section class-4">
+    <div class="spanish-enroll class-section class-4">
+      <div class="container">
+        <div class="class-1-header text-center">
+          <h1>Preschool Spanish</h1>
+        </div>
+        <div class="class-download">
+          <h2>Interested in enrolling?</h2>
+          <p>Download the registration form below.</p>
+          <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        </div>
+        <div class="class-info">
+         <div class="class-info-header">
+           <h3><i class="fa fa-child"></i> Ages</h3>
+         </div>
+           <div class="class-info-item info-1">
+             <p>3-5 years old (must be 3 by August 1 of the school year)</p>
+           </div>
+         <div class="class-info-header">
+           <h3><i class="fa fa-usd"></i> Tuition</h3>
+         </div>
+         <div class="tuition-info">
+           <div class="class-info-item info-1">
+             <p>$100 month for 2 classes/week</p>
+           </div>
+         </div>
+         <div class="class-info-header">
+           <h3><i class="fa fa-calendar"></i> Scheduling</h3>
+         </div>
+         <div class="schedule-info">
+           <div class="class-info-item info-1">
+             <p>Tuesday/Thursday 9:00-11:30 AM</p>
+           </div>
+         </div>
+         <div class="class-download class-download-mobile">
+           <h2>Interested in enrolling?</h2>
+           <p>Download the registration form below.</p>
+           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+         </div>
+       </div>
+      </div>
+    </div>
+    <div id="pit-enroll" class="class-section class-5">
       <div class="container">
         <div class="class-1-header text-center">
           <h1>P.I.T.</h1>
@@ -246,14 +287,14 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
             </div>
           </div>
         </div>
-      </div>
-      <div class="class-download class-download-mobile">
-        <h2>Interested in enrolling?</h2>
-        <p>Download the registration form below.</p>
-        <a href="<?php echo $pit_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        <div class="class-download class-download-mobile">
+          <h2>Interested in enrolling?</h2>
+          <p>Download the registration form below.</p>
+          <a href="<?php echo $pit_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        </div>
       </div>
     </div>
-    <div id="stay-and-play-enroll" class="class-section class-5">
+    <div id="stay-and-play-enroll" class="class-section class-6">
       <div class="container">
         <div class="class-1-header text-center">
           <h1>Stay & Play</h1>
