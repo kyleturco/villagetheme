@@ -37,6 +37,8 @@ Template Name: Programs
           <p class="narrow-content">
             <?php echo $vns_description; ?>
           </p>
+          <h2>Preschool Spanish</h2>
+          <p class="narrow-content">This program allows students to learn a second language naturally through immersion and every day, play-based interaction.  We incorporate interactive, high-movement songs, simple captivating books along with early literacy, math and science activities.  This class is conducted mostly in Spanish with English, as needed.</p>
           <a href="<?php echo home_url(); ?>/enrollment/#class-1" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="program-photo-right col-md-5">
