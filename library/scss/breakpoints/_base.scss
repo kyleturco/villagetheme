@@ -942,19 +942,22 @@ Homepage styles
   h1 {
     margin-bottom: 0;
   }
-  .calendar-tag {
+  .calendar-box {
     border: 1px solid $gray;
     background: $white;
-    margin: 1em auto 0;
+    margin-top: 0.5em;
+    height: 230px;
     display: block;
-    padding: 1.5em 1.5em 3em;
+    padding: 1em 1.5em;
     text-align: center;
-    &-btn {
+
+    &__btn {
       margin: 1em auto 0;
       width: 7em;
       display: block;
     }
   }
+
   .class-box {
     background: $blue;
     margin-top: 0.5em;

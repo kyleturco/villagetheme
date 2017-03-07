@@ -347,37 +347,33 @@ h1, .h1 {
 #home-classes-section .class-box {
   margin-bottom: 1em;
 }
-/* line 171, ../scss/breakpoints/_768up.scss */
-#home-classes-section .calendar-tag {
-  width: 66%;
-}
 
-/* line 177, ../scss/breakpoints/_768up.scss */
+/* line 173, ../scss/breakpoints/_768up.scss */
 .homepage-description {
   padding: 0em 5em;
 }
 
-/* line 181, ../scss/breakpoints/_768up.scss */
+/* line 177, ../scss/breakpoints/_768up.scss */
 #program-header,
 #enrollment-header {
   font-size: 3em;
 }
 
-/* line 186, ../scss/breakpoints/_768up.scss */
+/* line 182, ../scss/breakpoints/_768up.scss */
 #programs-page-header {
   padding: 6em 0;
 }
 
-/* line 190, ../scss/breakpoints/_768up.scss */
+/* line 186, ../scss/breakpoints/_768up.scss */
 #enrollment-page-header {
   padding: 6em 0;
 }
 
-/* line 194, ../scss/breakpoints/_768up.scss */
+/* line 190, ../scss/breakpoints/_768up.scss */
 .program-photo-right {
   margin-top: 2.5em;
 }
-/* line 196, ../scss/breakpoints/_768up.scss */
+/* line 192, ../scss/breakpoints/_768up.scss */
 .program-photo-right .class-download {
   width: 75%;
 }
@@ -445,78 +441,73 @@ be seen on the Desktop.
   line-height: 1.4em;
 }
 
-/* line 63, ../scss/breakpoints/_1030up.scss */
-#home-classes-section .calendar-tag {
-  width: 33%;
-}
-
-/* line 72, ../scss/breakpoints/_1030up.scss */
+/* line 66, ../scss/breakpoints/_1030up.scss */
 #our-story-photos-right .photos-top img {
   margin-top: 0em;
 }
-/* line 76, ../scss/breakpoints/_1030up.scss */
+/* line 70, ../scss/breakpoints/_1030up.scss */
 #our-story-photos-right .photos-bottom {
   display: block;
   margin-top: 1em;
 }
-/* line 79, ../scss/breakpoints/_1030up.scss */
+/* line 73, ../scss/breakpoints/_1030up.scss */
 #our-story-photos-right .photos-bottom img {
   width: 48%;
 }
 
-/* line 85, ../scss/breakpoints/_1030up.scss */
+/* line 79, ../scss/breakpoints/_1030up.scss */
 .class-info {
   width: 60%;
 }
 
-/* line 89, ../scss/breakpoints/_1030up.scss */
+/* line 83, ../scss/breakpoints/_1030up.scss */
 .class-download {
   display: block;
   width: 35%;
   float: right;
 }
 
-/* line 95, ../scss/breakpoints/_1030up.scss */
+/* line 89, ../scss/breakpoints/_1030up.scss */
 .class-download-mobile {
   display: none;
 }
 
-/* line 101, ../scss/breakpoints/_1030up.scss */
+/* line 95, ../scss/breakpoints/_1030up.scss */
 #programs-page-header #program-subheader {
   display: block;
 }
 
-/* line 106, ../scss/breakpoints/_1030up.scss */
+/* line 100, ../scss/breakpoints/_1030up.scss */
 #programs-subnav {
   display: block;
 }
 
-/* line 110, ../scss/breakpoints/_1030up.scss */
+/* line 104, ../scss/breakpoints/_1030up.scss */
 .class-info-notes {
   width: 60%;
 }
 
-/* line 116, ../scss/breakpoints/_1030up.scss */
+/* line 110, ../scss/breakpoints/_1030up.scss */
 #enrollment-page-header #enrollment-subheader {
   display: block;
 }
 
-/* line 121, ../scss/breakpoints/_1030up.scss */
+/* line 115, ../scss/breakpoints/_1030up.scss */
 #enrollment-subnav {
   display: block;
 }
 
-/* line 126, ../scss/breakpoints/_1030up.scss */
+/* line 120, ../scss/breakpoints/_1030up.scss */
 .contact-page-content {
   min-height: 750px;
 }
 
-/* line 131, ../scss/breakpoints/_1030up.scss */
+/* line 125, ../scss/breakpoints/_1030up.scss */
 #contact-top .container {
   padding-top: 4em;
 }
 
-/* line 136, ../scss/breakpoints/_1030up.scss */
+/* line 130, ../scss/breakpoints/_1030up.scss */
 #contact-photo-right {
   margin-top: 0em;
 }

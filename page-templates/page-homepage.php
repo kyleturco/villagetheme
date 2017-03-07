@@ -154,11 +154,29 @@ Template Name: Home Page
             </div>
           </div>
         </div>
-      </div>
-      <div class="calendar-tag">
-        <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Scheduling</h3>
-        <p class="h3">For scheduling info visit our <a href="<?php echo home_url(); ?>/programs">Programs</a> page</p>
-        <a class="btn btn-primary calendar-tag-btn" href="<?php echo home_url(); ?>/programs">Click Here</a>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="class-box clearfix">
+              <div class="class-box__text">
+                <h2 class="class-box__text__header">Preschool Spanish</h2>
+                <p>
+                  <b>Ages:</b> 3-5
+                  <br>
+                  <b>Class size:</b> Max. 13
+                </p>
+                <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
+              </div>
+              <div class="class-box__image class-box-image-4"></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="calendar-box">
+              <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Scheduling</h3>
+              <p class="h3">For scheduling info visit our <a href="<?php echo home_url(); ?>/programs">Programs</a> page</p>
+              <a class="btn btn-primary calendar-box__btn" href="<?php echo home_url(); ?>/programs">Click Here</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

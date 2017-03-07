@@ -16,7 +16,7 @@ Template Name: Programs
 <div id="content">
   <div id="programs-page-header">
     <div class="container">
-      <h1 id="program-header" class="text-center text-white">Our Classes & Programs</h1>
+      <h1 id="program-header" class="text-center text-white">Our Classes &amp; Programs</h1>
       <p id="program-subheader" class="text-center text-white">We offer classes for ages 10 months through Pre-K</p>
     </div>
   </div>
@@ -25,7 +25,7 @@ Template Name: Programs
       <ul class="list-inline text-center">
         <li><a class="subnav-link" href="#village-nursery-school">Village Nursery School</a></li>
         <li><a class="subnav-link" href="#pit">Parent-Infant-Toddler</a></li>
-        <li><a class="subnav-link" href="#stay-and-play">Stay & Play</a></li>
+        <li><a class="subnav-link" href="#stay-and-play">Stay &amp; Play</a></li>
       </ul>
     </div>
   </div>
