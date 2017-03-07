@@ -24,8 +24,9 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
         <li><a class="subnav-link" href="#preschool-2">Preschool 2</a></li>
         <li><a class="subnav-link" href="#preschool-3">Preschool 3</a></li>
         <li><a class="subnav-link" href="#pre-k">Pre-Kindergarten</a></li>
+        <li><a class="subnav-link" href="#preschool-spanish">Preschool Spanish</a></li>
         <li><a class="subnav-link" href="#pit-enroll">Parent-Infant-Toddler</a></li>
-        <li><a class="subnav-link" href="#stay-and-play-enroll">Stay & Play</a></li>
+        <li><a class="subnav-link" href="#stay-and-play-enroll">Stay &amp; Play</a></li>
       </ul>
     </div>
   </div>
@@ -200,7 +201,7 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
         </div>
       </div>
     </div>
-    <div class="spanish-enroll class-section class-4">
+    <div id="preschool-spanish" class="class-section class-4">
       <div class="container">
         <div class="class-1-header text-center">
           <h1>Preschool Spanish</h1>

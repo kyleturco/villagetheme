@@ -2640,7 +2640,7 @@ Programs & Rates Styles
 /* line 1255, ../scss/breakpoints/_base.scss */
 #enrollment-subnav a {
   color: #7dd667;
-  padding: 1em 1.2em;
+  padding: 1em 0.5em;
 }
 
 /* line 1263, ../scss/breakpoints/_base.scss */
