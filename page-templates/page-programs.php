@@ -70,10 +70,10 @@ Template Name: Programs
             <hr>
             <h3 class="h2 class-download__header">Schedule 2017-2018 </h3>
             <div>
-              <a href="<?php echo $pit_schedule; ?>" target="_blank">Fall - Download Now</a>
+              <a href="<?php echo $pit_schedule_2; ?>" target="_blank">Fall - Download Now</a>
             </div>
             <div>
-              <a href="<?php echo $pit_schedule; ?>" target="_blank">Spring - Download Now</a>
+              <a href="<?php echo $pit_schedule_3; ?>" target="_blank">Spring - Download Now</a>
             </div>
           </div>
           <?php } ?>
