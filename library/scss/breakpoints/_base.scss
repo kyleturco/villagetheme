@@ -1191,22 +1191,13 @@ Programs & Rates Styles
   padding: 1.5em;
   text-align: center;
   -webkit-transition: 0.3s;
-  h2 {
+  &__header {
     font-size: 1.55em;
     margin-top: 0;
-    border-bottom: 1px solid $gray;
     padding-bottom: 0.4em;
   }
   p {
     margin-top: 1em;
-  }
-  .btn-primary {
-    margin-top: 0.5em;
-    margin-bottom: 0.7em;
-    background-color: $orange;
-    &:hover {
-      background-color: darken($orange, 8%);
-    }
   }
   &:hover {
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);

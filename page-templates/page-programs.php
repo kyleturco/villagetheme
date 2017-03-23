@@ -8,7 +8,10 @@ Template Name: Programs
   $pit_description = get_field('pit_description');
   $sp_description = get_field('sp_description');
   $vns_schedule = get_field('vns_schedule');
+  $vns_schedule_2 = get_field('vns_schedule_2');
   $pit_schedule = get_field('pit_schedule');
+  $pit_schedule_2 = get_field('pit_schedule_2');
+  $pit_schedule_3 = get_field('pit_schedule_3');
 ?>
 
 <?php get_header(); ?>
@@ -45,8 +48,11 @@ Template Name: Programs
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/kids-in-playroom.jpg" alt="village nursery school playroom" width="400px">
           <?php if (!empty($vns_schedule)) { ?>
           <div class="class-download">
-            <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Schedule 2016-2017 </h3>
-            <a href="<?php echo $vns_schedule; ?>" class="btn btn-primary" target="_blank">Download Now</a>
+            <h3 class="h2 class-download__header">Schedule 2016-2017</h3>
+            <a href="<?php echo $vns_schedule; ?>" target="_blank">Download Now</a>
+            <hr>
+            <h3 class="h2 class-download__header">Schedule 2017-2018</h3>
+            <a href="<?php echo $vns_schedule_2; ?>" target="_blank">Download Now</a>
           </div>
           <?php } ?>
         </div>
@@ -59,8 +65,16 @@ Template Name: Programs
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="village nursery school sandtable" width="400px">
           <?php if (!empty($pit_schedule)) { ?>
           <div class="class-download">
-            <h3 class="h2"><i class="fa fa-calendar"></i>&nbsp;Schedule 2016-2017 </h3>
-            <a href="<?php echo $pit_schedule; ?>" class="btn btn-primary" target="_blank">Download Now</a>
+            <h3 class="h2 class-download__header">Schedule 2016-2017 </h3>
+            <a href="<?php echo $pit_schedule; ?>" target="_blank">Download Now</a>
+            <hr>
+            <h3 class="h2 class-download__header">Schedule 2017-2018 </h3>
+            <div>
+              <a href="<?php echo $pit_schedule; ?>" target="_blank">Fall - Download Now</a>
+            </div>
+            <div>
+              <a href="<?php echo $pit_schedule; ?>" target="_blank">Spring - Download Now</a>
+            </div>
           </div>
           <?php } ?>
         </div>
