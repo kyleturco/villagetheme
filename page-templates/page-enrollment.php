@@ -340,6 +340,11 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
             </div>
           </div>
         </div>
+        <div class="class-download">
+          <h2>Interested in enrolling?</h2>
+          <p>Download the registration form below.</p>
+          <a href="<?php echo $stay_and_play_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+        </div>
       </div>
     </div>
   </div>

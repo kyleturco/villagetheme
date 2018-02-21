@@ -48,10 +48,10 @@ Template Name: Programs
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/kids-in-playroom.jpg" alt="village nursery school playroom" width="400px">
           <?php if (!empty($vns_schedule)) { ?>
           <div class="class-download">
-            <h3 class="h2 class-download__header">Schedule 2016-2017</h3>
+            <h3 class="h2 class-download__header">Schedule 2017-2018</h3>
             <a href="<?php echo $vns_schedule; ?>" target="_blank">Download Now</a>
             <hr>
-            <h3 class="h2 class-download__header">Schedule 2017-2018</h3>
+            <h3 class="h2 class-download__header">Schedule 2018-2019</h3>
             <a href="<?php echo $vns_schedule_2; ?>" target="_blank">Download Now</a>
           </div>
           <?php } ?>
@@ -63,12 +63,9 @@ Template Name: Programs
       <div class="container">
         <div class="program-photo-right col-md-5">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="village nursery school sandtable" width="400px">
-          <?php if (!empty($pit_schedule)) { ?>
+          <?php if (!empty($pit_schedule_2)) { ?>
           <div class="class-download">
-            <h3 class="h2 class-download__header">Schedule 2016-2017 </h3>
-            <a href="<?php echo $pit_schedule; ?>" target="_blank">Download Now</a>
-            <hr>
-            <h3 class="h2 class-download__header">Schedule 2017-2018 </h3>
+            <h3 class="h2 class-download__header">Schedule 2018-2019 </h3>
             <div>
               <a href="<?php echo $pit_schedule_2; ?>" target="_blank">Fall - Download Now</a>
             </div>
