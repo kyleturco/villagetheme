@@ -135,7 +135,7 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
         </div>
         <div class="class-info-notes">
           <p>
-            *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 2 for individuals who'd benefit
+            *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 3 for individuals who'd benefit
             from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
           </p>
         </div>
