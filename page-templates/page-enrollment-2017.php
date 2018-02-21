@@ -8,7 +8,7 @@ Template Name: Enrollment 2017
 
 <div id="enrollment-page-header">
   <div class="container">
-    <h1 id="enrollment-header" class="text-center text-white">Enrollment 2017-2018</h1>
+    <h1 id="enrollment-header" class="text-center text-white">Enrollment 2018-2019</h1>
     <p id="enrollment-subheader" class="text-center text-white">Important Dates &amp; Info</p>
   </div>
 </div>

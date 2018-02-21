@@ -23,11 +23,11 @@ Template Name: Home Page
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-          <h2 class="enrollment-cta__header">Enrollment 2017/2018</h2>
+          <h2 class="enrollment-cta__header">Enrollment 2018-2019</h2>
           <p class="enrollment-cta__description h3">Important dates and information</p>
         </div>
         <div class="col-sm-4">
-          <a href="<?php echo home_url(); ?>/enrollment-2017-2018/" class="enrollment-cta__btn btn btn-primary">
+          <a href="<?php echo home_url(); ?>/enrollment-2018-2019/" class="enrollment-cta__btn btn btn-primary">
             View Dates <i class="fa fa-angle-double-right"></i>
           </a>
         </div>

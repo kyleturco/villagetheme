@@ -45,28 +45,28 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
           <div class="class-info-header">
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>2-3 years old (must be 2 by August 1 of the school year)</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
-            <div class="class-info-item info-1">
-              <p>$50/month for 1 class/week</p>
+            <div class="class-info-item">
+              <p>$95/month for 2 classes/week</p>
             </div>
-            <div class="class-info-item info-2">
-              <p>$90/month for 2 classes/week</p>
+            <div class="class-info-item">
+              <p>$130/month for 3 classes/week</p>
             </div>
           </div>
           <div class="class-info-header">
             <h3><i class="fa fa-calendar"></i> Scheduling</h3>
           </div>
           <div class="schedule-info">
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>Monday/Wednesday 9:00-11:20 AM</p>
             </div>
-            <div class="class-info-item info-2">
+            <div class="class-info-item">
               <p>Tuesday/Thursday 9:00-11:20 AM</p>
             </div>
             <div class="class-info-item info-3">
@@ -103,28 +103,28 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
           <div class="class-info-header">
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>3-4 years old (Must be 3 by August 1)</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
-            <div class="class-info-item info-1">
-              <p>$90/month for 2 class/week</p>
+            <div class="class-info-item">
+              <p>$95/month for 2 class/week</p>
             </div>
-            <div class="class-info-item info-2">
-              <p>$125/month for 3 classes/week</p>
+            <div class="class-info-item">
+              <p>$130/month for 3 classes/week</p>
             </div>
           </div>
           <div class="class-info-header">
             <h3><i class="fa fa-calendar"></i> Scheduling</h3>
           </div>
           <div class="schedule-info">
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>Monday/Wednesday/Friday 9:00-11:25 AM</p>
             </div>
-            <div class="class-info-item info-2">
+            <div class="class-info-item">
               <p>Tuesday/Thursday 9:00-11:25 AM</p>
             </div>
             <div class="class-info-item info-3">
@@ -159,28 +159,28 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
           <div class="class-info-header">
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>4-5 years old (must be 4 by August 1 of the school year)</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
-            <div class="class-info-item info-1">
-              <p>$125/month for 3 classes/week</p>
+            <div class="class-info-item">
+              <p>$130/month for 3 classes/week</p>
             </div>
-            <div class="class-info-item info-2">
-              <p>$200/month for 5 classes/week</p>
+            <div class="class-info-item">
+              <p>$210/month for 5 classes/week</p>
             </div>
           </div>
           <div class="class-info-header">
             <h3><i class="fa fa-calendar"></i> Scheduling</h3>
           </div>
           <div class="schedule-info">
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>Monday/Wednesday/Friday 9:00-11:30 AM</p>
             </div>
-            <div class="class-info-item info-2">
+            <div class="class-info-item">
               <p>Monday-Friday 9:00-11:30 AM</p>
             </div>
             <div class="class-info-item info-3">
@@ -190,7 +190,7 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
         </div>
         <div class="class-info-notes">
           <p>
-            *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 2 for individuals who'd benefit
+            *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 3 for individuals who'd benefit
              from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
           </p>
         </div>
@@ -215,14 +215,14 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
          <div class="class-info-header">
            <h3><i class="fa fa-child"></i> Ages</h3>
          </div>
-           <div class="class-info-item info-1">
-             <p>3-5 years old (must be 3 by August 1 of the school year)</p>
+           <div class="class-info-item">
+             <p>4-5 years old (must be 3 by August 1 of the school year)</p>
            </div>
          <div class="class-info-header">
            <h3><i class="fa fa-usd"></i> Tuition</h3>
          </div>
          <div class="tuition-info">
-           <div class="class-info-item info-1">
+           <div class="class-info-item">
              <p>$100 month for 2 classes/week</p>
            </div>
          </div>
@@ -230,7 +230,7 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
          </div>
          <div class="schedule-info">
-           <div class="class-info-item info-1">
+           <div class="class-info-item">
              <p>Tuesday/Thursday 9:00-11:30 AM</p>
            </div>
          </div>
@@ -256,17 +256,17 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
           <div class="class-info-header">
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>Classes for toddlers 10-24+ months</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>$25 registration fee</p>
             </div>
-            <div class="class-info-item info-2">
+            <div class="class-info-item">
               <p>$100 per semester ($200 per year)</p>
             </div>
           </div>
@@ -274,10 +274,10 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
             <h3><i class="fa fa-calendar"></i> Scheduling</h3>
           </div>
           <div class="schedule-info">
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>Tuesday: Older Infants (10-17 mo.)</p>
             </div>
-            <div class="class-info-item info-2">
+            <div class="class-info-item">
               <p>Wednesday: Young Toddlers (15-22 mo.)</p>
             </div>
             <div class="class-info-item info-3">
@@ -311,17 +311,17 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
           <div class="class-info-header">
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>Must be 12 months old (and walking)</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>$5/half hour</p>
             </div>
-            <div class="class-info-item info-2">
+            <div class="class-info-item">
               <p>$15/Enrichment Time(9AM - 11:30AM)</p>
             </div>
             <div class="class-info-item info-3">
@@ -332,7 +332,7 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
             <h3><i class="fa fa-calendar"></i> Scheduling</h3>
           </div>
           <div class="schedule-info">
-            <div class="class-info-item info-1">
+            <div class="class-info-item">
               <p>
                 “Varies Daily” Program is offered M-F mornings from 8:30AM-Noon but is scheduled on a “first come
                  first serve” basis.  Please contact the VNS Director to inquire about availability.
