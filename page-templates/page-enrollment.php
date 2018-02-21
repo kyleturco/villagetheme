@@ -6,6 +6,7 @@ Template Name: Enrollment
 // Sets variables for WP custom fields
 $vns_enrollment_form = get_field('vns_enrollment_form');
 $pit_enrollment_form = get_field('pit_enrollment_form');
+$stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
 
 ?>
 
@@ -300,12 +301,17 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
         <div class="class-1-header text-center">
           <h1>Stay & Play</h1>
         </div>
-        <div class="class-info-notes">
+        <div class="class-info-notes clearfix">
           <p>
             Sign-up for Before-School (8:30 AM - 9:00 AM) and After-School care (11:30 AM - 12:00 PM). Limited spots
             are available. You must call ahead or sign-up in advance. We do have a ratio of adults to children for better
             care and may not be able to accommodate your drop-in needs if you do not call ahead.
           </p>
+        </div>
+        <div class="class-download">
+          <h2>Interested in enrolling?</h2>
+          <p>Download the registration form below.</p>
+          <a href="<?php echo $stay_and_play_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
           <div class="class-info-header">
@@ -339,11 +345,6 @@ $pit_enrollment_form = get_field('pit_enrollment_form');
                </p>
             </div>
           </div>
-        </div>
-        <div class="class-download">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
-          <a href="<?php echo $stay_and_play_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
       </div>
     </div>
