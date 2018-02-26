@@ -65,16 +65,13 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           </div>
           <div class="schedule-info">
             <div class="class-info-item">
-              <p>Monday/Wednesday 9:00-11:20 AM</p>
+              <p>Monday/Wednesday/Friday 9:00-11:20 AM</p>
             </div>
             <div class="class-info-item">
               <p>Tuesday/Thursday 9:00-11:20 AM</p>
             </div>
             <div class="class-info-item info-3">
               <p>Tuesday/Thursday 12:30-2:50 PM</p>
-            </div>
-            <div class="class-info-item info-4">
-              <p>Friday 9:00-11:20 AM</p>
             </div>
           </div>
         </div>
@@ -217,7 +214,7 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
            <h3><i class="fa fa-child"></i> Ages</h3>
          </div>
            <div class="class-info-item">
-             <p>4-5 years old (must be 3 by August 1 of the school year)</p>
+             <p>4-5 years old (must be 4 by August 1 of the school year)</p>
            </div>
          <div class="class-info-header">
            <h3><i class="fa fa-usd"></i> Tuition</h3>
@@ -258,17 +255,14 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
             <h3><i class="fa fa-child"></i> Ages</h3>
           </div>
             <div class="class-info-item">
-              <p>Classes for toddlers 10-24+ months</p>
+              <p>Classes for toddlers 12-24+ months</p>
             </div>
           <div class="class-info-header">
             <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
           <div class="tuition-info">
             <div class="class-info-item">
-              <p>$25 registration fee</p>
-            </div>
-            <div class="class-info-item">
-              <p>$100 per semester ($200 per year)</p>
+              <p>$115/semester – paid in full at registration</p>
             </div>
           </div>
           <div class="class-info-header">
@@ -276,16 +270,16 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           </div>
           <div class="schedule-info">
             <div class="class-info-item">
-              <p>Tuesday: Older Infants (10-17 mo.)</p>
+              <p>Tuesday: Older Infants (12-18 months)</p>
             </div>
             <div class="class-info-item">
-              <p>Wednesday: Young Toddlers (15-22 mo.)</p>
+              <p>Wednesday: Older Infants (12-18 months)</p>
             </div>
-            <div class="class-info-item info-3">
-              <p>Thursday: Toddlers (20-28 mo.)</p>
+            <div class="class-info-item">
+              <p>Thursday: Toddlers (18-24+ months)</p>
             </div>
-            <div class="class-info-item info-4">
-              <p>Friday: Older Toddlers (24+ mo.)</p>
+            <div class="class-info-item">
+              <p>Friday: Toddlers (18-24+ months)</p>
             </div>
           </div>
         </div>

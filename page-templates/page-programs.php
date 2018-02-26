@@ -20,7 +20,7 @@ Template Name: Programs
   <div id="programs-page-header">
     <div class="container">
       <h1 id="program-header" class="text-center text-white">Our Classes &amp; Programs</h1>
-      <p id="program-subheader" class="text-center text-white">We offer classes for ages 10 months through Pre-K</p>
+      <p id="program-subheader" class="text-center text-white">We offer classes for ages 12 months through Pre-K</p>
     </div>
   </div>
   <div id="programs-subnav">

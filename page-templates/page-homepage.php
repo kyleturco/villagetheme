@@ -53,7 +53,7 @@ Template Name: Home Page
         <h2 class="text-center">Academic</h2>
         <p class="text-center homepage-description">
           Follows Indiana’s early learning development framework, the Foundations, which provides core skills
-          that children are to achieve at various ages.
+          that children are to achieve at various ages thorough curricula including Zoo-phonics, Handwriting Without Tears, and Minds in Motion.
         </p>
       </div>
       <div id="home-icon-3" class="col-md-4 home-icon">
