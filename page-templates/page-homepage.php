@@ -53,7 +53,7 @@ Template Name: Home Page
         <h2 class="text-center">Academic</h2>
         <p class="text-center homepage-description">
           Follows Indiana’s early learning development framework, the Foundations, which provides core skills
-          that children are to achieve at various ages thorough curricula including Zoo-phonics, Handwriting Without Tears, and Minds in Motion.
+          that children are to achieve at various ages through curricula including Zoo-phonics, Handwriting Without Tears, and Minds in Motion.
         </p>
       </div>
       <div id="home-icon-3" class="col-md-4 home-icon">
@@ -144,7 +144,7 @@ Template Name: Home Page
               <div class="class-box__text">
                 <h2 class="class-box__text__header">P.I.T.</h2>
                 <p>
-                  <b>Ages:</b> 10-24+ months
+                  <b>Ages:</b> 12-24+ months
                   <br>
                   <b>Class size:</b> 10
                 </p>
@@ -160,7 +160,7 @@ Template Name: Home Page
               <div class="class-box__text">
                 <h2 class="class-box__text__header">Preschool Spanish</h2>
                 <p>
-                  <b>Ages:</b> 3-5
+                  <b>Ages:</b> 4-5
                   <br>
                   <b>Class size:</b> Max. 13
                 </p>
