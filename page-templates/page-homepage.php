@@ -116,7 +116,7 @@ Template Name: Home Page
                 <p>
                   <b>Ages:</b> 3-4
                   <br>
-                  <b>Class size:</b> 15
+                  <b>Class size:</b> 13
                 </p>
                 <a href="<?php echo home_url(); ?>/enrollment/#preschool-3" class="btn btn-primary">Enroll Now</a>
               </div>
@@ -162,9 +162,9 @@ Template Name: Home Page
                 <p>
                   <b>Ages:</b> 4-5
                   <br>
-                  <b>Class size:</b> Max. 13
+                  <b>Class size:</b> 13
                 </p>
-                <a href="<?php echo home_url(); ?>/enrollment/#pit-enroll" class="btn btn-primary">Enroll Now</a>
+                <a href="<?php echo home_url(); ?>/enrollment/#preschool-spanish" class="btn btn-primary">Enroll Now</a>
               </div>
               <div class="class-box__image class-box-image-5"></div>
             </div>
