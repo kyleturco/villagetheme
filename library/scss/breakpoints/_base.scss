@@ -782,7 +782,7 @@ CUSTOM STYLES
   padding: 0.4em 0.8em;
   font-family: $header;
   border: none;
-  border-radius: 7px;
+  border-radius: 0.5rem;
   &:hover {
     background-color: darken($green, 10%);
   }
@@ -950,6 +950,8 @@ Homepage styles
     display: block;
     padding: 1em 1.5em;
     text-align: center;
+    overflow: hidden;
+    border-radius: 0.5rem;
 
     &__btn {
       margin: 1em auto 0;
@@ -961,6 +963,8 @@ Homepage styles
   .class-box {
     background: $blue;
     margin-top: 0.5em;
+    overflow: hidden;
+    border-radius: 0.5rem;
 
     .btn-primary {
       margin-top: 0.5em;
@@ -1188,19 +1192,23 @@ Programs & Rates Styles
   display: none;
   background: $white;
   border: 1px solid $gray;
+  border-radius: 0.5rem;
   padding: 1.5em;
   text-align: center;
   -webkit-transition: 0.3s;
+
   &__header {
     font-size: 1.55em;
     margin-top: 0;
     padding-bottom: 0.4em;
   }
+
   p {
     margin-top: 1em;
   }
+
   &:hover {
-    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.05);
     -webkit-transition: 0.3s;
     border: 1px solid darken($gray, 10%);
   }
