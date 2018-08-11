@@ -33,34 +33,18 @@ Template Name: Our Story
       <div class="letter-text">
         <h1>A Note from Our Director</h1>
         <p>
-          I have been one of the "Village" people for the last 6 years. Here at VNS I have played many roles
-          including parent, teacher, and substitute. I'm fortunate to say VNS has been my family's "home away
-          from home" for the entire time we have lived in the Lafayette area.
+          I joined Village Nursery School 5 years ago as a parent.  The following year, I joined the staff and taught here for 4 years.  Through my connections with our amazing school, my family has made life-long friends, and VNS has truly become our village!
          </p>
          <p>
-          On a professional level I have a
-          Bachelor’s Degree in Elementary Education; I am also a licensed teacher in Indiana. I have taught
-          many of our classes at VNS, kindergarten in Indiana and fifth grade in Virginia. I took time off of
-          teaching to stay at home while my children were young.
+           Professionally, I attended Purdue University for my undergraduate and graduate degrees.  I have a Master’s of Education in Student Services from Purdue, and I spent four years as an elementary school counselor in Crawfordsville prior to taking time off to be home with my own children and subsequently finding my love of early childhood education.
         </p>
         <p>
-          To me, every person associated with Village
-          Nursery School, whether they are an employee, student, parent/guardian or FUMC church member, provides
-          a unique contribution to our special school.  As Director, I hope we all find our fit in our "home away
-          from home" as we work together here at Village Nursery School and FUMC.
+          Village Nursery School offers our staff, students, and families a true support network. Our staff works tirelessly in what we consider a labor of love to create a loving, playful, and safe environment in which every child can learn and grow.  Our students discover the joy of learning through play, and our families create connections that last well beyond the pre-school years.  Welcome to our Village!
         </p>
         <div class="director-signoff">
-          <div class="left-side">
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/deanna-bibler-headshot.jpg" alt="village nursery school director deanna bibler">
-          </div>
-          <div class="right-side">
-            <p class="letter-signoff">
-              Looking forward,
-            </p>
-            <p class="director-name">Deanna Bibler</p>
-            <h4>Director</h4>
-            <p>Village Nursery School</p>
-          </div>
+          <p class="director-name">Beth McCool</p>
+          <h4>Director</h4>
+          <p>Village Nursery School</p>
         </div>
         <div class="clearfix"></div>
       </div>

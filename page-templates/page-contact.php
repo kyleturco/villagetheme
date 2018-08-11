@@ -27,12 +27,12 @@ Template Name: Contact Page
           </p>
         </div>
         <div id="contact-director-section">
-          <h2>Deanna Bibler, Director</h2>
+          <h2>Beth McCool, Director</h2>
           <p>For more information, please contact:</p>
           <p>
-           <i class="fa fa-envelope-o"></i><a href="mailto:dbibler@fumcwl.org">dbibler@fumcwl.org</a>
+           <i class="fa fa-envelope-o"></i><a href="mailto:bmccoolfumcwl.org">bmccoolfumcwl.org</a>
            <br>
-           <i class="fa fa-phone"></i>(765)743-4039
+           <i class="fa fa-phone"></i>765-743-4039
           </p>
         </div>
       </div>
