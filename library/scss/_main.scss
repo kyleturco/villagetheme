@@ -1,0 +1,30 @@
+/*********************
+BODY STYLES
+*********************/
+
+body {
+    font-family: $body-font-family;
+    font-size: 18px;
+    line-height: 1.5;
+    color: $text-color;
+    background-color: $white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*********************
+LINK STYLES
+*********************/
+
+a, a:visited {
+    color: $link-color;
+
+    &:hover,
+    &:focus {
+        color: $link-hover;
+    }
+
+    &:link {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+    }
+}

@@ -1,108 +1,3 @@
-/******************************************************************
-Site Name:
-Author:
-
-Stylesheet: Base Mobile Stylesheet
-
-Be light and don't over style since everything here will be
-loaded by mobile devices. You want to keep it as minimal as
-possible. This is called at the top of the main stylsheet
-and will be used across all viewports.
-
-******************************************************************/
-
-/*********************
-GENERAL STYLES
-*********************/
-
-body {
-    font-family: $lato;
-    font-size: 18px;
-    line-height: 1.5;
-    color: $text-color;
-    background-color: $white;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-/*********************
-LAYOUT & GRID STYLES
-*********************/
-
-.wrap {
-    width: 100%;
-    margin: 0 auto;
-}
-
-/*********************
-LINK STYLES
-*********************/
-
-a, a:visited {
-    color: $link-color;
-
-    /* on hover */
-    &:hover, &:focus {
-        color: $link-hover;
-    }
-
-    /* on click */
-    &:active {}
-
-    /* mobile tap color */
-    &:link {
-
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
-    }
-}
-
-/******************************************************************
-H1, H2, H3, H4, H5 STYLES
-******************************************************************/
-
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-  text-rendering: optimizelegibility;
-  font-weight: 500;
-
-  /* removing text decoration from all headline links */
-  a {
-      text-decoration: none;
-  }
-}
-
-h1, .h1 {
-  font-size: 2.15em;
-  line-height: 1.333em;
-  font-family: $header;
-  color: $blue;
-}
-
-h2, .h2 {
-  font-size: 1.75em;
-  line-height: 1.4em;
-  margin-bottom: 0.375em;
-  font-family: $header;
-  color: $blue;
-}
-
-h3, .h3 {
-  font-size: 1.125em;
-}
-
-h4, .h4 {
-  font-size: 1.1em;
-  font-weight: 700;
-}
-
-h5, .h5 {
-  font-size: 0.846em;
-  line-height: 2.09em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-/* end .nav */
-
 /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -451,35 +346,6 @@ COMMENT STYLES
     &.even {
         background: $light-gray;
     }
-
-    &.parent {}
-
-    &.comment {}
-
-    &.children {}
-
-    &.pingback {}
-
-    &.bypostauthor {}
-
-    &.comment-author {}
-
-    &.comment-author-admin {}
-
-    &.thread-alt {}
-
-    &.thread-odd {}
-
-    &.thread-even {}
-}
-
-/* comment meta */
-.comment-meta {
-    a {}
-}
-
-.commentmetadata {
-    a {}
 }
 
 /* comment content */
@@ -491,8 +357,6 @@ COMMENT STYLES
     }
 }
 
-/* end .commentlist .comment_content */
-
 /* comment reply link */
 .comment-reply-link {
     @extend .blue-btn;
@@ -503,8 +367,6 @@ COMMENT STYLES
     &:hover,
     &:focus {}
 }
-
-/* end .commentlist .comment-reply-link */
 
 /* edit comment link */
 .comment-edit-link {
@@ -584,25 +446,6 @@ COMMENT FORM STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {}
-
-.widgettitle {}
-
-.widget {
-    ul {
-        li {
-            &:first-child {}
-
-            &:last-child {}
-
-            a {}
-
-            /* deep nesting */
-            ul {}
-        }
-    }
-}
-
 .no-widgets {
     background-color: $white;
     padding: 1.5em;
@@ -654,25 +497,6 @@ FOOTER STYLES
   }
 }
 
-/*
-if you checked out the link above:
-http://www.alistapart.com/articles/organizing-mobile/
-you'll want to style the footer nav
-a bit more in-depth. Remember to keep
-it simple because you'll have to
-override these styles for the desktop
-view.
-*/
-.footer-links {
-    ul {
-        li {}
-    }
-}
-
-/* end .footer-links */
-
-.copyright {}
-
 /*********************
 CUSTOM STYLES
 *********************/
@@ -707,7 +531,7 @@ CUSTOM STYLES
   background-color: $green;
   font-size: 1.2em;
   padding: 0.4em 0.8em;
-  font-family: $header;
+  font-family: $header-font-family;
   border: none;
   border-radius: 0.5rem;
   &:hover {
