@@ -100,95 +100,7 @@ Again, if you want to roll your own, just remove this junk and put
 whatever you use in here.
 
 ******************************************************************/
-/******************************************************************
-Site Name:
-Author:
-
-Stylesheet: 481px and Up Stylesheet
-
-This stylesheet is loaded for larger devices. It's set to
-481px because at 480px it would load on a landscaped iPhone.
-This isn't ideal because then you would be loading all those
-extra styles on that same mobile connection.
-
-A word of warning. This size COULD be a larger mobile device,
-so you still want to keep it pretty light and simply expand
-upon your base.scss styles.
-
-******************************************************************/
-/*
-IMPORTANT NOTE ABOUT SASS 3.3 & UP
-You can't use @extend within media queries
-anymore, so just be aware that if you drop
-them in here, they won't work.
-*/
-/*********************
-NAVIGATION STYLES
-*********************/
-/* .menu is clearfixed inside mixins.scss */
-/* line 33, ../scss/breakpoints/_481up.scss */
-.menu {
-  /* end .menu ul */
-}
-/* line 34, ../scss/breakpoints/_481up.scss */
-.menu ul {
-  /* end .menu ul li */
-  /* highlight current page */
-  /* end current highlighters */
-}
-/* line 35, ../scss/breakpoints/_481up.scss */
-.menu ul li {
-  /*
-  plan your menus and drop-downs wisely.
-  */
-}
-/* line 36, ../scss/breakpoints/_481up.scss */
-.menu ul li a {
-  /*
-  you can use hover styles here even though this size
-  has the possibility of being a mobile device.
-  */
-}
-
-/* end .menu */
-/*********************
-POSTS & CONTENT STYLES
-*********************/
-/* entry content */
-/* line 81, ../scss/breakpoints/_481up.scss */
-.entry-content {
-  /* at this larger size, we can start to align images */
-}
-/* line 85, ../scss/breakpoints/_481up.scss */
-.entry-content .alignleft, .entry-content img.alignleft {
-  margin-right: 1.5em;
-  display: inline;
-  float: left;
-}
-/* line 90, ../scss/breakpoints/_481up.scss */
-.entry-content .alignright, .entry-content img.alignright {
-  margin-left: 1.5em;
-  display: inline;
-  float: right;
-}
-/* line 95, ../scss/breakpoints/_481up.scss */
-.entry-content .aligncenter, .entry-content img.aligncenter {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  clear: both;
-}
-
-/* end .entry-content */
-/*********************
-FOOTER STYLES
-*********************/
-/*
-check your menus here. do they look good?
-do they need tweaking?
-*/
-/* end .footer-links */
-/* line 123, ../scss/breakpoints/_481up.scss */
+/* line 5, ../scss/breakpoints/_481up.scss */
 #home-classes-section .class-box .class-box-text h2 {
   font-size: 1.75em;
 }
@@ -202,129 +114,30 @@ LAYOUT & GRID STYLES
 }
 
 /*********************
-HEADER STYLES
-*********************/
-/* line 13, ../scss/breakpoints/_768up.scss */
-#logo {
-  font-size: 1.125em;
-  margin: 0.75em 0;
-}
-
-/*********************
-NAVIGATION STYLES
-*********************/
-/* line 22, ../scss/breakpoints/_768up.scss */
-#header-right {
-  float: right;
-  margin-top: 0.7em;
-}
-
-/* line 27, ../scss/breakpoints/_768up.scss */
-.nav {
-  border: 0;
-  /* end .menu ul li */
-}
-/* line 29, ../scss/breakpoints/_768up.scss */
-.nav ul {
-  background: #323944;
-  margin-top: 0;
-}
-/* line 33, ../scss/breakpoints/_768up.scss */
-.nav li {
-  float: left;
-  position: relative;
-  /*
-  plan your menus and drop-downs wisely.
-  */
-  /* showing sub-menus */
-}
-/* line 37, ../scss/breakpoints/_768up.scss */
-.nav li a {
-  border-bottom: 0;
-  /*
-  you can use hover styles here even though this size
-  has the possibility of being a mobile device.
-  */
-}
-/* line 44, ../scss/breakpoints/_768up.scss */
-.nav li a:hover, .nav li a:focus {
-  color: #fff;
-  background: #4285f4;
-  transition: 0.2s;
-  border-radius: 4px;
-}
-/* line 58, ../scss/breakpoints/_768up.scss */
-.nav li ul.sub-menu,
-.nav li ul.children {
-  margin-top: 0;
-  border: 1px solid #ccc;
-  border-top: 0;
-  position: absolute;
-  visibility: hidden;
-  z-index: 8999;
-  /* highlight sub-menu current page */
-}
-/* line 67, ../scss/breakpoints/_768up.scss */
-.nav li ul.sub-menu li,
-.nav li ul.children li {
-  /*
-  if you need to go deeper, go nuts
-  just remember deeper menus suck
-  for usability. k, bai.
-  */
-}
-/* line 69, ../scss/breakpoints/_768up.scss */
-.nav li ul.sub-menu li a,
-.nav li ul.children li a {
-  padding-left: 10px;
-  border-right: 0;
-  display: block;
-  width: 180px;
-  border-bottom: 1px solid #ccc;
-}
-/* line 86, ../scss/breakpoints/_768up.scss */
-.nav li ul.sub-menu li:last-child a,
-.nav li ul.children li:last-child a {
-  border-bottom: 0;
-}
-/* line 96, ../scss/breakpoints/_768up.scss */
-.nav li ul.sub-menu li ul,
-.nav li ul.children li ul {
-  top: 0;
-  left: 100%;
-}
-/* line 111, ../scss/breakpoints/_768up.scss */
-.nav li:hover > ul {
-  top: auto;
-  visibility: visible;
-}
-
-/* end .nav */
-/*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 124, ../scss/breakpoints/_768up.scss */
+/* line 13, ../scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 128, ../scss/breakpoints/_768up.scss */
+/* line 17, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 133, ../scss/breakpoints/_768up.scss */
+/* line 22, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 138, ../scss/breakpoints/_768up.scss */
+/* line 27, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 146, ../scss/breakpoints/_768up.scss */
+/* line 35, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -333,47 +146,47 @@ SIDEBARS & ASIDES
 /*********************
 CUSTOM STYLES
 *********************/
-/* line 158, ../scss/breakpoints/_768up.scss */
+/* line 47, ../scss/breakpoints/_768up.scss */
 h1, .h1 {
   font-size: 2.7em;
 }
 
-/* line 162, ../scss/breakpoints/_768up.scss */
+/* line 51, ../scss/breakpoints/_768up.scss */
 .narrow-content {
   padding-right: 2em;
 }
 
-/* line 167, ../scss/breakpoints/_768up.scss */
+/* line 56, ../scss/breakpoints/_768up.scss */
 #home-classes-section .class-box {
   margin-bottom: 1em;
 }
 
-/* line 173, ../scss/breakpoints/_768up.scss */
+/* line 62, ../scss/breakpoints/_768up.scss */
 .homepage-description {
   padding: 0em 5em;
 }
 
-/* line 177, ../scss/breakpoints/_768up.scss */
+/* line 66, ../scss/breakpoints/_768up.scss */
 #program-header,
 #enrollment-header {
   font-size: 3em;
 }
 
-/* line 182, ../scss/breakpoints/_768up.scss */
+/* line 71, ../scss/breakpoints/_768up.scss */
 #programs-page-header {
   padding: 6em 0;
 }
 
-/* line 186, ../scss/breakpoints/_768up.scss */
+/* line 75, ../scss/breakpoints/_768up.scss */
 #enrollment-page-header {
   padding: 6em 0;
 }
 
-/* line 190, ../scss/breakpoints/_768up.scss */
+/* line 79, ../scss/breakpoints/_768up.scss */
 .program-photo-right {
   margin-top: 2.5em;
 }
-/* line 192, ../scss/breakpoints/_768up.scss */
+/* line 81, ../scss/breakpoints/_768up.scss */
 .program-photo-right .class-download {
   width: 75%;
 }

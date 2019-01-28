@@ -46,7 +46,7 @@
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
-		<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+		<header class="header clearfix" role="banner" itemscope itemtype="http://schema.org/WPHeader">
       <div id="inner-header">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-vns-header" aria-expanded="false">
@@ -56,7 +56,7 @@
             <span class="icon-bar"></span>
           </button>
           <div id="header-left" class="pull-left">
-            <div id="logo" class="h3" itemscope itemtype="http://schema.org/Organization">
+            <div class="header__logo-container" itemscope itemtype="http://schema.org/Organization">
 							<a href="<?php echo home_url(); ?>" rel="nofollow">
 								<img src="<?php echo get_template_directory_uri(); ?>/library/images/vns-logo.png" alt="village nursery school logo" width="170px">
 							</a>
@@ -64,25 +64,23 @@
           </div>
         </div>
         <div class="navbar-collapse collapse" id="main-vns-header">
-				<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-        <div id="header-right">
-					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-						<?php wp_nav_menu(array(
-    					         'container' => false,                           // remove nav container
-    					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
-    					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-    					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
-    					         'theme_location' => 'main-nav',                 // where it's located in the theme
-    					         'before' => '',                                 // before the menu
-        			               'after' => '',                                  // after the menu
-        			               'link_before' => '',                            // before each link
-        			               'link_after' => '',                             // after each link
-        			               'depth' => 0,                                   // limit the depth of the nav
-    					         'fallback_cb' => ''                             // fallback function (if there is one)
-						)); ?>
-					</nav>
+	        <div id="header-right">
+						<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+							<?php wp_nav_menu(array(
+	    					         'container' => false,                           // remove nav container
+	    					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+	    					         'menu' => __( 'VNS Nav', 'bonestheme' ),  			 // nav name
+	    					         'menu_class' => 'nav top-nav header__nav-right',               // adding custom nav class
+	    					         'theme_location' => 'main-nav',                 // where it's located in the theme
+	    					         'before' => '',                                 // before the menu
+	        			               'after' => '',                                  // after the menu
+	        			               'link_before' => '',                            // before each link
+	        			               'link_after' => '',                             // after each link
+	        			               'depth' => 0,                                   // limit the depth of the nav
+	    					         'fallback_cb' => ''                             // fallback function (if there is one)
+							)); ?>
+						</nav>
+	        </div>
         </div>
-        </div>
-        <div class="clearfix"></div>
 			</div>
 		</header>
