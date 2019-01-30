@@ -262,7 +262,7 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           </div>
           <div class="tuition-info">
             <div class="class-info-item">
-              <p>$115/semester – paid in full at registration</p>
+              <p>$125/semester – paid in full at registration</p>
             </div>
           </div>
           <div class="class-info-header">
@@ -270,16 +270,7 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           </div>
           <div class="schedule-info">
             <div class="class-info-item">
-              <p>Tuesday: Older Infants (12-18 months)</p>
-            </div>
-            <div class="class-info-item">
-              <p>Wednesday: Older Infants (12-18 months)</p>
-            </div>
-            <div class="class-info-item">
-              <p>Thursday: Toddlers (18-24+ months)</p>
-            </div>
-            <div class="class-info-item">
-              <p>Friday: Toddlers (18-24+ months)</p>
+              <p>Classes for students 12-24+ months are held Tuesday-Friday, from 9:30-11:00.</p>
             </div>
           </div>
         </div>
