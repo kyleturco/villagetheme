@@ -46,15 +46,27 @@ Template Name: Programs
         </div>
         <div class="program-photo-right col-md-5">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/kids-in-playroom.jpg" alt="village nursery school playroom" width="400px">
+
           <?php if (!empty($vns_schedule)) { ?>
           <div class="class-download">
-            <h3 class="h2 class-download__header">Schedule 2017-2018</h3>
-            <a href="<?php echo $vns_schedule; ?>" target="_blank">Download Now</a>
+            <h3 class="h2 class-download__header">Calendar 2018-2019</h3>
+            <a
+              href="<?php echo $vns_schedule; ?>"
+              title="Village Nursery School Calendar 2018-2019"
+              target="_blank">
+              Download Now
+            </a>
             <hr>
-            <h3 class="h2 class-download__header">Schedule 2018-2019</h3>
-            <a href="<?php echo $vns_schedule_2; ?>" target="_blank">Download Now</a>
+            <h3 class="h2 class-download__header">Calendar 2019-2020</h3>
+            <a
+              href="<?php echo $vns_schedule_2; ?>"
+              title="Village Nursery School Calendar 2019-2020"
+              target="_blank">
+              Download Now
+            </a>
           </div>
           <?php } ?>
+
         </div>
         <div class="clearfix"></div>
       </div>
@@ -63,17 +75,21 @@ Template Name: Programs
       <div class="container">
         <div class="program-photo-right col-md-5">
           <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="village nursery school sandtable" width="400px">
+
           <?php if (!empty($pit_schedule_2)) { ?>
           <div class="class-download">
-            <h3 class="h2 class-download__header">Schedule 2018-2019 </h3>
+            <h3 class="h2 class-download__header">Calendar Spring 2019 </h3>
             <div>
               <a href="<?php echo $pit_schedule_2; ?>" target="_blank">Fall - Download Now</a>
             </div>
+            <hr>
+            <h3 class="h2 class-download__header">Calendar Fall 2019 </h3>
             <div>
               <a href="<?php echo $pit_schedule_3; ?>" target="_blank">Spring - Download Now</a>
             </div>
           </div>
           <?php } ?>
+
         </div>
         <div class="class-description col-md-7">
           <h2>Parent Infant Toddler</h2>
