@@ -80,12 +80,22 @@ Template Name: Programs
           <div class="class-download">
             <h3 class="h2 class-download__header">Calendar Spring 2019 </h3>
             <div>
-              <a href="<?php echo $pit_schedule_2; ?>" target="_blank">Fall - Download Now</a>
+              <a
+                href="<?php echo $pit_schedule_2; ?>"
+                title="Village Nursery School PIT Calendar"
+                target="_blank">
+                Download Now
+              </a>
             </div>
             <hr>
             <h3 class="h2 class-download__header">Calendar Fall 2019 </h3>
             <div>
-              <a href="<?php echo $pit_schedule_3; ?>" target="_blank">Spring - Download Now</a>
+              <a
+                href="<?php echo $pit_schedule_3; ?>"
+                title="Village Nursery School PIT Calendar"
+                target="_blank">
+                Download Now
+              </a>
             </div>
           </div>
           <?php } ?>
