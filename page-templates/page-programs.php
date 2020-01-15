@@ -49,18 +49,18 @@ Template Name: Programs
 
           <?php if (!empty($vns_schedule)) { ?>
           <div class="class-download">
-            <h3 class="h2 class-download__header">Calendar 2018-2019</h3>
+            <h3 class="h2 class-download__header">Calendar 2019-2020</h3>
             <a
               href="<?php echo $vns_schedule; ?>"
-              title="Village Nursery School Calendar 2018-2019"
+              title="Village Nursery School Calendar 2019-2020"
               target="_blank">
               Download Now
             </a>
             <hr>
-            <h3 class="h2 class-download__header">Calendar 2019-2020</h3>
+            <h3 class="h2 class-download__header">Calendar 2020-2021</h3>
             <a
               href="<?php echo $vns_schedule_2; ?>"
-              title="Village Nursery School Calendar 2019-2020"
+              title="Village Nursery School Calendar 2020-2021"
               target="_blank">
               Download Now
             </a>
@@ -78,7 +78,7 @@ Template Name: Programs
 
           <?php if (!empty($pit_schedule_2)) { ?>
           <div class="class-download">
-            <h3 class="h2 class-download__header">Calendar Spring 2019 </h3>
+            <h3 class="h2 class-download__header">Calendar Fall 2020 </h3>
             <div>
               <a
                 href="<?php echo $pit_schedule_2; ?>"
@@ -88,7 +88,7 @@ Template Name: Programs
               </a>
             </div>
             <hr>
-            <h3 class="h2 class-download__header">Calendar Fall 2019 </h3>
+            <h3 class="h2 class-download__header">Calendar Spring 2021 </h3>
             <div>
               <a
                 href="<?php echo $pit_schedule_3; ?>"
