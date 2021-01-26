@@ -45,7 +45,7 @@ Template Name: Programs
           <a href="<?php echo home_url(); ?>/enrollment/#class-1" class="btn btn-primary">Enroll Now</a>
         </div>
         <div class="program-photo-right col-md-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/library/images/kids-in-playroom.jpg" alt="village nursery school playroom" width="400px">
+          <img class="image-rounded" src="<?php echo get_template_directory_uri(); ?>/library/images/kids-in-playroom.jpg" alt="village nursery school playroom" width="400px">
 
           <?php if (!empty($vns_schedule)) { ?>
           <div class="class-download">

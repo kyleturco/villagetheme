@@ -70,13 +70,13 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
             </div>
             <div class="schedule-info">
               <div class="class-info-item">
-                <p>Monday/Wednesday/Friday 9:00-11:20 AM</p>
+                <p>Monday/Wednesday/Friday 9:20-11:50 AM</p>
               </div>
               <div class="class-info-item">
-                <p>Tuesday/Thursday 9:00-11:20 AM</p>
+                <p>Tuesday/Thursday 9:20-11:50 AM</p>
               </div>
               <div class="class-info-item info-3">
-                <p>Tuesday/Thursday 12:30-2:50 PM</p>
+                <p>Tuesday/Thursday 12:30-3:00 PM</p>
               </div>
             </div>
           </div>
@@ -131,10 +131,10 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
             </div>
             <div class="schedule-info">
               <div class="class-info-item">
-                <p>Monday/Wednesday/Friday 9:00-11:25 AM</p>
+                <p>Monday/Wednesday/Friday 9:20-11:50 AM</p>
               </div>
               <div class="class-info-item">
-                <p>Tuesday/Thursday 9:00-11:25 AM</p>
+                <p>Tuesday/Thursday 9:20-11:50 AM</p>
               </div>
               <div class="class-info-item info-3">
                 <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM*</p>
@@ -193,10 +193,10 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
             </div>
             <div class="schedule-info">
               <div class="class-info-item">
-                <p>Monday/Wednesday/Friday 9:00-11:30 AM</p>
+                <p>Monday/Wednesday/Friday 9:20-11:50 AM</p>
               </div>
               <div class="class-info-item">
-                <p>Monday-Friday 9:00-11:30 AM</p>
+                <p>Monday-Friday 9:20-11:50 AM</p>
               </div>
               <div class="class-info-item info-3">
                 <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM</p>
@@ -252,7 +252,7 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           </div>
           <div class="schedule-info">
             <div class="class-info-item">
-              <p>Tuesday/Thursday 9:00-11:30 AM</p>
+              <p>Tuesday/Thursday 9:20-11:50 AM</p>
             </div>
           </div>
           <div class="class-download class-download-mobile">
