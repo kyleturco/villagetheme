@@ -10,7 +10,7 @@ Template Name: Our Story
   <div class="our-story-container">
     <div id="story-photo-bar">
       <div class="story-photo">
-        <img src="<?php echo get_template_directory_uri(); ?>/library/images/vns-blocks.jpg" alt="village nursery school - child playing">
+        <img class="image-rounded" src="<?php echo get_template_directory_uri(); ?>/library/images/vns-blocks.jpg" alt="village nursery school - child playing">
       </div>
     </div>
     <div id="story-text-section">

@@ -37,7 +37,7 @@ Template Name: Contact Page
         </div>
       </div>
       <div id="contact-photo-right" class="col-md-6 no-left-pad">
-        <img src="<?php echo get_template_directory_uri(); ?>/library/images/first-united-methodist.JPG" alt="First United Methodist Church">
+        <img class="image-rounded" src="<?php echo get_template_directory_uri(); ?>/library/images/first-united-methodist.JPG" alt="First United Methodist Church">
       </div>
       <div class="clearfix"></div>
     </div>

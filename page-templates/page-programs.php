@@ -74,7 +74,7 @@ Template Name: Programs
     <div id="pit" class="class-section class-2">
       <div class="container">
         <div class="program-photo-right col-md-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="village nursery school sandtable" width="400px">
+          <img class="image-rounded" src="<?php echo get_template_directory_uri(); ?>/library/images/playbox-1.JPG" alt="village nursery school sandtable" width="400px">
 
           <?php if (!empty($pit_schedule_2)) { ?>
           <div class="class-download">
@@ -120,7 +120,7 @@ Template Name: Programs
           <a href="<?php echo home_url(); ?>/enrollment/#stay-and-play-enroll" class="btn btn-primary">Sign Up Now</a>
         </div>
         <div class="program-photo-right col-md-5">
-          <img src="<?php echo get_template_directory_uri(); ?>/library/images/book-rack.jpg" alt="village nursery school bookrack" width="400px">
+          <img class="image-rounded" src="<?php echo get_template_directory_uri(); ?>/library/images/book-rack.jpg" alt="village nursery school bookrack" width="400px">
         </div>
       </div>
     </div>

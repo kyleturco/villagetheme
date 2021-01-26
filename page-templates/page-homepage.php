@@ -84,7 +84,7 @@ Template Name: Home Page
           </div>
         </div>
         <div id="overview-photos-right" class="col-md-6">
-          <div class="photo-left"></div>
+          <div class="photo-left image-rounded"></div>
         </div>
       </div>
     </div>

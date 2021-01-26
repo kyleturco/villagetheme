@@ -514,6 +514,25 @@ CUSTOM STYLES
   padding-left: 0;
 }
 
+.image-rounded {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.mb-0 { margin-bottom: 0 !important; }
+.mb-1 { margin-bottom: 0.25rem !important; }
+.mb-2 { margin-bottom: 0.5rem !important; }
+.mb-3 { margin-bottom: 0.75rem !important; }
+.mb-4 { margin-bottom: 1rem !important; }
+.mb-5 { margin-bottom: 1.5rem !important; }
+
+.mt-0 { margin-top: 0 !important; }
+.mt-1 { margin-top: 0.25rem !important; }
+.mt-2 { margin-top: 0.5rem !important; }
+.mt-3 { margin-top: 0.75rem !important; }
+.mt-4 { margin-top: 1rem !important; }
+.mt-5 { margin-top: 1.5rem !important; }
+
 .emphasis-box {
   background: $white;
   border: 1px solid $gray;
@@ -917,6 +936,7 @@ Programs & Rates Styles
 .class-info {
   border: 1px solid $gray;
   margin: 1em 0;
+
   i {
     margin-right: 0.3em;
   }
@@ -926,11 +946,12 @@ Programs & Rates Styles
   h3 {
     margin: 0;
   }
+
   .class-info-header {
-    background: $green;
-    padding: 0.7em 1em;
+    background: $gray;
+    padding: 1em;
     font-weight: 600;
-    color: $white;
+    color: $text-color;
   }
   .class-info-item {
     padding: 0.7em 1em;
@@ -952,10 +973,6 @@ Programs & Rates Styles
     font-size: 1.55em;
     margin-top: 0;
     padding-bottom: 0.4em;
-  }
-
-  p {
-    margin-top: 1em;
   }
 
   &:hover {

@@ -38,40 +38,46 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           <h1>Preschool 2</h1>
         </div>
         <div class="class-download">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
+          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+          <p class="mt-1">Download the registration form below.</p>
           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
-        <div class="class-info">
-          <div class="class-info-header">
-            <h3><i class="fa fa-child"></i> Ages</h3>
-          </div>
+        <div>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-child"></i> Ages</h3>
+            </div>
             <div class="class-info-item">
               <p>2-3 years old (must be 2 by August 1 of the school year)</p>
             </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
-          <div class="tuition-info">
-            <div class="class-info-item">
-              <p>$95/month for 2 classes/week</p>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-usd"></i> Tuition</h3>
             </div>
-            <div class="class-info-item">
-              <p>$130/month for 3 classes/week</p>
+            <div class="tuition-info">
+              <div class="class-info-item">
+                <p>$95/month for 2 classes/week</p>
+              </div>
+              <div class="class-info-item">
+                <p>$130/month for 3 classes/week</p>
+              </div>
             </div>
           </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
-          </div>
-          <div class="schedule-info">
-            <div class="class-info-item">
-              <p>Monday/Wednesday/Friday 9:00-11:20 AM</p>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-calendar"></i> Scheduling</h3>
             </div>
-            <div class="class-info-item">
-              <p>Tuesday/Thursday 9:00-11:20 AM</p>
-            </div>
-            <div class="class-info-item info-3">
-              <p>Tuesday/Thursday 12:30-2:50 PM</p>
+            <div class="schedule-info">
+              <div class="class-info-item">
+                <p>Monday/Wednesday/Friday 9:00-11:20 AM</p>
+              </div>
+              <div class="class-info-item">
+                <p>Tuesday/Thursday 9:00-11:20 AM</p>
+              </div>
+              <div class="class-info-item info-3">
+                <p>Tuesday/Thursday 12:30-2:50 PM</p>
+              </div>
             </div>
           </div>
         </div>
@@ -81,8 +87,8 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           </p>
         </div>
         <div class="class-download class-download-mobile">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
+          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+          <p class="mt-1">Download the registration form below.</p>
           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
       </div>
@@ -93,40 +99,46 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           <h1>Preschool 3</h1>
         </div>
         <div class="class-download">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
+          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+          <p class="mt-1">Download the registration form below.</p>
           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
-        <div class="class-info">
-          <div class="class-info-header">
-            <h3><i class="fa fa-child"></i> Ages</h3>
-          </div>
+        <div>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-child"></i> Ages</h3>
+            </div>
             <div class="class-info-item">
               <p>3-4 years old (Must be 3 by August 1)</p>
             </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
-          <div class="tuition-info">
-            <div class="class-info-item">
-              <p>$95/month for 2 class/week</p>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-usd"></i> Tuition</h3>
             </div>
-            <div class="class-info-item">
-              <p>$130/month for 3 classes/week</p>
+            <div class="tuition-info">
+              <div class="class-info-item">
+                <p>$95/month for 2 class/week</p>
+              </div>
+              <div class="class-info-item">
+                <p>$130/month for 3 classes/week</p>
+              </div>
             </div>
           </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
-          </div>
-          <div class="schedule-info">
-            <div class="class-info-item">
-              <p>Monday/Wednesday/Friday 9:00-11:25 AM</p>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-calendar"></i> Scheduling</h3>
             </div>
-            <div class="class-info-item">
-              <p>Tuesday/Thursday 9:00-11:25 AM</p>
-            </div>
-            <div class="class-info-item info-3">
-              <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM*</p>
+            <div class="schedule-info">
+              <div class="class-info-item">
+                <p>Monday/Wednesday/Friday 9:00-11:25 AM</p>
+              </div>
+              <div class="class-info-item">
+                <p>Tuesday/Thursday 9:00-11:25 AM</p>
+              </div>
+              <div class="class-info-item info-3">
+                <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM*</p>
+              </div>
             </div>
           </div>
         </div>
@@ -137,8 +149,8 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           </p>
         </div>
         <div class="class-download class-download-mobile">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
+          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+          <p class="mt-1">Download the registration form below.</p>
           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
       </div>
@@ -149,40 +161,46 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           <h1>Pre-Kindergarten</h1>
         </div>
         <div class="class-download">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
+          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+          <p class="mt-1">Download the registration form below.</p>
           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
-        <div class="class-info">
-          <div class="class-info-header">
-            <h3><i class="fa fa-child"></i> Ages</h3>
-          </div>
+        <div>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-child"></i> Ages</h3>
+            </div>
             <div class="class-info-item">
               <p>4-5 years old (must be 4 by August 1 of the school year)</p>
             </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
-          <div class="tuition-info">
-            <div class="class-info-item">
-              <p>$130/month for 3 classes/week</p>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-usd"></i> Tuition</h3>
             </div>
-            <div class="class-info-item">
-              <p>$210/month for 5 classes/week</p>
+            <div class="tuition-info">
+              <div class="class-info-item">
+                <p>$130/month for 3 classes/week</p>
+              </div>
+              <div class="class-info-item">
+                <p>$210/month for 5 classes/week</p>
+              </div>
             </div>
           </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
-          </div>
-          <div class="schedule-info">
-            <div class="class-info-item">
-              <p>Monday/Wednesday/Friday 9:00-11:30 AM</p>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-calendar"></i> Scheduling</h3>
             </div>
-            <div class="class-info-item">
-              <p>Monday-Friday 9:00-11:30 AM</p>
-            </div>
-            <div class="class-info-item info-3">
-              <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM</p>
+            <div class="schedule-info">
+              <div class="class-info-item">
+                <p>Monday/Wednesday/Friday 9:00-11:30 AM</p>
+              </div>
+              <div class="class-info-item">
+                <p>Monday-Friday 9:00-11:30 AM</p>
+              </div>
+              <div class="class-info-item info-3">
+                <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM</p>
+              </div>
             </div>
           </div>
         </div>
@@ -193,8 +211,8 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           </p>
         </div>
         <div class="class-download class-download-mobile">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
+          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+          <p class="mt-1">Download the registration form below.</p>
           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
       </div>
@@ -205,38 +223,44 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           <h1>Preschool Spanish</h1>
         </div>
         <div class="class-download">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
+          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+          <p class="mt-1">Download the registration form below.</p>
           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
-        <div class="class-info">
-         <div class="class-info-header">
-           <h3><i class="fa fa-child"></i> Ages</h3>
-         </div>
-           <div class="class-info-item">
-             <p>4-5 years old (must be 4 by August 1 of the school year)</p>
-           </div>
-         <div class="class-info-header">
-           <h3><i class="fa fa-usd"></i> Tuition</h3>
-         </div>
-         <div class="tuition-info">
-           <div class="class-info-item">
-             <p>$100 month for 2 classes/week</p>
-           </div>
-         </div>
-         <div class="class-info-header">
-           <h3><i class="fa fa-calendar"></i> Scheduling</h3>
-         </div>
-         <div class="schedule-info">
-           <div class="class-info-item">
-             <p>Tuesday/Thursday 9:00-11:30 AM</p>
-           </div>
-         </div>
-         <div class="class-download class-download-mobile">
-           <h2>Interested in enrolling?</h2>
-           <p>Download the registration form below.</p>
-           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
-         </div>
+        <div>
+        <div class="mb-4 class-info">
+          <div class="class-info-header">
+            <h3><i class="fa fa-child"></i> Ages</h3>
+          </div>
+          <div class="class-info-item">
+            <p>4-5 years old (must be 4 by August 1 of the school year)</p>
+          </div>
+        </div>
+        <div class="mb-4 class-info">
+          <div class="class-info-header">
+            <h3><i class="fa fa-usd"></i> Tuition</h3>
+          </div>
+          <div class="tuition-info">
+            <div class="class-info-item">
+              <p>$100 month for 2 classes/week</p>
+            </div>
+          </div>
+        </div>
+        <div class="mb-4 class-info">
+          <div class="class-info-header">
+            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
+          </div>
+          <div class="schedule-info">
+            <div class="class-info-item">
+              <p>Tuesday/Thursday 9:00-11:30 AM</p>
+            </div>
+          </div>
+          <div class="class-download class-download-mobile">
+            <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+            <p class="mt-1">Download the registration form below.</p>
+            <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+          </div>
+        </div>
        </div>
       </div>
     </div>
@@ -246,8 +270,8 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           <h1>P.I.T.</h1>
         </div>
         <div class="class-download">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
+          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+          <p class="mt-1">Download the registration form below.</p>
           <a href="<?php echo $pit_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
         <div class="class-info">
@@ -275,8 +299,8 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           </div>
         </div>
         <div class="class-download class-download-mobile">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
+          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+          <p class="mt-1">Download the registration form below.</p>
           <a href="<?php echo $pit_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
       </div>
@@ -286,48 +310,38 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
         <div class="class-1-header text-center">
           <h1>Stay & Play</h1>
         </div>
-        <div class="class-info-notes clearfix">
-          <p>
-            Sign-up for Before-School (8:30 AM - 9:00 AM) and After-School care (11:30 AM - 12:00 PM). Limited spots
-            are available. You must call ahead or sign-up in advance. We do have a ratio of adults to children for better
-            care and may not be able to accommodate your drop-in needs if you do not call ahead.
-          </p>
-        </div>
         <div class="class-download">
-          <h2>Interested in enrolling?</h2>
-          <p>Download the registration form below.</p>
+          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+          <p class="mt-1">Download the registration form below.</p>
           <a href="<?php echo $stay_and_play_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
-        <div class="class-info">
-          <div class="class-info-header">
-            <h3><i class="fa fa-child"></i> Ages</h3>
-          </div>
+        <div>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-child"></i> Ages</h3>
+            </div>
             <div class="class-info-item">
               <p>Must be 12 months old (and walking)</p>
             </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-usd"></i> Tuition</h3>
           </div>
-          <div class="tuition-info">
-            <div class="class-info-item">
-              <p>$5/half hour</p>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-usd"></i> Tuition</h3>
             </div>
-            <div class="class-info-item">
-              <p>$15/Enrichment Time(9AM - 11:30AM)</p>
-            </div>
-            <div class="class-info-item info-3">
-              <p>$25/Full morning (8:30AM - Noon)</p>
+            <div class="tuition-info">
+              <div class="class-info-item">
+                <p>$25 flat rate (Please inquire about before-school care if needed)</p>
+              </div>
             </div>
           </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
-          </div>
-          <div class="schedule-info">
-            <div class="class-info-item">
-              <p>
-                “Varies Daily” Program is offered M-F mornings from 8:30AM-Noon but is scheduled on a “first come
-                 first serve” basis.  Please contact the VNS Director to inquire about availability.
-               </p>
+          <div class="mb-4 class-info">
+            <div class="class-info-header">
+              <h3><i class="fa fa-calendar"></i> Scheduling</h3>
+            </div>
+            <div class="schedule-info">
+              <div class="class-info-item">
+                <p>8:45am - 12:00pm</p>
+              </div>
             </div>
           </div>
         </div>
