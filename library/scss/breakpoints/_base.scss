@@ -607,35 +607,39 @@ Homepage styles
   padding: 2em 0;
   background: $light-gray;
 }
+
 .icon-circle {
   display: block;
   margin: 0 auto 2em auto;
-  height: 140px;
-  width: 140px;
+  height: 100px;
+  width: 100px;
   border-radius: 70px;
 }
+
 .icon-1 {
   background: $orange;
   .fa {
-    font-size: 3.7em;
-    margin-top: 0.5em;
-    margin-left: 0.6em;
+    font-size: 3em;
+    margin-top: 23px;
+    margin-left: 16px;
   }
 }
+
 .icon-2 {
   background: $blue;
   .fa {
-    font-size: 3.4em;
-    margin-top: 0.65em;
-    margin-left: 0.65em;
+    font-size: 3em;
+    margin-top: 21px;
+    margin-left: 16px;
   }
 }
+
 .icon-3 {
   background: $yellow;
   .fa {
-    font-size: 3.7em;
-    margin-top: 0.5em;
-    margin-left: 0.7em;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-left: 16px;
   }
 }
 

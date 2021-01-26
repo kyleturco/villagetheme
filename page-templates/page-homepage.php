@@ -23,7 +23,7 @@ Template Name: Home Page
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-          <h2 class="enrollment-cta__header">Enrollment 2020-2021</h2>
+          <h2 class="enrollment-cta__header">Enrollment 2021-2022</h2>
           <p class="enrollment-cta__description h3">Important dates and information</p>
         </div>
         <div class="col-sm-4">
@@ -38,7 +38,7 @@ Template Name: Home Page
     <div class="container">
       <div id="home-icon-1" class="col-md-4 home-icon">
         <div class="icon-circle icon-1">
-          <i class="fa fa-home text-center text-white"></i>
+          <i class="fa fa-home fa-fw text-center text-white"></i>
         </div>
         <h2 class="text-center">Safe & Secure</h2>
         <p class="text-center homepage-description">
@@ -48,7 +48,7 @@ Template Name: Home Page
       </div>
       <div id="home-icon-2" class="col-md-4 home-icon">
         <div class="icon-circle icon-2">
-          <i class="fa fa-bell text-center text-white"></i>
+          <i class="fa fa-bell fa-fw text-center text-white"></i>
         </div>
         <h2 class="text-center">Academic</h2>
         <p class="text-center homepage-description">
@@ -58,7 +58,7 @@ Template Name: Home Page
       </div>
       <div id="home-icon-3" class="col-md-4 home-icon">
         <div class="icon-circle icon-3">
-          <i class="fa fa-child text-center text-white"></i>
+          <i class="fa fa-child fa-fw text-center text-white"></i>
         </div>
         <h2 class="text-center">Fun</h2>
         <p class="text-center homepage-description">
