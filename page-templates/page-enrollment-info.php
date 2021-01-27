@@ -8,7 +8,7 @@ Template Name: Enrollment Info
 
 <div id="enrollment-page-header">
   <div class="container">
-    <h1 id="enrollment-header" class="text-center text-white">Enrollment 2020-2021</h1>
+    <h1 id="enrollment-header" class="text-center text-white"><?php echo get_the_title(); ?></h1>
     <p id="enrollment-subheader" class="text-center text-white">Important Dates &amp; Info</p>
   </div>
 </div>
