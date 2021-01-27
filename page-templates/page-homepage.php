@@ -27,7 +27,7 @@ Template Name: Home Page
           <p class="enrollment-cta__description h3">Important dates and information</p>
         </div>
         <div class="col-sm-4">
-          <a href="<?php echo home_url(); ?>/enrollment-2020-2021/" class="enrollment-cta__btn btn btn-primary" title="Village Nursery School Enrollment Info">
+          <a href="<?php echo home_url(); ?>/enrollment-2021-2022/" class="enrollment-cta__btn btn btn-primary" title="Village Nursery School Enrollment Info">
             View Dates <i class="fa fa-angle-double-right"></i>
           </a>
         </div>
