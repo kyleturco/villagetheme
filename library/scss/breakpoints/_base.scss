@@ -971,18 +971,12 @@ Programs & Rates Styles
   border-radius: 0.5rem;
   padding: 1.5em;
   text-align: center;
-  -webkit-transition: 0.3s;
+  box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.05);
 
   &__header {
     font-size: 1.55em;
     margin-top: 0;
     padding-bottom: 0.4em;
-  }
-
-  &:hover {
-    box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.05);
-    -webkit-transition: 0.3s;
-    border: 1px solid darken($gray, 10%);
   }
 }
 
