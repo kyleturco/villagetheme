@@ -35,10 +35,8 @@ be seen on the Desktop.
   }
 }
 
-//Homepage icons
-#home-welcome-section {
-  padding: 2em 0;
-  background: $light-gray;
+.home-icon__container {
+  min-height: 50rem;
 }
 
 #home-icon-2 {

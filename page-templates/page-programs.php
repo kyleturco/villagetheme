@@ -12,6 +12,8 @@ Template Name: Programs
   $pit_schedule = get_field('pit_schedule');
   $pit_schedule_2 = get_field('pit_schedule_2');
   $pit_schedule_3 = get_field('pit_schedule_3');
+  $calendar_1_title = get_field('calendar_1_title');
+  $calendar_2_title = get_field('calendar_2_title');
 ?>
 
 <?php get_header(); ?>
@@ -49,18 +51,18 @@ Template Name: Programs
 
           <?php if (!empty($vns_schedule)) { ?>
           <div class="class-download">
-            <h3 class="h2 class-download__header">Calendar 2021-2022</h3>
+            <h3 class="h2 class-download__header"><?php echo $calendar_1_title; ?></h3>
             <a
               href="<?php echo $vns_schedule; ?>"
-              title="Village Nursery School Calendar 2021-2022"
+              title="<?php echo $calendar_1_title; ?>"
               target="_blank">
               Download Now
             </a>
             <hr>
-            <h3 class="h2 class-download__header">Calendar 2021-2022</h3>
+            <h3 class="h2 class-download__header"><?php echo $calendar_2_title; ?></h3>
             <a
               href="<?php echo $vns_schedule_2; ?>"
-              title="Village Nursery School Calendar 2021-2022"
+              title="<?php echo $calendar_2_title; ?>"
               target="_blank">
               Download Now
             </a>

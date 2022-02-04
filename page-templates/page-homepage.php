@@ -2,6 +2,10 @@
 /*
 Template Name: Home Page
 */
+
+$enrollment_header = get_field('enrollment_header');
+$enrollment_url = get_field('enrollment_url');
+
 ?>
 
 <?php get_header(); ?>
@@ -19,51 +23,61 @@ Template Name: Home Page
       </div>
     </div>
   </div>
-  <div class="enrollment-cta">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8">
-          <h2 class="enrollment-cta__header">Enrollment 2021-2022</h2>
-          <p class="enrollment-cta__description h3">Important dates and information</p>
-        </div>
-        <div class="col-sm-4">
-          <a href="<?php echo home_url(); ?>/enrollment-2021-2022/" class="enrollment-cta__btn btn btn-primary" title="Village Nursery School Enrollment Info">
-            View Dates <i class="fa fa-angle-double-right"></i>
-          </a>
+
+  <?php if (!empty($enrollment_header)) { ?>
+    <div class="enrollment-cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <h2 class="enrollment-cta__header"><?php echo $enrollment_header; ?></h2>
+            <p class="enrollment-cta__description h3">Important dates and information</p>
+          </div>
+          <div class="col-sm-4">
+            <a href="<?php echo $enrollment_url; ?>" class="enrollment-cta__btn btn btn-primary" title="Village Nursery School Enrollment Info">
+              View Info <i class="fa fa-angle-double-right"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  <?php } ?>
+
   <div id="home-welcome-section">
     <div class="container">
       <div id="home-icon-1" class="col-md-4 home-icon">
-        <div class="icon-circle icon-1">
-          <i class="fa fa-home fa-fw text-center text-white"></i>
+        <div class="home-icon__container">
+          <div class="icon-circle icon-1">
+            <i class="fa fa-home fa-fw text-center text-white"></i>
+          </div>
+          <h2 class="text-center">Safe & Secure</h2>
+          <p class="text-center homepage-description">
+            Educated, qualified staff members with background checks and CPR certifications.  Small classes with a
+            minimal student to teacher ratio.
+          </p>
         </div>
-        <h2 class="text-center">Safe & Secure</h2>
-        <p class="text-center homepage-description">
-          Educated, qualified staff members with background checks and CPR certifications.  Small classes with a
-          minimal student to teacher ratio.
-        </p>
       </div>
       <div id="home-icon-2" class="col-md-4 home-icon">
-        <div class="icon-circle icon-2">
-          <i class="fa fa-bell fa-fw text-center text-white"></i>
+        <div class="home-icon__container">
+          <div class="icon-circle icon-2">
+            <i class="fa fa-bell fa-fw text-center text-white"></i>
+          </div>
+          <h2 class="text-center">Academic</h2>
+          <p class="text-center homepage-description">
+            Follows Indiana’s early learning development framework, the Foundations, which provides core skills
+            that children are to achieve at various ages through curricula including Zoo-phonics, Handwriting Without Tears, and Minds in Motion.
+          </p>
         </div>
-        <h2 class="text-center">Academic</h2>
-        <p class="text-center homepage-description">
-          Follows Indiana’s early learning development framework, the Foundations, which provides core skills
-          that children are to achieve at various ages through curricula including Zoo-phonics, Handwriting Without Tears, and Minds in Motion.
-        </p>
       </div>
       <div id="home-icon-3" class="col-md-4 home-icon">
-        <div class="icon-circle icon-3">
-          <i class="fa fa-child fa-fw text-center text-white"></i>
+        <div class="home-icon__container">
+          <div class="icon-circle icon-3">
+            <i class="fa fa-child fa-fw text-center text-white"></i>
+          </div>
+          <h2 class="text-center">Fun</h2>
+          <p class="text-center homepage-description">
+            Learn through social play, games and exciting experiments exploring the world around us!
+          </p>
         </div>
-        <h2 class="text-center">Fun</h2>
-        <p class="text-center homepage-description">
-          Learn through social play, games and exciting experiments exploring the world around us!
-        </p>
       </div>
     </div>
   </div>

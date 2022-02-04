@@ -473,7 +473,7 @@ FOOTER STYLES
 }
 
 #fumc-link {
-  background-color: $blue;
+  background: linear-gradient(180deg, $blue, darken($blue, 10%));
   padding: 1.5em 0;
   a {
     color: $white;
@@ -547,7 +547,7 @@ CUSTOM STYLES
 // buttons //
 .btn-primary {
   color: $white;
-  background-color: $green;
+  background: linear-gradient(180deg, $green, darken($green, 15%));
   font-size: 1.2em;
   padding: 0.4em 0.8em;
   font-family: $header-font-family;
@@ -605,7 +605,8 @@ Homepage styles
 
 #home-welcome-section {
   padding: 2em 0;
-  background: $light-gray;
+  background: $light-gray-gradient;
+  box-shadow: $inset-box-shadow;
 }
 
 .icon-circle {
@@ -649,7 +650,14 @@ Homepage styles
 }
 
 .home-icon {
-  padding: 2em 0;
+  padding: 2em 1rem;
+
+  &__container {
+    background: $white;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 0.75rem;
+    padding: 4rem 2rem;
+  }
 }
 
 .homepage-description {
@@ -684,7 +692,7 @@ Homepage styles
   }
 
   &__btn {
-    background: $blue;
+    background: linear-gradient(180deg, $blue, darken($blue, 10%));
     margin-top: 1em;
 
     &:hover {
@@ -711,8 +719,10 @@ Homepage styles
 }
 
 #home-classes-section {
+  box-shadow: $inset-box-shadow;
   padding: 1em 0 3em;
-  background: $light-gray;
+  background: $light-gray-gradient;
+
   h1 {
     margin-bottom: 0;
   }
@@ -735,7 +745,7 @@ Homepage styles
   }
 
   .class-box {
-    background: $blue;
+    background: linear-gradient(180deg, $blue, darken($blue, 10%));
     margin-top: 0.5em;
     overflow: hidden;
     border-radius: 0.5rem;
@@ -824,7 +834,8 @@ Our Story styles
 
 #story-director-section {
   padding: 2em 0 4em;
-  background: $gray;
+  background: $light-gray-gradient;
+  box-shadow: $inset-box-shadow;
 }
 
 .our-story-container {
@@ -938,8 +949,10 @@ Programs & Rates Styles
 }
 
 .class-info {
-  border: 1px solid $gray;
   margin: 1em 0;
+  box-shadow: $box-shadow;
+  border-radius: 0.75rem;
+  overflow: hidden;
 
   i {
     margin-right: 0.3em;
@@ -951,13 +964,15 @@ Programs & Rates Styles
     margin: 0;
   }
 
-  .class-info-header {
-    background: $gray;
-    padding: 1em;
+  &-header {
     font-weight: 600;
     color: $text-color;
+
+    .fa {
+      margin-right: 0.5rem;
+    }
   }
-  .class-info-item {
+  &-item {
     padding: 0.7em 1em;
     border-bottom: 1px solid $gray;
     background: $white;
@@ -992,7 +1007,8 @@ Programs & Rates Styles
 .class-1,
 .class-3,
 .class-5 {
-  background: $light-gray;
+  background: $light-gray-gradient;
+  box-shadow: $inset-box-shadow;
 }
 
 .class-2,
@@ -1017,6 +1033,13 @@ Programs & Rates Styles
     font-size: 1.6em;
     display: none;
   }
+}
+
+#preschool-2,
+#pre-k,
+#pit-enroll {
+  background: $light-gray-gradient;
+  box-shadow: $inset-box-shadow;
 }
 
 #enrollment-program-content {
