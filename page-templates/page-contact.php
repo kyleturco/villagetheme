@@ -2,6 +2,14 @@
 /*
 Template Name: Contact Page
 */
+
+$fumc_address = get_field('fumc_address');
+$fumc_email = get_field('fumc_email');
+$fumc_phone = get_field('fumc_phone');
+
+$vns_contact_name = get_field('vns_contact_name');
+$vns_email = get_field('vns_email');
+$vns_phone = get_field('vns_phone');
 ?>
 
 <?php get_header(); ?>
@@ -18,22 +26,28 @@ Template Name: Contact Page
         <div id="contact-church-section">
           <h2>Location:</h2>
           <h3>We are proudly located in First United Methodist Church</h3>
-          <p>
-            <i class="fa fa-home"></i> 1700 W. State St., West Lafayette, IN 47906
-            <br>
-            <i class="fa fa-envelope-o"></i><a href="mailto:rtodd@fumcwl.org">rtodd@fumcwl.org</a>
-            <br>
-            <i class="fa fa-phone"></i>(765)743-1285
+            <?php if ($fumc_address): ?>
+              <p><i class="fa fa-home"></i> <?php echo $fumc_address; ?></p>
+            <?php endif; ?>
+            <?php if ($fumc_email): ?>
+              <p><i class="fa fa-envelope-o"></i><a href="mailto:<?php echo $fumc_email; ?>"><?php echo $fumc_email; ?></a></p>
+            <?php endif; ?>
+            <?php if ($fumc_phone): ?>
+              <p><i class="fa fa-phone"></i><?php echo $fumc_phone; ?></p>
+            <?php endif; ?>
           </p>
         </div>
         <div id="contact-director-section">
-          <h2>Beth McCool, Director</h2>
+          <?php if ($fumc_contact_name): ?>
+            <h2><?php echo $fumc_contact_name; ?></h2>
+          <?php endif; ?>
           <p>For more information, please contact:</p>
-          <p>
-           <i class="fa fa-envelope-o"></i><a href="mailto:bmccool@fumcwl.org">bmccool@fumcwl.org</a>
-           <br>
-           <i class="fa fa-phone"></i>765-743-4039
-          </p>
+          <?php if ($vns_email): ?>
+            <p><i class="fa fa-envelope-o"></i><a href="mailto:<?php echo $vns_email; ?>"><?php echo $vns_email; ?></a></p>
+          <?php endif; ?>
+          <?php if ($fumc_phone): ?>
+            <p><i class="fa fa-phone"></i><?php echo $vns_phone; ?></p>
+          <?php endif; ?>
         </div>
       </div>
       <div id="contact-photo-right" class="col-md-6 no-left-pad">
