@@ -167,27 +167,16 @@ LAYOUT & GRID STYLES
 SIDEBARS & ASIDES
 *********************/
 /* line 13, ../scss/breakpoints/_768up.scss */
-.sidebar {
-  margin-top: 2.2em;
-}
-
-/* line 17, ../scss/breakpoints/_768up.scss */
-.widgettitle {
-  border-bottom: 2px solid #444;
-  margin-bottom: 0.75em;
-}
-
-/* line 22, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 27, ../scss/breakpoints/_768up.scss */
+/* line 18, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 35, ../scss/breakpoints/_768up.scss */
+/* line 26, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -196,47 +185,47 @@ SIDEBARS & ASIDES
 /*********************
 CUSTOM STYLES
 *********************/
-/* line 47, ../scss/breakpoints/_768up.scss */
+/* line 38, ../scss/breakpoints/_768up.scss */
 h1, .h1 {
   font-size: 2.7em;
 }
 
-/* line 51, ../scss/breakpoints/_768up.scss */
+/* line 42, ../scss/breakpoints/_768up.scss */
 .narrow-content {
   padding-right: 2em;
 }
 
-/* line 56, ../scss/breakpoints/_768up.scss */
+/* line 47, ../scss/breakpoints/_768up.scss */
 #home-classes-section .class-box {
   margin-bottom: 1em;
 }
 
-/* line 62, ../scss/breakpoints/_768up.scss */
+/* line 53, ../scss/breakpoints/_768up.scss */
 .homepage-description {
   padding: 0em 5em;
 }
 
-/* line 66, ../scss/breakpoints/_768up.scss */
+/* line 57, ../scss/breakpoints/_768up.scss */
 #program-header,
 #enrollment-header {
   font-size: 3em;
 }
 
-/* line 71, ../scss/breakpoints/_768up.scss */
+/* line 62, ../scss/breakpoints/_768up.scss */
 #programs-page-header {
   padding: 6em 0;
 }
 
-/* line 75, ../scss/breakpoints/_768up.scss */
+/* line 66, ../scss/breakpoints/_768up.scss */
 #enrollment-page-header {
   padding: 6em 0;
 }
 
-/* line 79, ../scss/breakpoints/_768up.scss */
+/* line 70, ../scss/breakpoints/_768up.scss */
 .program-photo-right {
   margin-top: 2.5em;
 }
-/* line 81, ../scss/breakpoints/_768up.scss */
+/* line 72, ../scss/breakpoints/_768up.scss */
 .program-photo-right .class-download {
   width: 75%;
 }

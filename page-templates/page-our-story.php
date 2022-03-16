@@ -10,7 +10,7 @@ $director_note_text = get_field('director_note_text');
 
 <?php get_header(); ?>
 
-<div id="content" class="our-story-content">
+<div id="content" class="page-content">
   <div class="our-story-container">
     <div id="story-photo-bar">
       <div class="story-photo">

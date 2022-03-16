@@ -10,35 +10,26 @@ LAYOUT & GRID STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {
-	margin-top: 2.2em;
-}
+.widget {
+	padding: 0 10px;
+	margin: 2.2em 0;
 
-	.widgettitle {
-		border-bottom: 2px solid #444;
-		margin-bottom: 0.75em;
-	}
+	ul {
+		li {
+			margin-bottom: 0.75em;
 
-	.widget {
-		padding: 0 10px;
-		margin: 2.2em 0;
+			&:first-child {}
+			&:last-child {}
+			a {}
+			/* deep nesting */
 
-		ul {
-			li {
-				margin-bottom: 0.75em;
-
-				&:first-child {}
-				&:last-child {}
-				a {}
-				/* deep nesting */
-
-				ul {
-					margin-top: 0.75em;
-					padding-left: 1em;
-				}
+			ul {
+				margin-top: 0.75em;
+				padding-left: 1em;
 			}
 		}
 	}
+}
 
 /*********************
 CUSTOM STYLES

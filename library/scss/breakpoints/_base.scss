@@ -3,22 +3,27 @@ POSTS & CONTENT STYLES
 *********************/
 
 .hentry {
-  background-color: $white;
   border-radius: 3px;
-  margin-bottom: 1.5em;
-  border: 1px solid $border-color;
+  border-bottom: 1px solid $light-gray;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
 
-  header {
-    border-bottom: 1px solid $light-gray;
-    padding: 1.5em;
+  .entry-content {
+    padding: 0;
+    margin-top: 2rem;
+  }
+
+  .entry-title {
+    color: $black;
+
+    &:hover {
+      color: darken($black, 10%);
+    }
   }
 
   footer {
-    padding: 1.5em;
-    border-top: 1px solid $light-gray;
-
     p {
-        margin: 0;
+      margin: 0;
     }
   }
 }
@@ -30,8 +35,6 @@ POSTS & CONTENT STYLES
   color: $meta-gray;
   font-style: italic;
   margin: 0;
-
-  time {}
 }
 
 /* entry content */
@@ -116,11 +119,6 @@ POSTS & CONTENT STYLES
   and floating images at the next breakpoint,
   but it's up to you. Feel free to change it up.
   */
-  .alignleft, img.alignleft {}
-
-  .alignright, img.alignright {}
-
-  .aligncenter, img.aligncenter {}
 
   .size-auto,
   .size-full,
@@ -563,6 +561,14 @@ a.btn-primary {
   &:hover {
     color: $white;
   }
+}
+
+/**************
+Homepage styles
+***************/
+
+.page-content {
+  padding-top: 3em;
 }
 
 /**************
