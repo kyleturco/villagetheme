@@ -28,6 +28,23 @@ POSTS & CONTENT STYLES
   }
 }
 
+.single-post {
+  .hentry {
+    border-bottom: none;
+  }
+}
+
+.news-feat-image {
+  max-height: 390px;
+  overflow-y: hidden;
+}
+
+.news-content {
+  @media (min-width: 768px) {
+    padding-right: 4rem;
+  }
+}
+
 /* end .hentry */
 
 /* post meta */
