@@ -25,6 +25,7 @@
 					<section class="entry-content cf">
 						<?php the_content(); ?>
 					</section>
+					<a class="news-view-link" href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">View Post <i class="fa fa-chevron-right"></i></a>
 
 				</article>
 
