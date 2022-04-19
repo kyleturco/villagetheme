@@ -8,6 +8,14 @@ $vns_enrollment_form = get_field('vns_enrollment_form');
 $pit_enrollment_form = get_field('pit_enrollment_form');
 $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
 
+// Preschool 2 Variables
+$preschool_2_title = get_field('preschool_2_title');
+$preschool_2_age = get_field('preschool_2_age');
+$preschool_2_tuition = get_field('preschool_2_tuition');
+$preschool_2_scheduling = get_field('preschool_2_scheduling');
+$preschool_2_additional = get_field('preschool_2_additional');
+
+
 ?>
 
 <?php get_header(); ?>
@@ -22,7 +30,7 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
   <div id="enrollment-subnav">
     <div class="container">
       <ul class="list-inline text-center">
-        <li><a class="subnav-link" href="#preschool-2">Preschool 2</a></li>
+        <li><a class="subnav-link" href="#preschool-2"><?php echo $preschool_2_title; ?></a></li>
         <li><a class="subnav-link" href="#preschool-3">Preschool 3</a></li>
         <li><a class="subnav-link" href="#pre-k">Pre-Kindergarten</a></li>
         <li><a class="subnav-link" href="#preschool-spanish">Preschool Spanish</a></li>
@@ -35,7 +43,7 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
     <div id="preschool-2" class="class-section class-1">
       <div class="container">
         <div class="class-1-header text-center">
-          <h1>Preschool 2</h1>
+          <h1><?php echo $preschool_2_title; ?></h1>
         </div>
         <div class="class-download">
           <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
@@ -43,49 +51,43 @@ $stay_and_play_enrollment_form = get_field('stay_and_play_enrollment_form');
           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
         <div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-child"></i> Ages</h3>
-          </div>
-          <div class="mb-5 class-info">
-            <div class="class-info-item">
-              <p>2-3 years old (must be 2 by August 1 of the school year)</p>
+
+          <?php if ($preschool_2_age): ?>
+            <div class="class-info-header">
+              <h3><i class="fa fa-child"></i> Ages</h3>
             </div>
-          </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-usd"></i> Tuition</h3>
-          </div>
-          <div class="mb-5 class-info">
-            <div class="tuition-info">
-              <div class="class-info-item">
-                <p>$100/month for 2 classes/week</p>
-              </div>
-              <div class="class-info-item">
-                <p>$135/month for 3 classes/week</p>
-              </div>
+            <div class="mb-5 class-info class-info-item">
+              <p><?php echo $preschool_2_age; ?></p>
             </div>
-          </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
-          </div>
-          <div class="mb-5 class-info">
-            <div class="schedule-info">
-              <div class="class-info-item">
-                <p>Monday/Wednesday/Friday 9:20-11:50 AM</p>
-              </div>
-              <div class="class-info-item">
-                <p>Tuesday/Thursday 9:20-11:50 AM</p>
-              </div>
-              <div class="class-info-item info-3">
-                <p>Tuesday/Thursday 12:30-3:00 PM</p>
-              </div>
+            <?php endif; ?>
+            
+          <?php if ($preschool_2_tuition): ?>
+            <div class="class-info-header">
+              <h3><i class="fa fa-usd"></i> Tuition</h3>
             </div>
-          </div>
+            <div class="mb-5 class-info class-info-item">
+              <?php echo $preschool_2_tuition; ?>
+            </div>
+            <?php endif; ?>
+            
+          <?php if ($preschool_2_scheduling): ?>
+            <div class="class-info-header">
+              <h3><i class="fa fa-calendar"></i> Scheduling</h3>
+            </div>
+            <div class="mb-5 class-info class-info-item">
+              <?php echo $preschool_2_scheduling; ?>
+            </div>
+          <?php endif; ?>
+
         </div>
-        <div class="class-info-notes">
-          <p>
-            *There is a maximum of 10 children with 2 teachers per class.
-          </p>
-        </div>
+        <?php if ($preschool_2_additional): ?>
+          <div class="class-info-notes">
+            <p>
+              <?php echo $preschool_2_additional; ?>
+            </p>
+          </div>
+        <?php endif; ?>
+    
         <div class="class-download class-download-mobile">
           <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
           <p class="mt-1">Download the registration form below.</p>
