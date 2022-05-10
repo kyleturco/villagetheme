@@ -15,12 +15,19 @@ $preschool_2_tuition = get_field('preschool_2_tuition');
 $preschool_2_scheduling = get_field('preschool_2_scheduling');
 $preschool_2_additional = get_field('preschool_2_additional');
 
-// Preschool 2 Variables
+// Preschool 3 Variables
 $preschool_3_title = get_field('preschool_3_title');
 $preschool_3_age = get_field('preschool_3_age');
 $preschool_3_tuition = get_field('preschool_3_tuition');
 $preschool_3_scheduling = get_field('preschool_3_scheduling');
 $preschool_3_additional = get_field('preschool_3_additional');
+
+// PreK Variables
+$pre_k_title = get_field('pre_k_title');
+$pre_k_age = get_field('pre_k_age');
+$pre_k_tuition = get_field('pre_k_tuition');
+$pre_k_scheduling = get_field('pre_k_scheduling');
+$pre_k_additional = get_field('pre_k_additional');
 
 
 ?>
@@ -161,7 +168,7 @@ $preschool_3_additional = get_field('preschool_3_additional');
     <div id="pre-k" class="class-section class-3">
       <div class="container">
         <div class="class-1-header text-center">
-          <h1>Pre-Kindergarten</h1>
+          <h1><?php echo $pre_k_title; ?></h1>
         </div>
         <div class="class-download">
           <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
@@ -169,50 +176,42 @@ $preschool_3_additional = get_field('preschool_3_additional');
           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
         <div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-child"></i> Ages</h3>
-          </div>
-          <div class="mb-5 class-info">
-            <div class="class-info-item">
-              <p>4-5 years old (must be 4 by August 1 of the school year)</p>
+          <?php if ($pre_k_age): ?>
+            <div class="class-info-header">
+              <h3><i class="fa fa-child"></i> Ages</h3>
             </div>
-          </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-usd"></i> Tuition</h3>
-          </div>
-          <div class="mb-5 class-info">
-            <div class="tuition-info">
-              <div class="class-info-item">
-                <p>$135/month for 3 classes/week</p>
-              </div>
-              <div class="class-info-item">
-                <p>$215/month for 5 classes/week</p>
-              </div>
+            <div class="mb-5 class-info class-info-item">
+              <p><?php echo $pre_k_age; ?></p>
             </div>
-          </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
-          </div>
-          <div class="mb-5 class-info">
-            <div class="schedule-info">
-              <div class="class-info-item">
-                <p>Monday/Wednesday/Friday 9:20-11:50 AM</p>
-              </div>
-              <div class="class-info-item">
-                <p>Monday-Friday 9:20-11:50 AM</p>
-              </div>
-              <div class="class-info-item info-3">
-                <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM</p>
-              </div>
+          <?php endif; ?>
+
+          <?php if ($pre_k_tuition): ?>
+            <div class="class-info-header">
+              <h3><i class="fa fa-usd"></i> Tuition</h3>
             </div>
-          </div>
+            <div class="mb-5 class-info class-info-item">
+              <?php echo $pre_k_tuition; ?>
+            </div>
+          <?php endif; ?>
+
+          <?php if ($pre_k_scheduling): ?>
+            <div class="class-info-header">
+              <h3><i class="fa fa-calendar"></i> Scheduling</h3>
+            </div>
+            <div class="mb-5 class-info class-info-item">
+              <?php echo $pre_k_scheduling; ?>
+            </div>
+          <?php endif; ?>
         </div>
-        <div class="class-info-notes">
-          <p>
-            *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 3 for individuals who'd benefit
-             from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
-          </p>
-        </div>
+
+        <?php if ($pre_k_additional): ?>
+          <div class="class-info-notes">
+            <p>
+              <?php echo $pre_k_additional; ?>
+            </p>
+          </div>
+        <?php endif; ?>
+
         <div class="class-download class-download-mobile">
           <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
           <p class="mt-1">Download the registration form below.</p>
