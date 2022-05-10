@@ -121,12 +121,14 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
             </p>
           </div>
         <?php endif; ?>
-    
-        <div class="class-download class-download-mobile">
-          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
-          <p class="mt-1">Download the registration form below.</p>
-          <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
-        </div>
+
+        <?php if ($vns_enrollment_form): ?>
+          <div class="class-download class-download-mobile">
+            <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+            <p class="mt-1">Download the registration form below.</p>
+            <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+          </div>
+        <? endif; ?>
       </div>
     </div>
     <div id="preschool-3" class="class-section class-2">
@@ -134,13 +136,16 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
         <div class="class-1-header text-center">
           <h1><?php echo $preschool_3_title; ?></h1>
         </div>
-        <div class="class-download">
-          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
-          <p class="mt-1">Download the registration form below.</p>
-          <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
-        </div>
-        <div>
 
+        <?php if ($vns_enrollment_form): ?>
+          <div class="class-download">
+            <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+            <p class="mt-1">Download the registration form below.</p>
+            <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+          </div>
+        <? endif; ?>
+
+        <div>
           <?php if ($preschool_3_age): ?>
             <div class="class-info-header">
               <h3><i class="fa fa-child"></i> Ages</h3>
@@ -177,12 +182,15 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
             </p>
           </div>
         <?php endif; ?>
-    
-        <div class="class-download class-download-mobile">
-          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
-          <p class="mt-1">Download the registration form below.</p>
-          <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
-        </div>
+        
+        <?php if ($vns_enrollment_form): ?>
+          <div class="class-download class-download-mobile">
+            <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+            <p class="mt-1">Download the registration form below.</p>
+            <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+          </div>
+        <? endif; ?>
+
       </div>
     </div>
     <div id="pre-k" class="class-section class-3">
@@ -190,11 +198,15 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
         <div class="class-1-header text-center">
           <h1><?php echo $pre_k_title; ?></h1>
         </div>
-        <div class="class-download">
-          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
-          <p class="mt-1">Download the registration form below.</p>
-          <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
-        </div>
+
+        <?php if ($vns_enrollment_form): ?>
+          <div class="class-download">
+            <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+            <p class="mt-1">Download the registration form below.</p>
+            <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+          </div>
+        <?php endif; ?>
+
         <div>
           <?php if ($pre_k_age): ?>
             <div class="class-info-header">
@@ -232,11 +244,13 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
           </div>
         <?php endif; ?>
 
-        <div class="class-download class-download-mobile">
-          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
-          <p class="mt-1">Download the registration form below.</p>
-          <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
-        </div>
+        <?php if ($vns_enrollment_form): ?>
+          <div class="class-download class-download-mobile">
+            <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+            <p class="mt-1">Download the registration form below.</p>
+            <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+          </div>
+        <?php endif; ?>
       </div>
     </div>
     <div id="preschool-spanish" class="class-section class-4">
@@ -244,11 +258,15 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
         <div class="class-1-header text-center">
           <h1><?php echo $preschool_spanish_title; ?></h1>
         </div>
-        <div class="class-download">
-          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
-          <p class="mt-1">Download the registration form below.</p>
-          <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
-        </div>
+
+        <?php if ($vns_enrollment_form): ?>
+          <div class="class-download">
+            <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+            <p class="mt-1">Download the registration form below.</p>
+            <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+          </div>
+        <?php endif; ?>
+
         <div>
           <?php if ($preschool_spanish_age): ?>
             <div class="class-info-header">
@@ -286,12 +304,13 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
           </div>
         <?php endif; ?>
 
+        <?php if ($vns_enrollment_form): ?>
           <div class="class-download class-download-mobile">
             <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
             <p class="mt-1">Download the registration form below.</p>
             <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
           </div>
-        </div>
+        <?php endif; ?>
        </div>
       </div>
     </div>
@@ -300,11 +319,14 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
         <div class="class-1-header text-center">
           <h1><?php echo $pit_title; ?></h1>
         </div>
-        <div class="class-download">
-          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
-          <p class="mt-1">Download the registration form below.</p>
-          <a href="<?php echo $pit_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
-        </div>
+
+        <?php if ($pit_enrollment_form): ?>
+          <div class="class-download">
+            <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+            <p class="mt-1">Download the registration form below.</p>
+            <a href="<?php echo $pit_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+          </div>
+        <?php endif; ?>
     
         <div>
           <?php if ($pit_age): ?>
@@ -343,11 +365,13 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
           </div>
         <?php endif; ?>
 
-        <div class="class-download class-download-mobile">
-          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
-          <p class="mt-1">Download the registration form below.</p>
-          <a href="<?php echo $pit_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
-        </div>
+        <?php if ($pit_enrollment_form): ?>
+          <div class="class-download class-download-mobile">
+            <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+            <p class="mt-1">Download the registration form below.</p>
+            <a href="<?php echo $pit_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+          </div>
+        <?php endif; ?>
       </div>
     </div>
     <div id="stay-and-play-enroll" class="class-section class-6">
@@ -355,11 +379,15 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
         <div class="class-1-header text-center">
           <h1><?php echo $stay_and_play_title; ?></h1>
         </div>
-        <div class="class-download">
-          <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
-          <p class="mt-1">Download the registration form below.</p>
-          <a href="<?php echo $stay_and_play_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
-        </div>
+
+        <?php if ($stay_and_play_enrollment_form): ?>
+          <div class="class-download">
+            <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
+            <p class="mt-1">Download the registration form below.</p>
+            <a href="<?php echo $stay_and_play_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
+          </div>
+        <?php endif; ?>
+
         <div>
           <?php if ($stay_and_play_age): ?>
             <div class="class-info-header">
@@ -396,7 +424,6 @@ $stay_and_play_additional = get_field('stay_and_play_additional');
             </p>
           </div>
         <?php endif; ?>
-
       </div>
     </div>
   </div>
