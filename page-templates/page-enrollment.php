@@ -15,6 +15,13 @@ $preschool_2_tuition = get_field('preschool_2_tuition');
 $preschool_2_scheduling = get_field('preschool_2_scheduling');
 $preschool_2_additional = get_field('preschool_2_additional');
 
+// Preschool 2 Variables
+$preschool_3_title = get_field('preschool_3_title');
+$preschool_3_age = get_field('preschool_3_age');
+$preschool_3_tuition = get_field('preschool_3_tuition');
+$preschool_3_scheduling = get_field('preschool_3_scheduling');
+$preschool_3_additional = get_field('preschool_3_additional');
+
 
 ?>
 
@@ -59,7 +66,7 @@ $preschool_2_additional = get_field('preschool_2_additional');
             <div class="mb-5 class-info class-info-item">
               <p><?php echo $preschool_2_age; ?></p>
             </div>
-            <?php endif; ?>
+          <?php endif; ?>
             
           <?php if ($preschool_2_tuition): ?>
             <div class="class-info-header">
@@ -68,7 +75,7 @@ $preschool_2_additional = get_field('preschool_2_additional');
             <div class="mb-5 class-info class-info-item">
               <?php echo $preschool_2_tuition; ?>
             </div>
-            <?php endif; ?>
+          <?php endif; ?>
             
           <?php if ($preschool_2_scheduling): ?>
             <div class="class-info-header">
@@ -98,7 +105,7 @@ $preschool_2_additional = get_field('preschool_2_additional');
     <div id="preschool-3" class="class-section class-2">
       <div class="container">
         <div class="class-1-header text-center">
-          <h1>Preschool 3</h1>
+          <h1><?php echo $preschool_3_title; ?></h1>
         </div>
         <div class="class-download">
           <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
@@ -106,50 +113,44 @@ $preschool_2_additional = get_field('preschool_2_additional');
           <a href="<?php echo $vns_enrollment_form; ?>" class="btn btn-primary form-download-btn" target="_blank">Get My Form</a>
         </div>
         <div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-child"></i> Ages</h3>
-          </div>
-          <div class="mb-5 class-info">
-            <div class="class-info-item">
-              <p>3-4 years old (Must be 3 by August 1)</p>
+
+          <?php if ($preschool_3_age): ?>
+            <div class="class-info-header">
+              <h3><i class="fa fa-child"></i> Ages</h3>
             </div>
-          </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-usd"></i> Tuition</h3>
-          </div>
-          <div class="mb-5 class-info">
-            <div class="tuition-info">
-              <div class="class-info-item">
-                <p>$100/month for 2 classes/week</p>
-              </div>
-              <div class="class-info-item">
-                <p>$135/month for 3 classes/week</p>
-              </div>
+            <div class="mb-5 class-info class-info-item">
+              <p><?php echo $preschool_3_age; ?></p>
             </div>
-          </div>
-          <div class="class-info-header">
-            <h3><i class="fa fa-calendar"></i> Scheduling</h3>
-          </div>
-          <div class="mb-5 class-info">
-            <div class="schedule-info">
-              <div class="class-info-item">
-                <p>Monday/Wednesday/Friday 9:20-11:50 AM</p>
-              </div>
-              <div class="class-info-item">
-                <p>Tuesday/Thursday 9:20-11:50 AM</p>
-              </div>
-              <div class="class-info-item info-3">
-                <p>*Tuesday/Wednesday/Thursday 12:30-3:00 PM*</p>
-              </div>
+          <?php endif; ?>
+
+          <?php if ($preschool_3_tuition): ?>
+            <div class="class-info-header">
+              <h3><i class="fa fa-usd"></i> Tuition</h3>
             </div>
-          </div>
+            <div class="mb-5 class-info class-info-item">
+              <?php echo $preschool_3_tuition; ?>
+            </div>
+          <?php endif; ?>
+  
+          <?php if ($preschool_3_scheduling): ?>
+            <div class="class-info-header">
+              <h3><i class="fa fa-calendar"></i> Scheduling</h3>
+            </div>
+            <div class="mb-5 class-info class-info-item">
+              <?php echo $preschool_3_scheduling; ?>
+            </div>
+          <?php endif; ?>
+
         </div>
-        <div class="class-info-notes">
-          <p>
-            *This class is for 3-5yr olds with a Pre-K curriculum modified to Preschool 3 for individuals who'd benefit
-            from it.  It’s ideal for older 3’s, 4’s & 5 year olds.
-          </p>
-        </div>
+
+        <?php if ($preschool_3_additional): ?>
+          <div class="class-info-notes">
+            <p>
+              <?php echo $preschool_3_additional; ?>
+            </p>
+          </div>
+        <?php endif; ?>
+    
         <div class="class-download class-download-mobile">
           <h2 class="mb-4 mt-0">Interested in enrolling?</h2>
           <p class="mt-1">Download the registration form below.</p>
